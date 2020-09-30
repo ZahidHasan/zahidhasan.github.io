@@ -3,10 +3,9 @@ published: true
 title: 'Install OpenCV, MinGW and Codeblocks in Windows'
 comment: true
 layout: article
-tags: OpenCV MinGW CodeBlocks C Windows TDM
+tags: OpenCV MinGW CodeBlocks C Windows TDM ComputerVision AI MachineLearning
 license: false
 key: '!!str'
-modified: ''
 ---
 Unfortunately OpenCV doesn't come with prebuilt mingw/TDM (64 bit) binaries for windows. In this tutorial, we are going to build them ourselves.
 
