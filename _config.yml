@@ -214,6 +214,44 @@ defaults:
       pageview: true
 
 
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://zahidhasan.github.io/'
+  relativeLinks: 'http://zahidhasan.github.io/links.jsonp'
+  media: 'images'
+  metadata:
+    _posts:
+      - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: "true"     
+    
+      - name: "title"
+        field:
+          label: "Title"
+          element: "text"
+          value: "An Awesome Headline!"
+
+      - name: "modified"
+        field:
+          element: "text"
+          label: "Has this page been modified?"
+          placeholder: "YYYY-MM-DD"
+          
+      - name: "tags"
+        field:
+          element: "text"
+          label: "Tags"
+          placeholder: "Enter tags, separated by spaces"
+          
+      - name: "key"
+        field:
+          label: "Key"
+          element: "text"
+          value: "!!str"
+          
+  
 ## => Plugins
 ##############################
 plugins:
