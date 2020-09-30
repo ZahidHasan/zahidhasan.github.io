@@ -21,5 +21,5 @@ header:
       # @start locale config
       en      : &EN       Test
       # @end locale config
-    url: /test
+    url: /test.html
 
