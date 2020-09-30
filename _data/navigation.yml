@@ -1,15 +1,24 @@
 header:
   - titles:
       # @start locale config
-      en      : &EN       Archive
-      # @end locale config
-    url: /archive
-
-  - titles:
-      # @start locale config
       en      : &EN       About
       # @end locale config
     url: /about
+      
+    
+  - titles:
+      # @start locale config
+      en      : &EN       Toc
+      # @end locale config
+    url: /toc
+  
+  
+  - titles:
+      # @start locale config
+      en      : &EN       Archive
+      # @end locale config
+    url: /archive  
+
     
   - titles:
       # @start locale config
@@ -17,9 +26,5 @@ header:
       # @end locale config
     url: /cv
     
-  - titles:
-      # @start locale config
-      en      : &EN       T
-      # @end locale config
-    url: /t
+  
 
