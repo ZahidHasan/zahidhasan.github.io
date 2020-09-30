@@ -6,6 +6,7 @@ layout: article
 tags: OpenCV MinGW CodeBlocks C Windows TDM
 license: false
 key: '!!str'
+modified: ''
 ---
 Unfortunately OpenCV doesn't come with prebuilt mingw/TDM (64 bit) binaries for windows. In this tutorial, we are going to build them ourselves.
 
@@ -15,8 +16,7 @@ Unfortunately OpenCV doesn't come with prebuilt mingw/TDM (64 bit) binaries for 
     > C:\\opencv\\source\
 	> C:\\opencv\\build
     
-    <img src="../images/windows-folder-opencv.jpg" width="75%"/> 
-    
+    ![windows-folder-opencv.jpg]({{site.baseurl}}/images/windows-folder-opencv.jpg)
     
 
 
@@ -33,12 +33,15 @@ Unfortunately OpenCV doesn't come with prebuilt mingw/TDM (64 bit) binaries for 
 # Making binaries
 
 1. Open cmake, set source path to C:\\opencv\\source\\ and binary path to C:\\opencv\\build. 
-	<img src="../images/cmake-source-build.JPG" width="75%"/>
+	
+    ![cmake-source-build.JPG]({{site.baseurl}}/images/cmake-source-build.JPG)
 
 
 2. Hit configure button and from the drop-down menu select ‘codeblocks – MinGW Makefiles’ and press finish. When done uncheck all python stuff ( as it didn't work on my pc). Now hit generate button.
-	<img src="../images/cmake-mingw.JPG" width="75%"/>
-    <img src="../images/cmake-python.JPG" width="75%"/>
+
+
+    ![cmake-mingw.JPG]({{site.baseurl}}/images/cmake-mingw.JPG)
+    ![cmake-python.JPG]({{site.baseurl}}/images/cmake-python.JPG)
   
 
 3. you will find a codeblocks project file (opencv.cbp) in C:\\opencv\\build folder. Just double click it and codeblocks will load it.
@@ -50,8 +53,8 @@ Unfortunately OpenCV doesn't come with prebuilt mingw/TDM (64 bit) binaries for 
    > c++ compiler: g++.exe\
    > Linker for dynamic libs: ar.exe
 
-
-    ![cb-toolchain.JPG]({{site.baseurl}}/images/cb-toolchain.JPG){:width="75%"}
+    
+    ![cb-toolchain.JPG]({{site.baseurl}}/images/cb-toolchain.JPG)
 
 
 5. Finally, from codeblocks, you just need to build it. build target should be set to ‘install’ so that you can find    all the binaries inside the ‘install’ folder of C:\\opencv\\build\\install.
@@ -70,17 +73,20 @@ Unfortunately OpenCV doesn't come with prebuilt mingw/TDM (64 bit) binaries for 
 	> C:\\opencv\\build\\install\\include\\opencv\
 	> C:\\opencv\\build\\install\\include\\opencv2
 
-    <img src="../images/cb-compiler.JPG" width="75%"/>
+    
+    ![cb-compiler.JPG]({{site.baseurl}}/images/cb-compiler.JPG)
 
 
 3. Select ‘Linker’ tab and add C:\\opencv\\build\\install\\x64\\mingw\\lib
 	
-    <img src="../images/cb-linker.JPG" width="75%"/>
+    
+    ![cb-linker.JPG]({{site.baseurl}}/images/cb-linker.JPG)
 
 
 4. Under ‘Linker Settings’ tab add required libraries C:\\OpenCV\\my_build\\install\\x64\\mingw\\lib\*.dll.a
 
-    <img src="../images/cb-linker-settings.JPG" width="75%"/>
+    
+    ![cb-linker-settings.JPG]({{site.baseurl}}/images/cb-linker-settings.JPG)
 
 
 
