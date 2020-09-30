@@ -16,7 +16,7 @@ Unfortunately OpenCV doesn't come with prebuilt mingw/TDM (64 bit) binaries for 
     > C:\\opencv\\source\
 	> C:\\opencv\\build
     
-    ![windows-folder-opencv.jpg]({{site.baseurl}}/images/windows-folder-opencv.jpg)
+    ![windows-folder-opencv.jpg]({{site.baseurl}}/images/windows-folder-opencv.jpg){:width="75%"}
     
 
 
@@ -34,14 +34,16 @@ Unfortunately OpenCV doesn't come with prebuilt mingw/TDM (64 bit) binaries for 
 
 1. Open cmake, set source path to C:\\opencv\\source\\ and binary path to C:\\opencv\\build. 
 	
-    ![cmake-source-build.JPG]({{site.baseurl}}/images/cmake-source-build.JPG)
+    ![cmake-source-build.JPG]({{site.baseurl}}/images/cmake-source-build.JPG){:width="75%"}
 
 
 2. Hit configure button and from the drop-down menu select ‘codeblocks – MinGW Makefiles’ and press finish. When done uncheck all python stuff ( as it didn't work on my pc). Now hit generate button.
 
 
-    ![cmake-mingw.JPG]({{site.baseurl}}/images/cmake-mingw.JPG)
-    ![cmake-python.JPG]({{site.baseurl}}/images/cmake-python.JPG)
+    ![cmake-mingw.JPG]({{site.baseurl}}/images/cmake-mingw.JPG){:width="75%"}
+    
+    
+    ![cmake-python.JPG]({{site.baseurl}}/images/cmake-python.JPG){:width="75%"}
   
 
 3. you will find a codeblocks project file (opencv.cbp) in C:\\opencv\\build folder. Just double click it and codeblocks will load it.
@@ -54,7 +56,7 @@ Unfortunately OpenCV doesn't come with prebuilt mingw/TDM (64 bit) binaries for 
    > Linker for dynamic libs: ar.exe
 
     
-    ![cb-toolchain.JPG]({{site.baseurl}}/images/cb-toolchain.JPG)
+    ![cb-toolchain.JPG]({{site.baseurl}}/images/cb-toolchain.JPG){:width="75%"}
 
 
 5. Finally, from codeblocks, you just need to build it. build target should be set to ‘install’ so that you can find    all the binaries inside the ‘install’ folder of C:\\opencv\\build\\install.
@@ -74,19 +76,19 @@ Unfortunately OpenCV doesn't come with prebuilt mingw/TDM (64 bit) binaries for 
 	> C:\\opencv\\build\\install\\include\\opencv2
 
     
-    ![cb-compiler.JPG]({{site.baseurl}}/images/cb-compiler.JPG)
+    ![cb-compiler.JPG]({{site.baseurl}}/images/cb-compiler.JPG){:width="75%"}
 
 
 3. Select ‘Linker’ tab and add C:\\opencv\\build\\install\\x64\\mingw\\lib
 	
     
-    ![cb-linker.JPG]({{site.baseurl}}/images/cb-linker.JPG)
+    ![cb-linker.JPG]({{site.baseurl}}/images/cb-linker.JPG){:width="75%"}
 
 
 4. Under ‘Linker Settings’ tab add required libraries C:\\OpenCV\\my_build\\install\\x64\\mingw\\lib\*.dll.a
 
     
-    ![cb-linker-settings.JPG]({{site.baseurl}}/images/cb-linker-settings.JPG)
+    ![cb-linker-settings.JPG]({{site.baseurl}}/images/cb-linker-settings.JPG){:width="75%"}
 
 
 
