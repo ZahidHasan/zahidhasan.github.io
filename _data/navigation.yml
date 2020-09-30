@@ -19,7 +19,7 @@ header:
     
   - titles:
       # @start locale config
-      en      : &EN       Test
+      en      : &EN       T
       # @end locale config
-    url: /test.html
+    url: /t.html
 
