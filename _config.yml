@@ -182,15 +182,10 @@ analytics:
 ##############################
 markdown    : kramdown
 highlighter : rouge
-<<<<<<< HEAD
 permalink   : date
-#title-separator: "-"
-#permalink: "/:year-:month-:day-:title/"
-=======
-# permalink   : date
-# title-separator: "-"
-permalink   : "/:year-:month-:day-:title/"
->>>>>>> 041617030d265fd0d449e506ba7be65beabfdcd7
+
+
+
 
 exclude:
   - CHANGELOG.md
@@ -262,14 +257,7 @@ prose:
           element: "text"
           value: "!!str"
           
-  
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 041617030d265fd0d449e506ba7be65beabfdcd7
-## => Plugins
-##############################
 plugins:
   - jekyll-feed
   - jekyll-paginate
