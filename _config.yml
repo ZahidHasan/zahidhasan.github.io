@@ -23,8 +23,6 @@ baseurl : # does not include hostname
 title   : Zahid Hasan
 description: > # this means to ignore newlines until "Language & timezone"
   All about data!
-
-
 ## => Language and Timezone
 ##############################
 lang: # the language of your site, default as "en"
@@ -40,7 +38,7 @@ author:
   avatar    : # path or url of avatar image (square)
   bio       : I am an amazing person.
   email     :
-  facebook  : zahidhasanx # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
+  facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
   googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
@@ -48,8 +46,8 @@ author:
   medium    : # "user_name" the last part of your profile url, e.g. https://medium.com/user_name
   zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
-  linkedin  : zahidhasanx# "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
-  github    : ZahidHasan # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
+  github    : https://github.com/ZahidHasan # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
 
 
@@ -118,11 +116,11 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: disqus # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
-    shortname: "https-zahidhasan-github-io" # the Disqus shortname for the site
+    shortname: # the Disqus shortname for the site
 
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
@@ -169,11 +167,11 @@ search:
 ## => Analytics
 ##############################
 analytics:
-  provider: google # false (default), "google", "custom"
+  provider: false # false (default), "google", "custom"
 
   ## Google Analytics
   google:
-    tracking_id : "UA-178408757-1" # Google Analytics id for the site
+    tracking_id : # Google Analytics id for the site
     anonymize_ip: false # Anonymize IP tracking for Analytics
 
 
@@ -181,9 +179,7 @@ analytics:
 ##############################
 markdown    : kramdown
 highlighter : rouge
-#permalink   : date
-title-separator: "-"
-permalink: "/:year-:month-:day-:title/"
+permalink   : date
 
 exclude:
   - CHANGELOG.md
@@ -217,43 +213,6 @@ defaults:
       show_subscribe: true
       pageview: true
 
-
-prose:
-  rooturl: '_posts'
-  siteurl: 'https://zahidhasan.github.io/'
-  relativeLinks: 'https://zahidhasan.github.io/links.jsonp'
-  media: 'images'
-  metadata:
-    _posts:
-      - name: "published"
-        field:
-          label: "Published"
-          element: "checkbox"
-          value: "true"     
-    
-      - name: "title"
-        field:
-          label: "Title"
-          element: "text"
-          value: "An Awesome Headline!"
-
-      - name: "modified"
-        field:
-          element: "text"
-          label: "Has this page been modified?"
-          placeholder: "YYYY-MM-DD"
-          
-      - name: "tags"
-        field:
-          element: "text"
-          label: "Tags"
-          placeholder: "Enter tags, separated by spaces"
-          
-      - name: "key"
-        field:
-          label: "Key"
-          element: "text"
-          value: "!!str"
 
 ## => Plugins
 ##############################
