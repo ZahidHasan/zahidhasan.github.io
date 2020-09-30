@@ -16,4 +16,10 @@ header:
       en      : &EN       CV
       # @end locale config
     url: /cv
+    
+  - titles:
+      # @start locale config
+      en      : &EN       Test
+      # @end locale config
+    url: /test
 
