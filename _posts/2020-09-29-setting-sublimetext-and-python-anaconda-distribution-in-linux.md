@@ -1,9 +1,18 @@
 ---
 published: true
 title: Configure SublimeText and Anaconda in Linux
-tags: Anaconda SublimeText Python Linux Flake8 SublimeLinter  MachineLearning DataScience Kite AI IDE
+tags: >-
+  Anaconda SublimeText Python Linux Flake8 SublimeLinter  MachineLearning
+  DataScience Kite AI IDE
 subtitle: Configuring SublimeText and Anaconda in Linux
+key: '!!str'
 ---
+# Why SublimeText and Linux?
+You want SublimeText because you do not want to wait around for laggy code-complete windows, random 2 second hitches or dealing with poor performance due to a buggy editor. Sublime opens in less than a second, it feels nearly instant. It is the fastest text editor that you can use for writing code. It opens almost immediately and performs very quick searches. SublimeText is a native app written in C++, so its footprint is much lower.
+
+You want Linux because you do not want to deal with having to restart pc after a bit because its performance deteriorates over time.
+
+
 # Anaconda Distribution
 1. Download Anaconda or Miniconda for linux from [here](https://www.anaconda.com/products/individual#linux).
 
@@ -208,5 +217,3 @@ To solve this problem we will use ```terminus``` package.
 ```view -> Indentation -> Convert indentation to spaces```
 
 ![sublimetext_warning_tab.png]({{site.baseurl}}/images/sublimetext_warning_tab.png)
-
-
