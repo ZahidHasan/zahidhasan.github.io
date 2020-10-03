@@ -1,7 +1,7 @@
 ---
 cover: /images/sublime.png
 published: true
-title: Configure SublimeText and Anaconda in Linux
+title: Configuring SublimeText and Anaconda in Linux
 tags: >-
   Anaconda SublimeText Python Linux Flake8 SublimeLinter  MachineLearning
   DataScience Kite AI IDE
