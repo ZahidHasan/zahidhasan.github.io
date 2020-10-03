@@ -1,4 +1,5 @@
 ---
+cover: /docs/assets/images/axure/articles-item-cover-excerpt-readmore-info.jpg
 published: true
 title: Configure SublimeText and Anaconda in Linux
 tags: >-
