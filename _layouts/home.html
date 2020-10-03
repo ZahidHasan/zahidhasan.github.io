@@ -1,6 +1,4 @@
 ---
-key: !!map
-key: !!str 
 layout: articles
 titles:
   # @start locale config
@@ -8,10 +6,9 @@ titles:
   # @end locale config
 show_title: false
 articles:
-#  data_source: paginator.posts
-  data_source: site.posts
-#  article_type: BlogPosting
-  show_cover: true
+  data_source: paginator.posts
+  article_type: BlogPosting
+  show_cover: false
   show_excerpt: true
   show_readmore: true
   show_info: true
