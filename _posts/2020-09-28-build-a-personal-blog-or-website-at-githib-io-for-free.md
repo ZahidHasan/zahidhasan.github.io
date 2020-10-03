@@ -3,6 +3,7 @@ published: true
 key: '!!str'
 title: Build Your Personal Blog / Website at githib.io for Free!
 tags: 'Github Jekyll '
+cover: 'https://miro.medium.com/max/700/1*uHia-SKJPkWqbxbGJPfCCA.jpeg'
 ---
 Your own blog can help you to develop your personal brand. You can easily use github.io pages to setup a free blog.
 
