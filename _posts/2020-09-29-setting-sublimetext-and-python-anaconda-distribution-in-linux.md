@@ -1,4 +1,5 @@
 ---
+layout: article
 published: true
 key: '!!str'
 title: Configure SublimeText and Anaconda in Linux
