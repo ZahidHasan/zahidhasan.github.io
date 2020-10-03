@@ -1,14 +1,8 @@
 ---
-layout: article
 published: true
-key: '!!str'
 title: Configure SublimeText and Anaconda in Linux
 tags: Anaconda SublimeText Python Linux Flake8 SublimeLinter  MachineLearning DataScience Kite AI IDE
 subtitle: Configuring SublimeText and Anaconda in Linux
-article_header:
-      type: cover
-      image:
-        src: /images/sublimetext_browse_package.png
 ---
 # Anaconda Distribution
 1. Download Anaconda or Miniconda for linux from [here](https://www.anaconda.com/products/individual#linux).
