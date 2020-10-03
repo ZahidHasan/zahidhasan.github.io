@@ -1,5 +1,5 @@
 ---
-cover: https://www.google.com/imgres?imgurl=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fwsldpcom%2Fel%2Fimages%2Fsublime3-centos7.png&imgrefurl=https%3A%2F%2Felearning.wsldp.com%2Fpcmagazine%2Finstall-sublime-text-3-centos-7-linux%2F&tbnid=gjEYSEDjeyugsM&vet=12ahUKEwiiq4X2vJfsAhWWYH0KHSEYCjgQMygPegUIARDOAQ..i&docid=A1IOLWDX0N28dM&w=1004&h=659&q=sublime%20text%20and%20linux&ved=2ahUKEwiiq4X2vJfsAhWWYH0KHSEYCjgQMygPegUIARDOAQ
+cover: https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,e_sharpen,w_819,h_478/https://dashboard.snapcraft.io/site_media/appmedia/2018/03/linux.png
 published: true
 title: Configure SublimeText and Anaconda in Linux
 tags: >-
