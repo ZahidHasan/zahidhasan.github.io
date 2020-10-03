@@ -1,5 +1,5 @@
 ---
-cover: https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,e_sharpen,w_819,h_478/https://dashboard.snapcraft.io/site_media/appmedia/2018/03/linux.png
+cover: /images/sublime.npg
 published: true
 title: Configure SublimeText and Anaconda in Linux
 tags: >-
