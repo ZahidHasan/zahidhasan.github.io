@@ -1,5 +1,5 @@
 ---
-cover: /images/sublime.npg
+cover: /images/sublime.png
 published: true
 title: Configure SublimeText and Anaconda in Linux
 tags: >-
@@ -8,6 +8,7 @@ tags: >-
 subtitle: Configuring SublimeText and Anaconda in Linux
 key: '!!str'
 ---
+
 # Why SublimeText and Linux?
 You want SublimeText because you do not want to wait around for laggy code-complete windows, random 2 second hitches or dealing with poor performance due to a buggy editor. Sublime opens in less than a second, it feels nearly instant. It is the fastest text editor that you can use for writing code. It opens almost immediately and performs very quick searches. SublimeText is a native app written in C++, so its footprint is much lower.
 
