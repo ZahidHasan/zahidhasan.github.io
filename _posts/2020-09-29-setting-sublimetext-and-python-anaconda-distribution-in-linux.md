@@ -1,6 +1,4 @@
 ---
-cover: >-
-  https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSfGYcWuTuWvlzYojwsu6P3bOT1lar0YES4RA&usqp=CAU
 published: true
 title: Configuring SublimeText and Anaconda in Linux
 tags: >-
