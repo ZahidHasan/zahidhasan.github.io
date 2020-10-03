@@ -7,7 +7,7 @@ subtitle: Configuring SublimeText and Anaconda in Linux
 article_header:
       type: cover
       image:
-        src: https://i0.wp.com/itsfoss.com/wp-content/uploads/2017/09/install-sublime-text-editor-linux.jpg?fit=800%2C450&ssl=1
+        src: /images/sublimetext_browse_package.png
 ---
 # Anaconda Distribution
 1. Download Anaconda or Miniconda for linux from [here](https://www.anaconda.com/products/individual#linux).
