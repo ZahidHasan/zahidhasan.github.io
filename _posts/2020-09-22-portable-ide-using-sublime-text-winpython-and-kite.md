@@ -1,9 +1,16 @@
 ---
 published: true
 title: Configure SublimeText and WinPython in Windows
-tags: >-
-  WinPython SublimeText Kite Portable IDE DataScience AI MachineLearning
-  SublimeLinter
+tags:
+  - WinPython
+  - Sublime Text 
+  - Kite 
+  - Portable 
+  - IDE
+  - Data Science
+  - AI
+  - Machine Learning
+  - Sublime Linter
 key: '!!str'
 ---
 If the size of the Anaconda gives you a headache then you may use WinPython distribution which requires less space. After installing some of the ml libraries the installation size of Anaconda goes up to 12GB while WinPython takes only around 3GB. WinPython provides a way to the portable installation as well. A portable setup has some advantages. For example, if you reinstall the operating system, you don’t need to set up the environment again from scratch.
