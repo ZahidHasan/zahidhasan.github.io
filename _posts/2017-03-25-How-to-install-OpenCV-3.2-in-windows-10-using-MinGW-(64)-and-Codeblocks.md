@@ -9,9 +9,7 @@ tags:
   - Code Blocks
   - C
   - Windows
-  - TDM
   - Computer Vision
-  - AI
   - Machine Learning
 license: false
 key: '!!str'
