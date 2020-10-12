@@ -1,9 +1,18 @@
 ---
 published: true
 title: Configuring SublimeText and Anaconda in Linux
-tags: >-
-  Anaconda SublimeText Python Linux Flake8 SublimeLinter  MachineLearning
-  DataScience Kite AI IDE
+tags:
+  - Anaconda 
+  - Sublime Text 
+  - Python 
+  - Linux 
+  - Flake8 
+  - Sublime Linter
+  - Machine Learning
+  - Data Science
+  - Kite 
+  - AI
+  - IDE
 subtitle: Configuring SublimeText and Anaconda in Linux
 key: '!!str'
 ---
