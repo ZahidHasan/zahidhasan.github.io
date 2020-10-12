@@ -6,7 +6,7 @@ layout: article
 tags: 
   - OpenCV
   - MinGW
-  - CodeBlocks
+  - Code Blocks
   - C
   - Windows
   - TDM
