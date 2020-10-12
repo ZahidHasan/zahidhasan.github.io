@@ -5,14 +5,7 @@ tags:
   - Anaconda 
   - Sublime Text 
   - Python 
-  - Linux 
-  - Flake8 
-  - Sublime Linter
-  - Machine Learning
-  - Data Science
-  - Kite 
-  - AI
-  - IDE
+  - Linux  
 subtitle: Configuring SublimeText and Anaconda in Linux
 key: '!!str'
 ---
