@@ -3,7 +3,16 @@ published: true
 title: 'Install OpenCV, MinGW and Codeblocks in Windows'
 comment: true
 layout: article
-tags: - OpenCV  - MinGW  - CodeBlocks  - C  - Windows  - TDM  - Computer Vision  - AI  - Machine Learning
+tags: 
+  - OpenCV
+  - MinGW
+  - CodeBlocks
+  - C
+  - Windows
+  - TDM
+  - Computer Vision
+  - AI
+  - Machine Learning
 license: false
 key: '!!str'
 ---
