@@ -3,12 +3,11 @@ published: true
 key: '!!str'
 title: Bias Variance Trade-off and Learning Curve
 tags:
-  - bias variance tradeoff
-  - learning curve
-  - overfit
-  - underfit
-  - python
-  - curve fitting
+  - Bias Variance Tradeoff
+  - Learning Curve
+  - Overfit Underfit
+  - Python
+  - Machine Learning
 ---
 ## Bias-variance trade-off
 
