@@ -210,7 +210,7 @@ It is normal that your training accuracy goes down when the dataset size grows. 
 
 ![bias_variance7.png]({{site.baseurl}}/images/bias_variance7.png)
 
-### The Trade-Off
+# The Trade-Off
 
 There is no escaping the relationship between bias and variance in machine learning.
 
