@@ -9,7 +9,7 @@ tags:
   - Python
   - Machine Learning
 ---
-## Bias-variance trade-off
+# Bias-variance trade-off
 
 In Machine Learning, the errors made by your model is the sum of three kinds of errors — error due to bias in your model, error due to model variance and finally error that is irreducible. The following equation summarizes the sources of errors.
 
@@ -47,7 +47,7 @@ $$
 ![bias_variance2.png]({{site.baseurl}}/images/bias_variance2.png)
 ![bias_variance.png]({{site.baseurl}}/images/bias_variance.png)
 
-### Over-fit & Under-fit
+# Over-fit & Under-fit
 
 Every estimator has its advantages and drawbacks. Its generalization error can be decomposed in terms of bias, variance and noise. The bias of an estimator is its average error for different training sets. The variance of an estimator indicates how sensitive it is to varying training sets. Noise is a property of the data.
 
@@ -93,14 +93,14 @@ Training error is the error that you get when you run the trained model back on 
 
 Test error is the error when you get when you run the trained model on a set of data that it has previously never been exposed to. This data is often used to measure the accuracy of the model before it is shipped to production.
 
-### Learning Curve
+# Learning Curve
 
 A learning curve shows the relationship of the training score vs the cross validated test score for an estimator with a varying number of training samples. This visualization is typically used two show two things:
 
 1. How much the estimator benefits from more data (e.g. do we have "enough data" or will the estimator get better if used in an online fashion).
 2. If the estimator is more sensitive to error due to variance vs. error due to bias.
 
-#### Drawing Learning Curve
+### Drawing Learning Curve
 
 Using built-in `learning_curve()` function from sklearn module we can easily draw learning curve.  
 
