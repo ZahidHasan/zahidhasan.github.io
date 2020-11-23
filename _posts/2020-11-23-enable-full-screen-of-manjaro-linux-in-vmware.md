@@ -16,11 +16,11 @@ After installing manjaro in vmware, you see the following low resolution screen.
 Inorder to eable full screen mode do the following:
 
 1. Run in terminal:
-   ```bash
+   ```ps
    sudo pacman -S open-vm-tools 
    ```
 2. Update and install display driver:
-   ```bash
+   ```ps
    sudo pacman -Su xf86-input-vmmouse xf86-video-vmware mesa gtk2 gtkmm
    ```
 3. Edit the config file:
@@ -28,7 +28,7 @@ Inorder to eable full screen mode do the following:
    sudo echo needs_root_rights=yes >>/etc/X11/Xwrapper.config
    ```
 4. Run the service:
-   ```bash
+   ```ps
    sudo systemctl enable vmtoolsd
    sudo systemctl start vmtoolsd
    sudo systemctl restart vmtoolsd
