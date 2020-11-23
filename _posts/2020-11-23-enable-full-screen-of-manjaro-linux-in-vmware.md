@@ -2,7 +2,7 @@
 published: true
 key: '!!str'
 title: Enable Full Screen Mode of Manjaro Linux in VMWare
-tags: 'Manjaro, Linux, Vmware, Virtualization'
+tags: 'Manjaro,Linux,Vmware,Virtualization'
 ---
 # The Problem
 By default manjaro (20.0.3) linux cannot run in full screen mode in vmware. It will not work even though you change the display resolution in manjaro or install vmware-tool. 
