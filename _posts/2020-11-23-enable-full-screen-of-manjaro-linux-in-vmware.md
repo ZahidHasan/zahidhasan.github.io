@@ -3,7 +3,7 @@ published: true
 key: '!!str'
 title: Enable Full Screen of Manjaro Linux in VMWare
 ---
-## The Problem
+# The Problem
 By default manjaro (20.0.3) linux cannot run in full screen mode in vmware. It will not work even though you change the display resolution in manjaro or install vmware-tool. 
 After installing manjaro in vmware, you see the following low resolution screen.
 
@@ -11,15 +11,15 @@ After installing manjaro in vmware, you see the following low resolution screen.
 
 
 
-## Solution
+# Solution
 Inorder to eable full screen mode do the following:
 
 1. Run in terminal:
-   ```ps
+   ```bash
    sudo pacman -S open-vm-tools 
    ```
 2. Update and install display driver:
-   ```ps
+   ```bash
    sudo pacman -Su xf86-input-vmmouse xf86-video-vmware mesa gtk2 gtkmm
    ```
 3. Edit the config file:
@@ -27,13 +27,13 @@ Inorder to eable full screen mode do the following:
    sudo echo needs_root_rights=yes >>/etc/X11/Xwrapper.config
    ```
 4. Run the service:
-   ```ps
+   ```bash
    sudo systemctl enable vmtoolsd
    sudo systemctl start vmtoolsd
    sudo systemctl restart vmtoolsd
    ```
    
-## Result
+# Result
 
 Reboot and now you will see:
 ![Screenshot 2020-11-24 00.06.34.png]({{site.baseurl}}/images/Screenshot 2020-11-24 00.06.34.png)
