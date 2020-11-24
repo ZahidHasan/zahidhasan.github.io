@@ -34,7 +34,7 @@ Version cintrol system is useful because:
 
 Git as the state of the art in version control. One can maintain multiple versions of a file, conduct multiple experiments and yet preserve a clean “latest” version of work. It lets users roll back their changes when needed, and one can even rewrite history when you feel like it.
 
-## Local Version Control System
+### Local Version Control System
 
 Many people's version—control method of choice is to copy files into another directory or rename the files. This approach is very common because it is so simple, but it is also incredibly error prone. It is easy to forget which directory you're in and accidentally write to the wrong file or copy over ﬁles you don't mean to.
 To deal with this issue, programmers long ago developed local VCSs that had a simple database that kept all the changes to files under revision control.
@@ -44,7 +44,7 @@ To deal with this issue, programmers long ago developed local VCSs that had a si
 One of the more popular VCS tools was a system called RCS, which is still distributed with many computers today. RCS works by keeping patchsets (that is, the differences between files) in a special format on disk; it can then re—create what any file looked like at any point in time by
 adding up all the patches.
 
-## Centralized & Distributed Version Control System
+### Centralized & Distributed Version Control System
 Centralized version control systems are based on the idea that there is a single "central" copy of your project somewhere (probably on a server), and programmers will "commit" their changes to this central copy. Centralized version control systems like Subversion (SVN), CVS, Perforce.
 
 Distributed version systems do not necessarily rely on a central sen/er to store all the versions of a project's files. Instead, every developer “clones” a copy of a repository and has the full history of the project on their own hard drive. This copy (or “clone") has all of the metadata of the original. Some distributed version control systems are Git, CVS, Subversion, Mercurial.
@@ -62,7 +62,7 @@ Simple Work-flow of Version Control System
 Git is a free and open source version control system, originally created by Linus Torvalds in 2005. Unlike older centralized version control systems such as SVN and CVS, Git is distributed: every developer has the full history of their code repository locally.
 Github [github.com](github.com) is a service for hosting software repositories managed by the Git version control system.
 
-## Pull Work-flow: Working on your own project
+### Pull Work-flow: Working on your own project
 1. Create an empty project on GitHub.
 2. Create an empty project in your local hard disk using git.
 3. Add the GitHub repo to the local project.
@@ -72,7 +72,7 @@ Github [github.com](github.com) is a service for hosting software repositories m
 7. Commit.
 8. Push the project into GitHub.
 
-## Clone Work-flow : Working on your own project
+### Clone Work-flow : Working on your own project
 1. Create an empty project on github.
 2. Clone the project into local hard disk.
 3. Make some changes in the project.
@@ -81,7 +81,7 @@ Github [github.com](github.com) is a service for hosting software repositories m
 6. Push the project into GitHub.
 
 
-## Pull vs Clone
+### Pull vs Clone
 **Git pull**: when you do a git pull, it gets all the changes from the remote or central repository and attaches it to your corresponding branch in your local repository.
 
 **Git fetch**: when you do a git fetch, it gets all the changes from the remote repository, stores the changes in a separate branch in your local repositoiy and if you want to reflect those changes in your corresponding branches, use a git merge to do that.
@@ -90,7 +90,7 @@ To summarize,
 **git pull = git fetch + git merge**
 
 
-## Fork work-flow: Contributing to other's project
+### Fork work-flow: Contributing to other's project
 
 1. Fork the project.
 2. Create a topic branch from master .
@@ -151,7 +151,7 @@ $ sudo apt-get update
 $ sudo apt-get install git
 ```
 
-## Configuring Git
+### Configuring Git
 To set user name and email, run the following command
 ```ps
 $ git con~Fig "global user.name "your" name"
@@ -215,7 +215,7 @@ drwxrwxr-x 4 zahidhasan zahidhasan 4896 Dec 18 11:58 objects
 drwxrwxr-x 4 zahidhasan zahidhasan 4896 Dec 18 11:58 refs
 ```
 
-## Check Status
+### Check Status
 ```ps
 $ git status
 On branch master
@@ -276,7 +276,7 @@ git tutorial
 +test
 ```
 
-## Commit
+### Commit
 
 A commit to a repository is a snapshot of the current state of the project's root directory.
 
@@ -312,7 +312,7 @@ origin https://github.com/ZahidHasan/myproject.git (push)
 ```
 **origin** = The default name of the remote repository on GitHub corresponding to the repo you're currently in on your machine.
 
-## Pull the remote contents into local one
+### Pull the remote contents into local one
 ```ps
 $ git pull --allow-unrelated»histories origin master
 
@@ -330,7 +330,7 @@ README.md l 1 +
 create mode 188644 README.md
 ```
 
-## Push the local contents to Github
+### Push the local contents to Github
 
 ```ps
 $ git push origin master
@@ -387,13 +387,13 @@ $ git checkout master
 ```
 
 
-## Merging code between branches
+### Merging code between branches
 To merge the changes from the develop branch to the master branch, type the following:
 ```ps
 $ git merge develop V-no~ff
 ```
 
-## Show Git Commit History
+### Show Git Commit History
 ```ps
 $ git log
 
