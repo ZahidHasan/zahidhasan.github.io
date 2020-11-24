@@ -5,6 +5,7 @@ title: Enable Full Screen Mode of Manjaro Linux in VMWare
 
 tags:
   - Manjaro
+  - KDE
   - Linux
   - Vmware
   - Virtualization
