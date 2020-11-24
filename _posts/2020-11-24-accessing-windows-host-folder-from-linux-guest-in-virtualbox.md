@@ -1,15 +1,8 @@
 ---
 published: true
 key: '!!str'
-title: Accessing Windows (Host) Folder from Linux (Guest) in VirtualBox
-
-tags: 
-  - VirtualBox
-  - Linux
-  - Manjaro
-  - KDE
-  - Virtualization
-  - Operating System
+title: Accessing Windows (Host) Folder from Linux (Guest) in Virtualbox
+tags: 'VirtualBox,Linux,Manjaro,KDE,Virtualization,Operating System'
 ---
 
 Assume you installed manjaro linux as a guest in virtualbox with windows host. Now you want to access folders through them. In order to do that follow the steps:
