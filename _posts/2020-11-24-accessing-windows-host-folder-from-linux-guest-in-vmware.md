@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 key: '!!str'
 title: Accessing Windows (Host) Folder from Manjaro Linux (Guest) in Vmware
 tags: 'Vmware,Linux,Manjaro,Virtualization,Operating System,KDE'
