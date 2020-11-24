@@ -8,7 +8,7 @@ tags:
   - Manjaro
   - KDE
   - Virtualization
-  - Operating System'
+  - Operating System
 ---
 
 Assume you installed manjaro linux as a guest in virtualbox with windows host. Now you want to access folders through them. In order to do that follow the steps:
