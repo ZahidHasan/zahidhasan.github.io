@@ -105,3 +105,28 @@ To summarize,
 
 Therefore. no, you don't have to do a git init , because it is already done by git clone .
 Forked repositories are generally "sen/er»side clones" and usually managed and hosted by a 3rd party Git service like Bitbucket and Github.
+
+# Git Flow
+
+The Git Flow is the most known workflow on this list. It was created by Vincent Driessen in 2010 and it is based in two main branches with infinite lifetime:
+
+`master` —this branch contains production code. All development code is merged into `master` in sometime.
+`develop` —this branch contains pre—pr0duction code. When the features are finished then they are merged into `develop`.
+
+During the development cycle, a variety of supporting branches are used:
+
+`feature` —feature branches are used to develop new features for the upcoming releases. May branch off from develop and must merge into develop .
+
+`hotfix-` —hotfix branches are necessary to act immediately upon an undesired status of master . 
+`release-` —release branches support preparation of a new production release. They allow many minor bug to be fixed and preparation of meta-data for a release. May branch off from develop and must merge into master and develop.
+
+### Advantages
+- Ensures a clean state of branches at any given moment in the life cycle of project
+- The branches naming follows a systematic pattern making it easier to comprehend
+- It has extensions and support on most used git tools
+- It is ideal when there it needs to be multiple version in production
+
+### Disadvantages
+- The Git history becomes unreadable
+- The master/develop split is considered redundant and makes the Continuous Delivery and the Continuos Integration harder
+- It isn't recommended when it need to maintain single version in production.
