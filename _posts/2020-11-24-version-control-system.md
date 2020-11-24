@@ -1,7 +1,9 @@
 ---
-published: false
+published: true
 key: '!!str'
 title: Version Control System
+tags:
+  - Git - GitHub - Version Control System
 ---
 # The Problem
 
@@ -386,3 +388,29 @@ To merge the changes from the develop branch to the master branch, type the foll
 ```ps
 $ git merge develop V-no~ff
 ```
+
+## Show Git Commit History
+```ps
+$ git log
+
+commit cc613c7b821b59dS513b3e4F8342fc3962d6364e (HEAD -> development, mybranch, master)
+Author: zahidhasan <zahid.hasan@msn.com>
+Date: Sun Dec 16 17:18:19 2818 +8688
+rafin
+
+commit c686964aeb219d9f8e12a7427467b42891ceccd6Author: zahidhasan <zahid.hasan@msn.com>
+Date: Sun Dec 16 17:87:83 2818 +8688
+test
+```
+
+
+# Restore/ Undo/ Recover Git
+TBD
+
+# Clone Work-flow
+TBD
+
+# Fork Work-flow
+TBD
+
+![gitflow_poster.png]({{site.baseurl}}/images/gitflow_poster.png)
