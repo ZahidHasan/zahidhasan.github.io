@@ -3,7 +3,9 @@ published: true
 key: '!!str'
 title: Version Control System
 tags:
-  - Git - GitHub - Version Control System
+  - Git
+  - GitHub
+  - Version Control System
 ---
 # The Problem
 
