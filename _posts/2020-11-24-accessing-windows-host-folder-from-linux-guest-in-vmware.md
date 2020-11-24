@@ -2,13 +2,7 @@
 published: false
 key: '!!str'
 title: Accessing Windows (Host) Folder from Manjaro Linux (Guest) in Vmware
-tags:
-  - Vmware
-  - Linux
-  - Manjaro
-  - Virtualization
-  - Operating System
-  - KDE
+tags: 'Vmware,Linux,Manjaro,Virtualization,Operating System,KDE'
 ---
 Assume you installed manjaro linux as a guest in virtualbox with windows host. Now you want to access folders through them. In order to do that follow the steps:
 
@@ -34,5 +28,3 @@ Assume you installed manjaro linux as a guest in virtualbox with windows host. N
 ```ps
    sudo vmhgfs-fuse .host:/ /mnt/hgfs/ -o allow_other -o uid=1000
 ```
-
-
