@@ -6,6 +6,8 @@ title: Accessing Windows (Host) Folder from Linux (Guest) in VirtualBox
 tags: 
   - VirtualBox
   - Linux
+  - Manjaro
+  - KDE
   - Virtualization
   - Operating System
 ---
