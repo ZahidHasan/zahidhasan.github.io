@@ -30,9 +30,9 @@ Assume you installed manjaro linux as a guest in virtualbox with windows host. N
 
 
 5. Run in the terminal
-	```ps
-   	sudo usermod -aG vboxsf $USER
-	```
+```ps
+   sudo usermod -aG vboxsf $USER
+```
 
 	![Screenshot_20201124_161132.png]({{site.baseurl}}/images/Screenshot_20201124_161132.png)
 
