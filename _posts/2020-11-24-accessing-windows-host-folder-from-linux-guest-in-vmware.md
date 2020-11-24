@@ -1,7 +1,7 @@
 ---
 published: true
 key: '!!str'
-title: Accessing Windows (Host) Folder from Manjaro Linux (Guest) in Vmware
+title: Accessing Windows (Host) Folder from Linux (Guest) in Vmware
 tags: 'Vmware,Linux,Manjaro,Virtualization,Operating System,KDE'
 ---
 Assume you installed manjaro linux as a guest in virtualbox with windows host. Now you want to access folders through them. In order to do that follow the steps:
