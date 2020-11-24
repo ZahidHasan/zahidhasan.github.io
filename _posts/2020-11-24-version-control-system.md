@@ -58,7 +58,7 @@ Simple Work-flow of Version Control System
 2. Make your changes, and make sure they work properly.
 3. Commit your changes to the central sen/er, so other programmers can see them.
 
-# Introduction to Git and Github
+# Git and Github
 Git is a free and open source version control system, originally created by Linus Torvalds in 2005. Unlike older centralized version control systems such as SVN and CVS, Git is distributed: every developer has the full history of their code repository locally.
 Github [github.com](github.com) is a service for hosting software repositories managed by the Git version control system.
 
