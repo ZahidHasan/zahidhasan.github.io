@@ -237,5 +237,152 @@ We need to add the introduction.md file to git for tracking and changes.
 
 # Stage: Add files to Git for tracking
 
-To stage a ﬁle is simply to prepare it finely for a commit. Git, with its index allows you to commit only certain parts of the changes you've done
-since the last commit.
+To stage a ﬁle is simply to prepare it finely for a commit. Git, with its index allows you to commit only certain parts of the changes you've done since the last commit.
+
+![git_staging.png]({{site.baseurl}}/images/git_staging.png)
+
+Select all file and add them
+```ps
+$ git add --all
+or
+$ git add
+```
+```ps
+$ git status
+On branch master
+No conlnits yet
+Changes to be committed:
+(use "git rm --cached <File>..." to unstage)
+new file: introduction.txt
+```
+
+To see the changes in ﬁle
+```ps
+$ git diff --color
+diff --git a/introduction.txt b/introduction.txt
+index bd8134f..6783b3a 188644
+--- a/introduction.txt
++++ b/introduction.txt
+@@ -1 +1,4 @@
+git tutorial
++introduction
++
++test
+```
+
+## Commit
+
+A commit to a repository is a snapshot of the current state of the project's root directory.
+
+$ git commit -m "we modified introduction.text"
+[master (root-commit) 938b97e] we modified introduction.text
+1 file changed, 4 insertions(+)
+create mode 188644 introduction.txt
+```
+```ps
+$ git status
+On branch master
+nothing to commit, working tree clean
+```
+```ps
+$ git commit -a -m "Do something once more"
+```
+
+the "—a" option, which stands for "add".
+
+
+# Link the Local project to Remote one (Github)
+
+Create an empty repository in Github in this case I myproject. Copy the web address of the git repo that your local folder will use to push its contents to the remote folder on Github.
+```ps
+$ git remote add origin [copied web address]
+$ git remote add origin httpsI//github.com/ZahidHasan/myproject.git
+```
+If you want to see where each remote is pointing, type in :
+```ps
+$ git remote -v
+origin https://github.com/ZahidHasan/myproject.git (fetch)
+origin https://github.com/ZahidHasan/myproject.git (push)
+```
+**origin** = The default name of the remote repository on GitHub corresponding to the repo you're currently in on your machine.
+
+## Pull the remote contents into local one
+```ps
+$ git pull --allow-unrelated»histories origin master
+
+
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 186% (3/3), done.
+remote: Total 3 (delta 6), reused 8 (delta 8), pack-reused G
+Unpacking objects: 188% (3/3), done.
+From https://github.com/ZahidHasan/myproject
+* branch master -> FETCH_HEAD
+* [new branch] master -> origin/master
+tmrge made by the ‘recursive’ strategy.
+README.md l 1 +
+1 file changed, 1 insertion(+)
+create mode 188644 README.md
+```
+
+## Push the local contents to Github
+
+```ps
+$ git push origin master
+
+
+Username for 'https://github.com': zahid.hasan@msn.com
+Password for 'https://zahid.hasan@msn.c0m@github.com’:
+Counting objects: 5, done.
+Delta compression using up to 4 threads.Compressing objects: 188% (3/3), done.
+writing objects: 188% (5/5), 569 bytes l 569.88 KiB/s, done.
+Total 5 (delta 8), reused 8 (delta 8)
+To https://github.com/ZahidHasan/myproject.git
+4e5fb77..ea28eZ8 master -> master
+```
+
+# Permanently authenticating with Git repositories
+```ps
+$ git config credential.helper store
+$ git push https://github.com/repo.git
+
+
+Username For 'https://github.com': <USERNAHE>
+Password for 'https://USERNﬁME@github.com': <PASSw0RD>
+```
+
+# Branches
+
+A branch is a version of our code. Git allows us to move between versions in a simple way. The creation of branches allows us to work in different versions of the same file and when we consider it we can merge the changes. Making changes directly to your master branch is a bad idea. You should always have a working branch to try out your modifications on.
+
+![git_branch.png]({{site.baseurl}}/images/git_branch.png)
+
+To list the available branches for your current project, type in :
+```ps
+$ git branch
+
+master
+‘ mybranch
+```
+To create a new branch, naming it whatever you want, type in :
+```ps
+$ git branch branch_name
+```
+To delete a branch, type in :
+```ps
+$ git branch -D branch_name
+```
+To switch to a branch, making it the currently active branch. type in :
+```ps
+$ git checkout branch_name
+```
+As an example, in order to return to your master branch, you would type in
+```
+$ git checkout master
+```
+
+
+## Merging code between branches
+To merge the changes from the develop branch to the master branch, type the following:
+```ps
+$ git merge develop V-no~ff
+```
