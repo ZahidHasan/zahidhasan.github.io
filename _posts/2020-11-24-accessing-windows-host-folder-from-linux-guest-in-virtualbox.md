@@ -11,8 +11,7 @@ Assume you installed manjaro linux as a guest in virtualbox with windows host. N
 
 	![Screenshot 2020-11-24 16.05.28.png]({{site.baseurl}}/images/Screenshot 2020-11-24 16.05.28.png)
 
-
-
+<br/><br/>
 
 2. Click `add new shared folder` icon at the right side of the setting window.
 
