@@ -14,8 +14,8 @@ option foryou.
 
 1. index.html
 2. index_new.html
-3. index_new_v2.htm|
-4. index_new_v4.htm|
+3. index_new_v2.html
+4. index_new_v4.html
 5. index_new_v2_final.html
 6. index_new_v2_really_ﬁnal.html
 
