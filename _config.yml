@@ -245,11 +245,11 @@ prose:
           label: "Has this page been modified?"
           placeholder: "YYYY-MM-DD"
           
-      - name: "tags"
-        field:
-          element: "text"
-          label: "Tags"
-          placeholder: "Enter tags, separated by spaces"
+#      - name: "tags"
+#        field:
+#          element: "text"
+#          label: "Tags"
+#          placeholder: "Enter tags, separated by spaces"
           
       - name: "key"
         field:
