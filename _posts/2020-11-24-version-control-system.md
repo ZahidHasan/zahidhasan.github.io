@@ -130,3 +130,112 @@ During the development cycle, a variety of supporting branches are used:
 - The Git history becomes unreadable
 - The master/develop split is considered redundant and makes the Continuous Delivery and the Continuos Integration harder
 - It isn't recommended when it need to maintain single version in production.
+
+
+# Installing Git on Linux
+```ps
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install git
+```
+In case of any problems:
+```ps
+$ sudo add-apt-repository ppa:git-core/ppa
+$ sudo apt-get update
+$ sudo apt-get install git
+```
+
+## Configuring Git
+To set user name and email, run the following command
+```ps
+$ git con~Fig "global user.name "your" name"
+$ git config -global user.email "yourname@nail.com"
+```
+To check it, run
+
+```ps
+git config --list
+user.name=zahidhasan
+user.email=zahid.hasan@msn.com
+core.repositoryformatversion=9
+core.fi1emode=fa1se
+core.bare=false
+core.loga1lrefupdates=true
+```
+
+# Pull Work-flow
+
+Create an empty project directory
+```ps
+# create a project tolderc
+$ mkdir myproject
+$ cd myproject
+```
+
+# Initialize git
+
+Assuming you've already created an empty directory for your project. just run the following command.
+```ps
+$ git init
+Initialized empty Git repository in /home/zahidhasanlmyprojectl.git/
+# After a repository creation message, if we show the contents
+aw of the Folder with an ls —al we will see a hidden ~Fo1der (.git):
+$ ls -al
+. git
+```
+
+The `init` command stands for initialize. Once you run `git init`, Git will initialize a hidden directory called `.git` in the project's root directory.mAnd you'll get a confirmation that your deposit box is ready!
+
+Within the folder .git we will have several sub-folders some of them are the following:
+
+- **HEAD** : for the registration of headers.
+- **branches** : the different versions that we are uploading.I config :the conﬁguration file.
+- **description** : the description.
+- **hooks** : for the execution of scripts necessary for git operation.
+
+```ps
+s cd .git/
+$ ls »al
+total 49
+drwxrwxr-x 7 zahidhasan zahidhasan 4896 Dec 18 11:58 .
+drwxrwxr-x 3 zahidhasan zahidhasan 4896 Dec 18 11:58 . .
+drwxrwxr-x 2 zahidhasan zahidhasan 4896 Dec 18 11:58 branches
+»rw-rw-r-- 1 zahidhasan zahidhasan 92 Dec 18 11:58 config
+»rw»rw-r-- 1 zahidhasan zahidhasan 73 Dec 18 11:58 description
+-rw-rw-r-~ 1 zahidhasan zahidhasan 23 Dec 18 11:58 HEAD
+drwxrwxr-x 2 zahidhasan zahidhasan 4896 Dec 18 11:58 hooks
+drwxrwxr-x 2 zahidhasan zahidhasan 4896 Dec 18 11:58 info
+drwxrwxr-x 4 zahidhasan zahidhasan 4896 Dec 18 11:58 objects
+drwxrwxr-x 4 zahidhasan zahidhasan 4896 Dec 18 11:58 refs
+```
+
+## Check Status
+```ps
+$ git status
+On branch master
+No corrlnits yet
+nothing to conlnit (create/copy files and use "git add" to track)
+```
+Now create a new file (introduction.text) with some text in the myproject folder and run git status again.
+```ps
+~/myprojecti cat>introduction.txt
+git tutorial
+```
+
+```ps
+$ git status
+On branch master
+No colrlnits yet
+Untracked files:
+(use "git add <file>..." to include in what will be committed)
+introduction.text
+nothing added to commit but untracked files present (use "git add" to track)
+```
+
+We need to add the introduction.md file to git for tracking and changes.
+
+
+# Stage: Add files to Git for tracking
+
+To stage a ﬁle is simply to prepare it finely for a commit. Git, with its index allows you to commit only certain parts of the changes you've done
+since the last commit.
