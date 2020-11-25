@@ -7,3 +7,4 @@ titles:
 key: page-about
 ---
 
+Working on Human-Computer Interaction, Machine Learning and interested in Quantum Computing.
