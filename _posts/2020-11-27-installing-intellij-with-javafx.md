@@ -37,3 +37,7 @@ tags:
   ![Capture11.PNG]({{site.baseurl}}/images/Capture11.PNG)
 12. Define project name, location and click finish.
   ![Capture12.PNG]({{site.baseurl}}/images/Capture12.PNG)
+13. You will see the following pre-created code
+  ![Capture13.PNG]({{site.baseurl}}/images/Capture13.PNG)
+14. On the Left side click `project` and project structure will be visible in a panel
+ ![Capture14.PNG]({{site.baseurl}}/images/Capture14.PNG)
