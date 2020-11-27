@@ -45,7 +45,7 @@ tags:
  
 
 
-# Customizing intelliJ
+# Customize intelliJ
 
 To Install Plugins go to `file -> settings -> plugins`. 
     
@@ -69,14 +69,14 @@ Kite
 ![Capture18.PNG]({{site.baseurl}}/images/Capture18.PNG)
 
 
-# Configuring JavaFX
+# Configure JavaFX
 
 ### Downloding JavaFX library
 1. Download JafaFX Library version 15.0.1 from [here](https://gluonhq.com/products/javafx/).
 
 2. Unzip it into `c:\` in Windows or `/home/user_name/` in Linux 
 
-### Creating FX project
+### Create FX project
 
 3. Create new project select javafx.
    ![Capture1.PNG]({{site.baseurl}}/images/Capture1.PNG)
@@ -85,7 +85,7 @@ Kite
 5. Demo code will be generated
    ![Capture3.PNG]({{site.baseurl}}/images/Capture3.PNG)
 
-### Adding Fx library
+### Add Fx library
    
 6. You will notice intelij cannot find the javafx library (red underline). We have to add fx library. Go to `file -> project structure` and select `library`
   ![Capture4.PNG]({{site.baseurl}}/images/Capture4.PNG)
