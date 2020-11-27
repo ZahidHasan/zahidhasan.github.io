@@ -10,7 +10,7 @@ tags:
   - Manjaro
   - Windows
 ---
-# Install IntelliJ in Windows
+# Install IntelliJ
 
 1. Download IntelliJ community version from their [website](https://www.jetbrains.com/idea/download/).
 
