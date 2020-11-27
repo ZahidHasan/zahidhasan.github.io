@@ -15,7 +15,7 @@ tags:
 2. Run the installer
    ![Capture.PNG]({{site.baseurl}}/images/Capture.PNG)
  
-3. Choose installation location.
+3. Choose installation location. Default is C and that is ok.
    ![Capture1.PNG]({{site.baseurl}}/images/Capture1.PNG)
  
 4. Check the following Options
