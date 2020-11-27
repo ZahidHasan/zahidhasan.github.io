@@ -10,9 +10,9 @@ tags:
 ---
 ## Install IntelliJ in Windows
 
-1. Download IntelliJ from their website.
+1. Download IntelliJ community version from their [website](https://www.jetbrains.com/idea/download/).
 
-2. Run installer
+2. Run the installer
    ![Capture.PNG]({{site.baseurl}}/images/Capture.PNG)
  
 3. Choose installation location.
