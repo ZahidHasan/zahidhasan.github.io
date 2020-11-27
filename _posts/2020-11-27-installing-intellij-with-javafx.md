@@ -89,5 +89,13 @@ Kite
 2. Unzip it into c:
 
 3. Create new project select javafx.
-   
+   ![Capture1.PNG]({{site.baseurl}}/images/Capture1.PNG)
+4. Choose name and location
+   ![Capture2.PNG]({{site.baseurl}}/images/Capture2.PNG)
+5. Demo code will be generated
+   ![Capture3.PNG]({{site.baseurl}}/images/Capture3.PNG)
+6. You will notice intelij cannot find the javafx library (red underline). We have to add fx library. Go to `file -> project structure` and select `library`
+  ![Capture4.PNG]({{site.baseurl}}/images/Capture4.PNG)
+
+
       
