@@ -7,6 +7,8 @@ tags:
   - Java
   - JavaFX
   - Linux
+  - Manjaro
+  - Windows
 ---
 ## Install IntelliJ in Windows
 
