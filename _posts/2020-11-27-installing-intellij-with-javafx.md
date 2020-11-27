@@ -110,3 +110,19 @@ Kite
    
 9. Now run the code by pressig play button and you will see a window!!!
    ![intellij_javafx_window.PNG]({{site.baseurl}}/images/intellij_javafx_window.PNG)
+   
+   
+# Configure Scenebuilder
+Download Gluon ScenBuilder from [here](https://gluonhq.com/products/scene-builder/)
+install it and set the installed path into `file ->settings-> JAVA FX`
+
+For Windows:
+```ps
+C:\Program Files\SceneBuilder\SceneBuilder.exe
+```
+
+For Linux
+```ps
+/opt/SceneBuilder-11/SceneBuilder
+```
+Right click on fxml file and open with scenebuilder.
