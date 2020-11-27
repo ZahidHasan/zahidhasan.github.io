@@ -56,7 +56,8 @@ tags:
 ## Install IntelliJ in Linux (Manjaro)
 TBD
 
- 
+
+
 ## Customizing intelliJ
 
 To Install Plugins go to `file -> settings -> plugins`. 
@@ -79,4 +80,14 @@ Kite
      
 ### Restart IntelliJ to activate these plugins
 ![Capture18.PNG]({{site.baseurl}}/images/Capture18.PNG)
+
+
+## Configuring JavaFX
+
+1. Download JafaFX Library version 15.0.1 from [here](https://gluonhq.com/products/javafx/). or direct [link](D:\OneDrive - Tongxiao\Programming\Java\openjfx-15.0.1_windows-x64_bin-sdk_2.zip)
+
+2. Unzip it into c:
+
+3. Create new project select javafx.
+   
       
