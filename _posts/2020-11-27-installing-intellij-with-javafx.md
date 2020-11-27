@@ -42,4 +42,13 @@ tags:
 14. On the Left side click `project` and project structure will be visible in a panel
  ![Capture14.PNG]({{site.baseurl}}/images/Capture14.PNG)
  
-15
+## Install IntelliJ in Linux (Manjaro)
+TBD
+
+ 
+## Customizing intelliJ
+### Syntax Highlight
+
+1. Go to `file -> settings -> plugins`. 
+   1. Type and install `Monokai pro`
+      
