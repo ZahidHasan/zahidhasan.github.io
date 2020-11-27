@@ -13,7 +13,7 @@ tags:
 1. Download IntelliJ from their website.
 
 2. Run installer
-![Capture.PNG]({{site.baseurl}}/images/Capture.PNG)
+   ![Capture.PNG]({{site.baseurl}}/images/Capture.PNG)
  
 3. Choose installation location.
    ![Capture1.PNG]({{site.baseurl}}/images/Capture1.PNG)
