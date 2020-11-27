@@ -51,4 +51,14 @@ TBD
 
 1. Go to `file -> settings -> plugins`. 
    1. Type and install `Monokai pro`
+     ![Capture15.PNG]({{site.baseurl}}/images/Capture15.PNG)
+   2. Rainbow Brackets
+     ![Capture16.PNG]({{site.baseurl}}/images/Capture16.PNG)
+   3. Highlight Brackets
+     ![Capture19.PNG]({{site.baseurl}}/images/Capture19.PNG)
+   4. Kite
+     ![Capture17.PNG]({{site.baseurl}}/images/Capture17.PNG)
+     
+2. Restart IntelliJ
+  ![Capture18.PNG]({{site.baseurl}}/images/Capture18.PNG)
       
