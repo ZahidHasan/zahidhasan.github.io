@@ -71,9 +71,12 @@ Kite
 
 # Configuring JavaFX
 
+### Downloding JavaFX library
 1. Download JafaFX Library version 15.0.1 from [here](https://gluonhq.com/products/javafx/). or direct [link](D:\OneDrive - Tongxiao\Programming\Java\openjfx-15.0.1_windows-x64_bin-sdk_2.zip)
 
-2. Unzip it into c:
+2. Unzip it into `c:\` in Windows or `/home/user_name/` in Linux 
+
+### Creating FX project
 
 3. Create new project select javafx.
    ![Capture1.PNG]({{site.baseurl}}/images/Capture1.PNG)
@@ -81,15 +84,27 @@ Kite
    ![Capture2.PNG]({{site.baseurl}}/images/Capture2.PNG)
 5. Demo code will be generated
    ![Capture3.PNG]({{site.baseurl}}/images/Capture3.PNG)
+
+### Adding Fx library
+   
 6. You will notice intelij cannot find the javafx library (red underline). We have to add fx library. Go to `file -> project structure` and select `library`
   ![Capture4.PNG]({{site.baseurl}}/images/Capture4.PNG)
-7. Locate the lib folder inside javafx folder extracted in c: earlier.
+  
+7. Locate the lib folder inside javafx folder extracted in `c:` or `/home/user_name/` earlier.
   ![Capture5.PNG]({{site.baseurl}}/images/Capture5.PNG)
   
 8. Go to `run -> edit configuration` add the following code in `VM options`.
+   
+   For Windows:
    ```ps
    --module-path C:\javafx-sdk-15.0.1\lib --add-modules javafx.controls,javafx.fxml --add-exports javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED
    ```
+   
+   For Linux:
+   ```ps
+   --module-path /home/zh/javafx-sdk-15.0.1/lib --add-modules javafx.controls,javafx.fxml --add-exports javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED
+   ```
+      
    Press apply and ok.
    ![Capture6.PNG]({{site.baseurl}}/images/Capture6.PNG)
    
