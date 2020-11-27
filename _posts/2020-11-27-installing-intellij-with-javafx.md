@@ -14,7 +14,7 @@ tags:
 
 1. Download IntelliJ community version from their [website](https://www.jetbrains.com/idea/download/).
 
-2. Run the installer Run the installer Run the installer
+2. Run the installer  
    ![Capture.PNG]({{site.baseurl}}/images/Capture.PNG)
  
 3. Choose installation location. Default is C and that is ok.
