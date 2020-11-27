@@ -59,8 +59,7 @@ TBD
  
 ## Customizing intelliJ
 
-### Install Plugins
-Go to `file -> settings -> plugins`. 
+To Install Plugins go to `file -> settings -> plugins`. 
     
 ### Syntax Highlight
 Type and install `Monokai pro`  
@@ -78,6 +77,6 @@ Highlight Brackets
 Kite  
 ![Capture17.PNG]({{site.baseurl}}/images/Capture17.PNG)
      
-### Restart IntelliJ
+### Restart IntelliJ to activate these plugins
 ![Capture18.PNG]({{site.baseurl}}/images/Capture18.PNG)
       
