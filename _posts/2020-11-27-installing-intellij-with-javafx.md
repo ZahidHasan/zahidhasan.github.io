@@ -72,7 +72,7 @@ Kite
 # Configuring JavaFX
 
 ### Downloding JavaFX library
-1. Download JafaFX Library version 15.0.1 from [here](https://gluonhq.com/products/javafx/). or direct [link](D:\OneDrive - Tongxiao\Programming\Java\openjfx-15.0.1_windows-x64_bin-sdk_2.zip)
+1. Download JafaFX Library version 15.0.1 from [here](https://gluonhq.com/products/javafx/).
 
 2. Unzip it into `c:\` in Windows or `/home/user_name/` in Linux 
 
@@ -102,7 +102,7 @@ Kite
    
    For Linux:
    ```ps
-   --module-path /home/zh/javafx-sdk-15.0.1/lib --add-modules javafx.controls,javafx.fxml --add-exports javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED
+   --module-path /home/user_name/javafx-sdk-15.0.1/lib --add-modules javafx.controls,javafx.fxml --add-exports javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED
    ```
       
    Press apply and ok.
