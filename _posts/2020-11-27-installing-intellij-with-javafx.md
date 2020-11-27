@@ -106,7 +106,7 @@ Kite
    ```
       
    Press apply and ok.
-  
+  ![intellij_vm_options.PNG]({{site.baseurl}}/images/intellij_vm_options.PNG)
    
 9. Now run the code by pressig play button and you will see a window!!!
-   ![Capture8.PNG]({{site.baseurl}}/images/Capture8.PNG)
+   ![intellij_javafx_window.PNG]({{site.baseurl}}/images/intellij_javafx_window.PNG)
