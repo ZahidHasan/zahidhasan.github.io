@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 key: '!!str'
 title: Installing IntelliJ with JavaFX
 tags:
@@ -41,3 +41,5 @@ tags:
   ![Capture13.PNG]({{site.baseurl}}/images/Capture13.PNG)
 14. On the Left side click `project` and project structure will be visible in a panel
  ![Capture14.PNG]({{site.baseurl}}/images/Capture14.PNG)
+ 
+15
