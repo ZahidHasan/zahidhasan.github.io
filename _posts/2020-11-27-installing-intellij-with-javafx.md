@@ -71,8 +71,8 @@ Kite
 
 # Configure JavaFX
 
-### Downloding JavaFX library
-1. Download JafaFX Library version 15.0.1 from [here](https://gluonhq.com/products/javafx/).
+### Download JavaFX library
+1. Download JafaFX Library version 15.0.1 from [here](https://gluonhq.com/products/javafx/). Direct [Link](https://tongxai-my.sharepoint.com/:u:/g/personal/zh_2002000_xyz/EfbK3HZpEfhJqNJtfWe829MBk3-vufZ0hRoJABocA2Msug?e=Na5Ylj)
 
 2. Unzip it into `c:\` in Windows or `/home/user_name/` in Linux 
 
