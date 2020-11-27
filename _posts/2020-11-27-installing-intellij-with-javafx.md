@@ -106,7 +106,7 @@ Kite
    ```
       
    Press apply and ok.
-   ![Capture6.PNG]({{site.baseurl}}/images/Capture6.PNG)
+  
    
 9. Now run the code by pressig play button and you will see a window!!!
    ![Capture8.PNG]({{site.baseurl}}/images/Capture8.PNG)
