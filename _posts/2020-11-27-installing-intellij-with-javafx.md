@@ -32,4 +32,8 @@ tags:
 9. Create new project
  ![Capture9.PNG]({{site.baseurl}}/images/Capture9.PNG)
 10. Choose `Java` and uncheck `groovy & kotlin`
- 
+ ![Capture10.PNG]({{site.baseurl}}/images/Capture10.PNG)
+11. Select `create project from template`
+  ![Capture11.PNG]({{site.baseurl}}/images/Capture11.PNG)
+12. Define project name, location and click finish.
+  ![Capture12.PNG]({{site.baseurl}}/images/Capture12.PNG)
