@@ -126,3 +126,4 @@ For Linux
 /opt/SceneBuilder-11/SceneBuilder
 ```
 Right click on fxml file and open with scenebuilder.
+![intellij_scenebuilder_openwith.png]({{site.baseurl}}/images/intellij_scenebuilder_openwith.png)
