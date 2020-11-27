@@ -88,3 +88,12 @@ Kite
   ![Capture4.PNG]({{site.baseurl}}/images/Capture4.PNG)
 7. Locate the lib folder inside javafx folder extracted in c: earlier.
   ![Capture5.PNG]({{site.baseurl}}/images/Capture5.PNG)
+  
+8. Go to `run -> edit configuration` add the following code in `VM options`.
+   ```ps
+   --module-path C:\javafx-sdk-15.0.1\lib --add-modules javafx.controls,javafx.fxml --add-exports javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED
+   ```
+   Press apply and ok.
+   ![Capture6.PNG]({{site.baseurl}}/images/Capture6.PNG)
+   
+9. 
