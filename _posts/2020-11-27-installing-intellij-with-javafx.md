@@ -17,17 +17,7 @@ tags:
 2. Run the installer  
    ![Capture.PNG]({{site.baseurl}}/images/Capture.PNG)
  
-3. Choose installation location. Default is C and that is ok.  
-   ![Capture1.PNG]({{site.baseurl}}/images/Capture1.PNG)
- 
-4. Check the following Options  
-   ![Capture3.PNG]({{site.baseurl}}/images/Capture3.PNG)
- 
-5. Wait until the installation in complete  
-   ![Capture3.PNG]({{site.baseurl}}/images/Capture4.PNG)
-   
-6. Reboot the PC  
-   ![Capture5.PNG]({{site.baseurl}}/images/Capture5.PNG)
+3. Choose installation location. Default is C and that is ok. Wait until the installation in complete. Reboot the PC   
    
 7. Run intelliJ, Choose Dark Theme.  
    ![Capture6.PNG]({{site.baseurl}}/images/Capture6.PNG)
@@ -96,6 +86,5 @@ Kite
    ![Capture3.PNG]({{site.baseurl}}/images/Capture3.PNG)
 6. You will notice intelij cannot find the javafx library (red underline). We have to add fx library. Go to `file -> project structure` and select `library`
   ![Capture4.PNG]({{site.baseurl}}/images/Capture4.PNG)
-
-
-      
+7. Locate the lib folder inside javafx folder extracted in c: earlier.
+  ![Capture5.PNG]({{site.baseurl}}/images/Capture5.PNG)
