@@ -31,3 +31,5 @@ tags:
   
 9. Create new project
  ![Capture9.PNG]({{site.baseurl}}/images/Capture9.PNG)
+10. Choose `Java` and uncheck `groovy & kotlin`
+ 
