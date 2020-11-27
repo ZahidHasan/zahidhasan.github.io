@@ -10,7 +10,7 @@ tags:
   - Manjaro
   - Windows
 ---
-## Install IntelliJ in Windows
+# Install IntelliJ in Windows
 
 1. Download IntelliJ community version from their [website](https://www.jetbrains.com/idea/download/).
 
@@ -43,12 +43,12 @@ tags:
 14. On the Left side click `project` and project structure will be visible in a panel  
     ![Capture14.PNG]({{site.baseurl}}/images/Capture14.PNG)
  
-## Install IntelliJ in Linux (Manjaro)
+# Install IntelliJ in Linux (Manjaro)
 TBD
 
 
 
-## Customizing intelliJ
+# Customizing intelliJ
 
 To Install Plugins go to `file -> settings -> plugins`. 
     
@@ -72,7 +72,7 @@ Kite
 ![Capture18.PNG]({{site.baseurl}}/images/Capture18.PNG)
 
 
-## Configuring JavaFX
+# Configuring JavaFX
 
 1. Download JafaFX Library version 15.0.1 from [here](https://gluonhq.com/products/javafx/). or direct [link](D:\OneDrive - Tongxiao\Programming\Java\openjfx-15.0.1_windows-x64_bin-sdk_2.zip)
 
