@@ -53,11 +53,11 @@ To Install Plugins go to `file -> settings -> plugins`.
 Type and install `Monokai pro`  
 ![Capture15.PNG]({{site.baseurl}}/images/Capture15.PNG)
     
-### Colorfull Brackets    
+### Colorful Brackets    
 Rainbow Brackets  
 ![Capture16.PNG]({{site.baseurl}}/images/Capture16.PNG)
     
-### Highlighting Brackets
+### Highligh Brackets
 Highlight Brackets  
 ![Capture19.PNG]({{site.baseurl}}/images/Capture19.PNG)
     
