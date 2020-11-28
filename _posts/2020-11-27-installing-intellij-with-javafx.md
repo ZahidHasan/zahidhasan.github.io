@@ -72,7 +72,7 @@ Kite
 # Configure JavaFX
 
 ### Download JavaFX library
-1. Download JafaFX Library version 15.0.1 from [here](https://gluonhq.com/products/javafx/). Direct [Link](https://tongxai-my.sharepoint.com/:u:/g/personal/zh_2002000_xyz/EdMX70E9GAVJowhCgjqWIuIBNVhCfkHnnukRhY0uk-uGtQ?e=hqIOVS)
+1. Download JafaFX Library version 15.0.1 from [here](https://gluonhq.com/products/javafx/). Direct [Link](https://tongxai-my.sharepoint.com/:u:/g/personal/zh_2002000_xyz/EdMX70E9GAVJowhCgjqWIuIB_ODUI_8MYtbWEYBEY7mnzw?e=hFIJnw)
 
 2. Unzip it into `c:\` in Windows or `/home/user_name/` in Linux 
 
@@ -132,4 +132,3 @@ For Linux
 
 Right click on fxml file and open with scenebuilder.
 ![intellij_scenebuilder_open_with.PNG]({{site.baseurl}}/images/intellij_scenebuilder_open_with.PNG)
-
