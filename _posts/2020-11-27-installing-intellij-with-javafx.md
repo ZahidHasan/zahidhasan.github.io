@@ -131,4 +131,5 @@ For Linux
 
 
 Right click on fxml file and open with scenebuilder.
-![intellij_scenebuilder_openwith.png]({{site.baseurl}}/images/intellij_scenebuilder_openwith.png)
+![intellij_scenebuilder_open_with.PNG]({{site.baseurl}}/images/intellij_scenebuilder_open_with.PNG)
+
