@@ -12,7 +12,7 @@ tags:
 ---
 # Install IntelliJ
 
-1. Download IntelliJ community version from their [website](https://www.jetbrains.com/idea/download/).
+1. Download IntelliJ community version from their [website](https://www.jetbrains.com/idea/download/). Direct Link
 
 2. Run the installer  
    ![Capture.PNG]({{site.baseurl}}/images/Capture.PNG)
@@ -72,7 +72,7 @@ Kite
 # Configure JavaFX
 
 ### Download JavaFX library
-1. Download JafaFX Library version 15.0.1 from [here](https://gluonhq.com/products/javafx/). Direct [Link](https://tongxai-my.sharepoint.com/:u:/g/personal/zh_2002000_xyz/EdMX70E9GAVJowhCgjqWIuIB_ODUI_8MYtbWEYBEY7mnzw?e=hFIJnw)
+1. Download JafaFX Library version 15.0.1 from [here](https://gluonhq.com/products/javafx/). Direct [Link](https://tongxai-my.sharepoint.com/:u:/g/personal/zh_2002000_xyz/EdMX70E9GAVJowhCgjqWIuIB_ODUI_8MYtbWEYBEY7mnzw?e=ykDhQR)
 
 2. Unzip it into `c:\` in Windows or `/home/user_name/` in Linux 
 
