@@ -12,7 +12,7 @@ tags:
 ---
 # Install IntelliJ
 
-1. Download IntelliJ community version from their [website](https://www.jetbrains.com/idea/download/). Direct [Link](https://tongxai-my.sharepoint.com/:u:/g/personal/zh_2002000_xyz/EQ79u5sXH2hPmagW1VYG0VMBjcYjSLio1IeIOkKj9Zm1ug?e=X6b7MC)
+1. Download IntelliJ community version from their [website](https://www.jetbrains.com/idea/download/). Direct [Link](https://tongxai-my.sharepoint.com/:u:/g/personal/zh_2002000_xyz/EQ79u5sXH2hPmagW1VYG0VMBcXf3vNl_RPYbXqR1FV8TRg?e=P6R8bZ)
 
 2. Run the installer  
    ![Capture.PNG]({{site.baseurl}}/images/Capture.PNG)
