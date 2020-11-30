@@ -14,7 +14,7 @@ tags:
 
 ### Open Command Prompt
 Open Command prompt, if automatic repair doesnt fix.
- ![windows_boot_advanced.jpg]({{site.baseurl}}/images/windows_boot_advanced.jpg)
+![windows_boot_advanced.jpg]({{site.baseurl}}/images/windows_boot_advanced.jpg)
 
 ### Open diskpart
 Type and run the command:
