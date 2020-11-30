@@ -39,22 +39,19 @@ Type and run the command:
 ```ps
 sel vol <number of volume>
 ```
-Type and run the command:
 ```ps
 assign letter=<drive letter>:
 ```
-Type and run the command:
 ```ps
 exit
 ```
 
-### repair the boot record:
+### Repair the boot record:
 
 Type and run the command:
 ```ps
 cd /d <drive letter>:\EFI\Microsoft\Boot\
 ```
-Type and run the command:
 ```ps
 bootrec /FixBoot
 ```
