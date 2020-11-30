@@ -10,7 +10,7 @@ tags:
 # The Problem
 ![windows_boot.jpg]({{site.baseurl}}/images/windows_boot.jpg)
 
-## Solution without any media
+# The Solution without any media
 
 ### Open Command Prompt
 Open Command prompt, if automatic repair doesnt fix.
