@@ -5,6 +5,7 @@ title: Fix Error “Could not find the recovery environment” in Windows 10
 tags:
   - Windows
   - Operating System
+  - boot
 ---
 ![windows_recovery.png]({{site.baseurl}}/images/windows_recovery.png)
 
