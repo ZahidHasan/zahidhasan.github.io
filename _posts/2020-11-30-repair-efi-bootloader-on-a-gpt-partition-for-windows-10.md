@@ -24,14 +24,19 @@ diskpart
 ### Select Hard Disk
 Type and run the command:
 ```ps
+list DISK
 sel disk 0
 ```
+![windows_diskpart_select_disk.png]({{site.baseurl}}/images/windows_diskpart_select_disk.png)
+
 ### Check the partitions
 
 Type and run the command:
 ```ps
 list vol
 ```
+![windows_diskpart_select_disk_list_vol.png]({{site.baseurl}}/images/windows_diskpart_select_disk_list_vol.png)
+
 ### Select EFI partition
 The EFI partition should be using the FAT32 file system. It is around 100 MB. Assign a drive letter to it that is not already in use:
 
@@ -45,6 +50,7 @@ assign letter=<drive letter>:
 ```ps
 exit
 ```
+![windows_diskpart_mount_efi.png]({{site.baseurl}}/images/windows_diskpart_mount_efi.png)
 
 ### Repair the boot record:
 
