@@ -13,8 +13,7 @@ tags:
   ```ps
   reagentc /info
   ```
-
-   ![windows_recovery1.png]({{site.baseurl}}/images/windows_recovery1.png)
+  ![windows_recovery1.png]({{site.baseurl}}/images/windows_recovery1.png)
 
 2. Windows RE status shows up as Disabled or if the Windows RE location is empty you need to run:
    ```ps
