@@ -28,16 +28,35 @@ Type and run the command:
 ```ps
 list vol
 ```
+### Select EFI partition
 The EFI partition should be using the FAT32 file system. It is around 100 MB. Assign a drive letter to it that is not already in use:
 
 Type and run the command:
-
+```ps
 sel vol <number of volume>
-
+```
 Type and run the command:
-
+```ps
 assign letter=<drive letter>:
+```
+Type and run the command:
+```ps
+exit
+```
+
+### repair the boot record:
 
 Type and run the command:
+```ps
+cd /d <drive letter>:\EFI\Microsoft\Boot\
+```
+Type and run the command:
+```ps
+bootrec /FixBoot
+```
 
-exit
+If you have `access denied` then do the following:
+
+```ps
+bcdboot C:\windows /s <drive letter>
+```
