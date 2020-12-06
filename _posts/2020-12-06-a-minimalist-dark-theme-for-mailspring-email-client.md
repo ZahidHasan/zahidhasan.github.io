@@ -13,7 +13,7 @@ tags:
 ![screenshot.png]({{site.baseurl}}/images/screenshot.png)
 
 
-# Download
+# Download the Theme
 
 ### Using Git
 
@@ -27,7 +27,7 @@ If you are a git user, you can install the theme and keep up to date by cloning 
 Download the zip file and unzip it into a folder.
 
 
-# Install Theme
+# Install the Theme
 
 1. Open MailSpring
 2. Go the the Edit menu
@@ -40,4 +40,3 @@ Download the zip file and unzip it into a folder.
 ## License
 
 [MIT License](./LICENSE)
-
