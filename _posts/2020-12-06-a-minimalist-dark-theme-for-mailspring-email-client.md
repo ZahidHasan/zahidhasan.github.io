@@ -1,14 +1,14 @@
 ---
 published: true
 key: '!!str'
-title: A Minimalist Dark Theme for MailSpring Email Client
+title: A Minimalist Dark Theme for MailSpring
 tags:
   - MailSpring
   - Theme
   - UI/UX
   - Email Client
 ---
-# A Minimalist Dark Theme for [MailSpring](https://getmailspring.com) email client
+# Theme for [MailSpring](https://getmailspring.com)
 
 ![screenshot.png]({{site.baseurl}}/images/screenshot.png)
 
