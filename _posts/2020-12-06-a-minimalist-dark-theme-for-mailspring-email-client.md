@@ -24,7 +24,7 @@ If you are a git user, you can install the theme and keep up to date by cloning 
 
 ### Manually Download
 
-Download the zip file and unzip it into a folder.
+Download the [zip](https://github.com/ZahidHasan/Dark-Light-Theme-Mailspring) file and unzip it into a folder.
 
 
 # Install the Theme
