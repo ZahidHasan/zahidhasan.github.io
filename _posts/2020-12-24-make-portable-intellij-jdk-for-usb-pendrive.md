@@ -24,3 +24,6 @@ Now click `Apps` menu and select `Install a New App` and select the jDK just dow
 
 After installation you will not see any entry in portable platform menu.
 
+Now go to `D:\PortableApps\PortableApps` and you will notice a new folder named `CommonFiles` has been created.
+![]({{site.baseurl}}/images/portable_jdk_install2.png)![portable_jdk_install2.png]({{site.baseurl}}/images/portable_jdk_install2.png)
+
