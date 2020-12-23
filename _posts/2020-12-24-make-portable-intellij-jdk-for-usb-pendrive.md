@@ -27,4 +27,9 @@ After installation you will not see any entry in portable platform menu.
 Now go to `D:\PortableApps\PortableApps` and you will notice a new folder named `CommonFiles` has been created.
 ![portable_jdk_install2.png]({{site.baseurl}}/images/portable_jdk_install2.png)
 
+This `CommonFiles` folder contains portable JDK and all the portable apps that require jdk to run will automatically find jdk from this `CommonFiles`. Actually we no longer need the portableapps platform to run IntelliJ. 
+
+Now we will install portable Intellij. Go to [portapps.io](https://portapps.io/app/intellij-idea-community-portable/)and download portable IntelliJ or from [here](https://tongxai-my.sharepoint.com/:u:/g/personal/zh_2002000_xyz/EQf2HMMWD-RAl4Kg8FlZ0q0BsslZzXruhLInZhhBTXeNIg?e=6498Ar).
+
+
 
