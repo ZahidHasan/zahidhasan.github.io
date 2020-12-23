@@ -1,7 +1,7 @@
 ---
 published: true
 key: '!!str'
-title: Making Portable Pycharm
+title: Portable Pycharm without Installing Java in PC
 tags:
   - Pycharm
   - Python
