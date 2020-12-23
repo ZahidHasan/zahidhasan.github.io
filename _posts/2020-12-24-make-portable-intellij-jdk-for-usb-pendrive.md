@@ -1,7 +1,12 @@
 ---
-published: false
+published: true
 key: '!!str'
 title: Make Portable IntelliJ & JDK for USB PenDrive.
+tags:
+  - IntelliJ
+  - Java
+  - JDK
+  - Portable
 ---
 You can carry and run IntelliJ without installing JAVA in your PC.
 
