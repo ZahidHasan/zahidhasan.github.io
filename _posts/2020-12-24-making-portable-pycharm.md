@@ -44,21 +44,18 @@ Since Pycharm require java to run first we need to make portable java
 
 
 # Configuring Portable Pycharm
+
 1. Download portable Pycharm from [portableApps.com](https://portableapps.com/node/56602) or from [here](https://tongxai-my.sharepoint.com/:u:/g/personal/zh_2002000_xyz/EfoICvYe9RVPsgottFjRPwsBt0_tdGrnPJVkpH1k7zxEzQ?e=4RuQqc)
-
-2. Open portableapps platform, click `Apps` menu and select `Install a New App` and select the intellij just  downloaded. Installation will begin.
-  ![pycharm_portable_installation.png]({{site.baseurl}}/images/pycharm_portable_installation.png)
+2. Open portableapps platform, click `Apps` menu and select `Install a New App` and select the intellij just   downloaded. Installation will begin.
+   ![pycharm_portable_installation.png]({{site.baseurl}}/images/pycharm_portable_installation.png)
   
-  ![pycharm_portable_installation1.png]({{site.baseurl}}/images/pycharm_portable_installation1.png)
-
-
-3. After installation complete you will find in portableApps folder and a menu will be created in portableApp platform menu
-  ![pycharm_portable_installation2.png]({{site.baseurl}}/images/pycharm_portable_installation2.png)
-
+   ![pycharm_portable_installation1.png]({{site.baseurl}}/images/pycharm_portable_installation1.png)
+3. After installation complete you will find in portableApps folder and a menu will be created in portableApp  platform menu
+   ![pycharm_portable_installation2.png]({{site.baseurl}}/images/pycharm_portable_installation2.png)
 4. Click Run and Configure Python interpreter in Pycharm
-  ![pycharm_portable_installation3.png]({{site.baseurl}}/images/pycharm_portable_installation3.png)
+   ![pycharm_portable_installation3.png]({{site.baseurl}}/images/pycharm_portable_installation3.png)
   
-  ![pycharm_portable_installation4.png]({{site.baseurl}}/images/pycharm_portable_installation4.png)
+   ![pycharm_portable_installation4.png]({{site.baseurl}}/images/pycharm_portable_installation4.png)
 
 
 Now you can either
