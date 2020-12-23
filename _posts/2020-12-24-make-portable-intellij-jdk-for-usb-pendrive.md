@@ -1,7 +1,7 @@
 ---
 published: true
 key: '!!str'
-title: Make Portable IntelliJ without Installing Java in PC
+title: Portable IntelliJ without Installing Java in PC
 tags:
   - IntelliJ
   - Java
@@ -10,7 +10,7 @@ tags:
 ---
 You can carry and run IntelliJ without installing JAVA in your PC.
 
-# Portable JDK
+# Configuring Portable JDK
 1. Inorder to create portable java we are going to use portableapps platform. Download it from [here](https://tongxai-my.sharepoint.com/:u:/g/personal/zh_2002000_xyz/Ebq_Gakg7eBMp938n5waSAcBJp8aBcS3d2Tm2yXHsv-VUA?e=DZOEUM) or from their [website.](https://portableapps.com)
 
 2. Install it in your preffered drive.  
@@ -40,7 +40,7 @@ You can carry and run IntelliJ without installing JAVA in your PC.
 
    This `CommonFiles` folder contains portable JDK and all the portable apps that require jdk to run will automatically find jdk from this `CommonFiles` folder. 
 
-# Portable IntelliJ
+# Configuring Portable IntelliJ
 
 1. Now we will install portable Intellij. Go to [portapps.io](https://portapps.io/app/intellij-idea-community-  portable/) and download portable IntelliJ or from [here](https://tongxai-my.sharepoint.com/:u:/g/personal/zh_2002000_xyz/EQf2HMMWD-RAl4Kg8FlZ0q0BsslZzXruhLInZhhBTXeNIg?e=6498Ar).
 
