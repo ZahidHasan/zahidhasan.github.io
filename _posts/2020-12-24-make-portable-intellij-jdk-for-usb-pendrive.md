@@ -55,6 +55,7 @@ You can carry and run IntelliJ without installing JAVA in your PC.
 
 
 5. Select `Structure for New Project`
+
    ![portable_intellij_configuration1a.png]({{site.baseurl}}/images/portable_intellij_configuration1a.png)
    
 6. IntelliJ will not be able to find JDK at this moment.
