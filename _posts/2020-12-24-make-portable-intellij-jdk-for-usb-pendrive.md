@@ -12,5 +12,15 @@ Install it in your preffered drive.
 Once installed, inside your choosen folder you will see `PortableApps` folder where all of your portable software will reside.
 
 Run Start.exe file and you will notice a menu in the taskbar like this
+![portableaApps_installation2.png]({{site.baseurl}}/images/portableaApps_installation2.png)
+All your portable apps will be listed here. You can run the apps directly from where they are installed.
 
+Now download portable JDK made for portableapps platform [here](https://portableapps.com/apps/utilities/OpenJDK64) or [here](https://tongxai-my.sharepoint.com/:u:/g/personal/zh_2002000_xyz/EfuXG0NbSeFPpfVNWBLMkZ0BfhS8dPUSTas0Sr7opZmcUA?e=soWHEv).
+
+Now click `Apps` menu and select `Install a New App` and select the jDK just downloaded. Installation will begin.
+![portable_jdk_install.png]({{site.baseurl}}/images/portable_jdk_install.png)
+
+![portable_jdk_install1.png]({{site.baseurl}}/images/portable_jdk_install1.png)
+
+After installation you will not see any entry in portable platform menu.
 
