@@ -31,8 +31,8 @@ This `CommonFiles` folder contains portable JDK and all the portable apps that r
 
 Now we will install portable Intellij. Go to [portapps.io](https://portapps.io/app/intellij-idea-community-portable/)and download portable IntelliJ or from [here](https://tongxai-my.sharepoint.com/:u:/g/personal/zh_2002000_xyz/EQf2HMMWD-RAl4Kg8FlZ0q0BsslZzXruhLInZhhBTXeNIg?e=6498Ar).
 
-Extract the file in desktop and copy it into portableapps folder.
+Extract the file into portableapps folder.
 ![portable_intellij_installation.png]({{site.baseurl}}/images/portable_intellij_installation.png)
 
-
+In the portableapps menu click `Apps` ans `Refresh App Icons`, then you will see IntelliJ entry in the menu.
 
