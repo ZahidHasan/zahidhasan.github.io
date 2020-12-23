@@ -11,5 +11,6 @@ Install it in your preffered drive.
 
 Once installed, inside your choosen folder you will see `PortableApps` folder where all of your portable software will reside.
 
-Run Start.exe file and you will notice a menu in the taskbar
+Run Start.exe file and you will notice a menu in the taskbar like this
+
 
