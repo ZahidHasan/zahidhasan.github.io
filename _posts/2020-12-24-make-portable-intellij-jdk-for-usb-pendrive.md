@@ -1,7 +1,7 @@
 ---
 published: true
 key: '!!str'
-title: Portable IntelliJ without Installing Java in PC
+title: Portable IntelliJ with Portable Java
 tags:
   - IntelliJ
   - Java
