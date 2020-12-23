@@ -35,4 +35,5 @@ Extract the file into portableapps folder.
 ![portable_intellij_installation.png]({{site.baseurl}}/images/portable_intellij_installation.png)
 
 In the portableapps menu click `Apps` ans `Refresh App Icons`, then you will see IntelliJ entry in the menu.
+![portable_intellij_installation1.png]({{site.baseurl}}/images/portable_intellij_installation1.png)
 
