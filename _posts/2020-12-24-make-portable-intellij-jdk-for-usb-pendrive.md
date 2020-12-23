@@ -37,3 +37,11 @@ Extract the file into portableapps folder.
 In the portableapps menu click `Apps` ans `Refresh App Icons`, then you will see IntelliJ entry in the menu.
 ![portable_intellij_installation1.png]({{site.baseurl}}/images/portable_intellij_installation1.png)
 
+Now run IntelliJ, click configuration then `Structure for New Project`
+![portable_intellij_configuration1.png]({{site.baseurl}}/images/portable_intellij_configuration1.png)
+
+Click dropdown at `No SDK` and select `Add JDK`
+![portable_intellij_configuration2.png]({{site.baseurl}}/images/portable_intellij_configuration2.png)
+
+A new windows will open, locate `openJDK64` inside the `CommonFiles` folder in `PortableApps` folder at drive D.
+![portable_intellij_configuration3.png]({{site.baseurl}}/images/portable_intellij_configuration3.png)
