@@ -1,7 +1,13 @@
 ---
-published: false
+published: true
 key: '!!str'
 title: Making Portable Pycharm
+tags:
+  - Pycharm
+  - Python
+  - Portable
+  - JDK
+  - Java
 ---
 Since Pycharm require java to run first we need to make portable java
 
@@ -27,13 +33,15 @@ Since Pycharm require java to run first we need to make portable java
    ![portable_jdk_install.png]({{site.baseurl}}/images/portable_jdk_install.png)
 
    ![portable_jdk_install1.png]({{site.baseurl}}/images/portable_jdk_install1.png)
-
  
 
 6. Now go to `D:\PortableApps\PortableApps` and you will notice a new folder named `CommonFiles` has been created.
    ![portable_jdk_install2.png]({{site.baseurl}}/images/portable_jdk_install2.png)
 
-   This `CommonFiles` folder contains portable JDK and all the portable apps that require jdk to run will automatically find jdk from this `CommonFiles` folder. 
+   This `CommonFiles` folder contains portable JDK and all the portable apps that require jdk to run will  automatically find jdk from this `CommonFiles` folder. 
+  
+7. Inside `CommonFiles` folder there is another folder named `OpenJDK64`. Just rename this `OpenJDK64` to `java`.
+
 
 # Configuring Portable Pycharm
 1. Download portable Pycharm from [portableApps.com](https://portableapps.com/node/56602) or from [here](https://tongxai-my.sharepoint.com/:u:/g/personal/zh_2002000_xyz/EfoICvYe9RVPsgottFjRPwsBt0_tdGrnPJVkpH1k7zxEzQ?e=4RuQqc)
@@ -44,4 +52,15 @@ Since Pycharm require java to run first we need to make portable java
   ![pycharm_portable_installation1.png]({{site.baseurl}}/images/pycharm_portable_installation1.png)
 
 
-3. 
+3. After installation complete you will find in portableApps folder and a menu will be created in portableApp platform menu
+  ![pycharm_portable_installation2.png]({{site.baseurl}}/images/pycharm_portable_installation2.png)
+
+4. Click Run and Configure Python interpreter in Pycharm
+  ![pycharm_portable_installation3.png]({{site.baseurl}}/images/pycharm_portable_installation3.png)
+  
+  ![pycharm_portable_installation4.png]({{site.baseurl}}/images/pycharm_portable_installation4.png)
+
+
+Now you can either
+1. copy the whole PortableApps folder into the usb drive or  
+2. just copy the `Pycharm` and `CommonFile` folder and you are ready to go. Actually we no longer need the portableapps platform to run IntelliJ. You can also make python portable.
