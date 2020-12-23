@@ -6,7 +6,7 @@ title: Make Portable IntelliJ & JDK for USB PenDrive.
 You can carry and run IntelliJ without installing JAVA in your PC.
 
 # Portable JDK
-1. Inorder to create portable java we are going to use portableapps platform. Download it from [here]  (https://tongxai-my.sharepoint.com/:u:/g/personal/zh_2002000_xyz/Ebq_Gakg7eBMp938n5waSAcBJp8aBcS3d2Tm2yXHsv-VUA?e=DZOEUM) or from their [website.](https://portableapps.com)
+1. Inorder to create portable java we are going to use portableapps platform. Download it from [here](https://tongxai-my.sharepoint.com/:u:/g/personal/zh_2002000_xyz/Ebq_Gakg7eBMp938n5waSAcBJp8aBcS3d2Tm2yXHsv-VUA?e=DZOEUM) or from their [website.](https://portableapps.com)
 
 2. Install it in your preffered drive.  
    ![portableaApps_installation.png]({{site.baseurl}}/images/portableaApps_installation.png)
