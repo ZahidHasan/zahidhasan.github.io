@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 key: '!!str'
 title: A Bare-bones Portable Python and Sublime Text
 tags:
@@ -28,11 +28,21 @@ open `preference-> browse package` in sublimetext, got to `User` folder and crea
 ```
 Save it and restart sublimetext. 
 
-4. Go to `tool-> build system`.You will see new entry called `Python_portable`, select it and run.
+4. Go to `tool-> build system`.You will see new entry called `Python_portable`, select and build it.
+   ![portable_sublime_python_build_system.png]({{site.baseurl}}/images/portable_sublime_python_build_system.png)
 
    ![portable_sublime_python2.png]({{site.baseurl}}/images/portable_sublime_python2.png)
 
 # Installing Additional Packages
+Using `pip` in `Console-Launcher.exe` residing in portable python folder, you can install packages. 
+  ![portable_sublime_python_pip.png]({{site.baseurl}}/images/portable_sublime_python_pip.png)
 
 
 # Running Jupyter Notebook
+After installing jupyter run the following command in `Console-Launcher.exe`
+```ps
+python -m jupyter notebook
+```
+![portable_sublime_python_jupyter.png]({{site.baseurl}}/images/portable_sublime_python_jupyter.png)
+
+![portable_sublime_python_jupyter1.png]({{site.baseurl}}/images/portable_sublime_python_jupyter1.png)
