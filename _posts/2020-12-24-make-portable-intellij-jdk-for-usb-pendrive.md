@@ -71,4 +71,7 @@ Click ok and Appply.
 
 Now you can either
 1. copy the whole PortableApps folder into the usb drive or  
-2. just copy the `IntelliJ` and `CommonFile` folder and you are ready to go. Actually we no longer need the portableapps platform to run IntelliJ.
+2. just copy the `IntelliJ` and `CommonFile` folder and you are ready to go. 
+
+Actually we no longer need the portableapps platform to run IntelliJ.
+The complete portable package(intellij+jdk) can be downloaded from [here](https://tongxai-my.sharepoint.com/:u:/g/personal/zh_2002000_xyz/EciaVCZHLmpMqRY8NLayLdYBybMllg0zr5PfLZPAY0omeQ?e=yC8Pcb) that can be run from USB.
