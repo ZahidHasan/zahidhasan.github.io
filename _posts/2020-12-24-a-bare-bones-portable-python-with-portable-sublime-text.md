@@ -12,7 +12,7 @@ tags:
 
 [This](https://sourceforge.net/projects/portable-python/files/) is very small portable python for windows. We will configure portable sublime text to use it.
 
-1.Extract the portable python into a folder like `Portable_PySub.`
+1. Extract the portable python into a folder like Portable_PySub.
 2. Extract portable [sublime text](https://www.sublimetext.com/3) into that folder also.
 
    ![portable_sublime_python.png]({{site.baseurl}}/images/portable_sublime_python.png)
