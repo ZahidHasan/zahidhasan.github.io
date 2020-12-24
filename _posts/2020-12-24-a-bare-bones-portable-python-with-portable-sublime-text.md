@@ -18,7 +18,7 @@ tags:
    ![portable_sublime_python.png]({{site.baseurl}}/images/portable_sublime_python.png)
 
 ### Sublime Text
-3. In windows Sublime Text find python path from system variables. Since we are using portable version of python, so there is no python path in the system variables. We need to manually locate the path into sublime.
+1. In windows Sublime Text find python path from system variables. Since we are using portable version of python, so there is no python path in the system variables. We need to manually locate the path into sublime.
 In sublimetext open `preference-> browse package`, got to `User` folder and create a file `Python_Portable.sublime-build` there. 
 
    ![portable_sublime_python_build_system1.png]({{site.baseurl}}/images/portable_sublime_python_build_system1.png)
@@ -41,17 +41,19 @@ In sublimetext open `preference-> browse package`, got to `User` folder and crea
 
 Save it and restart sublimetext. 
 
-4. Go to `tool-> build system`.You will see new entry called `Python_portable`, select and build it.
+2. Go to `tool-> build system`.You will see new entry called `Python_portable`, select and build it.
    ![portable_sublime_python_build_system.png]({{site.baseurl}}/images/portable_sublime_python_build_system.png)
 
    ![portable_sublime_python2.png]({{site.baseurl}}/images/portable_sublime_python2.png)
 
 # Installing Additional Packages
+### PIP
 Using `pip` in `Console-Launcher.exe` residing in portable python folder, you can install packages. 
   ![portable_sublime_python_pip.png]({{site.baseurl}}/images/portable_sublime_python_pip.png)
 
 
 # Running Jupyter Notebook
+### python -m
 After installing jupyter run the following command in `Console-Launcher.exe`
 ```ps
 python -m jupyter notebook
