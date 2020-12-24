@@ -9,7 +9,7 @@ tags:
 ---
 # Portable Environment Setup (Sublime Text and Python)
 
-[This](https://sourceforge.net/projects/portable-python/files/) is very small portable python for windows. In this tutorial we will configure sublime text to use it.
+[This](https://sourceforge.net/projects/portable-python/files/) is very small portable python for windows. We will configure sublime text to use it.
 
 1. Extract the portable python into a folder like `Portable_PySub`.
 2. Extract portable [sublime text](https://www.sublimetext.com/3) into that folder also.
