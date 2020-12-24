@@ -1,7 +1,7 @@
 ---
 published: true
 key: '!!str'
-title: Portable PyCharm with Portable Java
+title: How to Make Portable PyCharm
 tags:
   - Pycharm
   - Python
@@ -61,4 +61,6 @@ Since Pycharm require java to run first we need to make portable java
 
 Now you can either
 1. copy the whole PortableApps folder into the usb drive or  
-2. just copy the `Pycharm` and `CommonFile` folder and you are ready to go. Actually we no longer need the portableapps platform to run IntelliJ. You can also make python portable or use winPythin.
+2. just copy the `Pycharm` and `CommonFile` folder and you are ready to go. 
+
+Actually we no longer need the portableapps platform to run IntelliJ. You can also make python portable or use winPythin.
