@@ -1,7 +1,7 @@
 ---
 published: true
 key: '!!str'
-title: Portable IntelliJ with Portable Java
+title: How to Make Portable IntelliJ
 tags:
   - IntelliJ
   - Java
