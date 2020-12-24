@@ -8,7 +8,7 @@ tags:
   - Portable
 ---
 # Portable Environment Setup 
-## Sublime Text and Python
+###  Python
 
 [This](https://sourceforge.net/projects/portable-python/files/) is very small portable python for windows. We will configure portable sublime text to use it.
 
@@ -17,6 +17,7 @@ tags:
 
    ![portable_sublime_python.png]({{site.baseurl}}/images/portable_sublime_python.png)
 
+### Sublime Text
 3. In windows Sublime Text find python path from system variables. Since we are using portable version of python, so there is no python path in the system variables. We need to manually locate the path into sublime.
 In sublimetext open `preference-> browse package`, got to `User` folder and create a file `Python_Portable.sublime-build` there. 
 
