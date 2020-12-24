@@ -1,7 +1,7 @@
 ---
 published: false
 key: '!!str'
-title: A Bare-bones Portable Python with Portable Sublime Text
+title: A Bare-bones Portable Python and Sublime Text
 ---
 # Portable Environment (Sublime Text and Python)
 
@@ -22,4 +22,9 @@ open `preference-> browse package` in sublimetext, got to `User` folder and crea
  "shell": true
 } 
 ```
+Save it and restart sublimetext. 
+
+4. Go to `tool-> build system`.You will see new entry called `Python_portable`, select it and run.
+
+![portable_sublime_python2.png]({{site.baseurl}}/images/portable_sublime_python2.png)
 
