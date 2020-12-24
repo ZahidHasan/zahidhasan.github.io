@@ -2,6 +2,10 @@
 published: false
 key: '!!str'
 title: A Bare-bones Portable Python and Sublime Text
+tags:
+  - Python
+  - Sublime Text
+  - Portable
 ---
 # Portable Environment Setup (Sublime Text and Python)
 
