@@ -7,7 +7,8 @@ tags:
   - Sublime Text
   - Portable
 ---
-# Portable Environment Setup (Sublime Text and Python)
+# Portable Environment Setup 
+## Sublime Text and Python
 
 [This](https://sourceforge.net/projects/portable-python/files/) is very small portable python for windows. We will configure portable sublime text to use it.
 
