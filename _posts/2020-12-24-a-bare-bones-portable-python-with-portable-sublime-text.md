@@ -16,8 +16,14 @@ tags:
 
    ![portable_sublime_python.png]({{site.baseurl}}/images/portable_sublime_python.png)
 
-3. In windows Sublime Text find python path from system variables. Since we are using portable version of python, so there is no python path in system variables. We need to manually locate the path into sublime.
-open `preference-> browse package` in sublimetext, got to `User` folder and create a file `Python_Portable.sublime-build`. Inside this file add the following line:
+3. In windows Sublime Text find python path from system variables. Since we are using portable version of python, so there is no python path in the system variables. We need to manually locate the path into sublime.
+In sublimetext open `preference-> browse package`, got to `User` folder and create a file `Python_Portable.sublime-build` there. 
+
+  ![portable_sublime_python_build_system1.png]({{site.baseurl}}/images/portable_sublime_python_build_system1.png)
+
+
+Open the file in text editor and add the following lines:
+
 ```ps
 {
  "cmd": ["D:/Portable_PySub/Portable Python-3.8.6 x64/App/Python/python.exe", "-u", "$file"],
@@ -26,6 +32,11 @@ open `preference-> browse package` in sublimetext, got to `User` folder and crea
  "shell": true
 } 
 ```
+
+  ![portable_sublime_python_build_system2.png]({{site.baseurl}}/images/portable_sublime_python_build_system2.png)
+
+
+
 Save it and restart sublimetext. 
 
 4. Go to `tool-> build system`.You will see new entry called `Python_portable`, select and build it.
