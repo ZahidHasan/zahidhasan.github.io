@@ -27,19 +27,19 @@ In sublimetext open `preference-> browse package`, got to `User` folder and crea
    Open the file in text editor and add the following lines:
 
    ```ps
-{
- "cmd": ["D:/Portable_PySub/Portable Python-3.8.6 x64/App/Python/python.exe", "-u", "$file"],
- "file_regex": "^[ ]File \"(...?)\", line ([0-9]*)",
- "selector": "source.python"
- "shell": true
-} 
+   {
+     "cmd": ["D:/Portable_PySub/Portable Python-3.8.6 x64/App/Python/python.exe", "-u", "$file"],
+     "file_regex": "^[ ]File \"(...?)\", line ([0-9]*)",
+     "selector": "source.python"
+     "shell": true
+   } 
    ```
 
    ![portable_sublime_python_build_system2.png]({{site.baseurl}}/images/portable_sublime_python_build_system2.png)
 
 
 
-Save it and restart sublimetext. 
+   Save it and restart sublimetext. 
 
 2. Go to `tool-> build system`.You will see new entry called `Python_portable`, select and build it.
    ![portable_sublime_python_build_system.png]({{site.baseurl}}/images/portable_sublime_python_build_system.png)
@@ -47,13 +47,13 @@ Save it and restart sublimetext.
    ![portable_sublime_python2.png]({{site.baseurl}}/images/portable_sublime_python2.png)
 
 # Installing Additional Packages
-### PIP
+### Use PIP
 Using `pip` in `Console-Launcher.exe` residing in portable python folder, you can install packages. 
   ![portable_sublime_python_pip.png]({{site.baseurl}}/images/portable_sublime_python_pip.png)
 
 
 # Running Jupyter Notebook
-### python -m
+### use python -m
 After installing jupyter run the following command in `Console-Launcher.exe`
 ```ps
 python -m jupyter notebook
