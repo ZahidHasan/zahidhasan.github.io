@@ -3,7 +3,7 @@ published: false
 key: '!!str'
 title: A Bare-bones Portable Python and Sublime Text
 ---
-# Portable Environment (Sublime Text and Python)
+# Portable Environment Setup (Sublime Text and Python)
 
 [This](https://sourceforge.net/projects/portable-python/files/) is very small portable python for windows. In this tutorial we will configure sublime text to use it.
 
@@ -26,5 +26,9 @@ Save it and restart sublimetext.
 
 4. Go to `tool-> build system`.You will see new entry called `Python_portable`, select it and run.
 
-![portable_sublime_python2.png]({{site.baseurl}}/images/portable_sublime_python2.png)
+   ![portable_sublime_python2.png]({{site.baseurl}}/images/portable_sublime_python2.png)
 
+# Installing Additional Packages
+
+
+# Running Jupyter Notebook
