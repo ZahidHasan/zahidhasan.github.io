@@ -3,7 +3,7 @@ published: true
 key: '!!str'
 title: How to Make Portable PyCharm
 tags:
-  - Pycharm
+  - PyCharm
   - Python
   - Portable
   - JDK
