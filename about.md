@@ -1,11 +1,10 @@
 ---
 layout: article
 titles:
-  # @start locale config
-  en      : &EN       About
-  # @end locale config
+  en: About
 key: page-about
 comment: false
+published: true
 ---
 
-Working on Human-Computer Interaction, Machine Learning and interested in Quantum Computing.
+:-)
