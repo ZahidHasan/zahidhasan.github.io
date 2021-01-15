@@ -13,6 +13,12 @@ tags:
 2. Once installed, you will notice a new folder named CommonFiles has been created. 
    ![portable_jdk_install2.png]({{site.baseurl}}/images/portable_jdk_install2.png)
 3. This CommonFiles folder contains portable JDK and all the portable apps that require jdk to run will automatically find jdk from this CommonFiles folder. Inside CommonFiles folder there is another folder named OpenJDK64. Just rename this OpenJDK64 to java.
+4. To check the JDK version go to bin folder, open cmd here and type:
+   ```java
+      java --version
+   ```
+   ![jdk_version_portable.png]({{site.baseurl}}/images/jdk_version_portable.png)
+
 
 # Update Portable JDK
 
