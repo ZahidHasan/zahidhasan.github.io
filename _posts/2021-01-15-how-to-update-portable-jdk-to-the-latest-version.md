@@ -1,0 +1,25 @@
+---
+published: true
+key: '!!str'
+title: 'How to Update Portable JDK to the Latest Version '
+tags:
+  - Portable
+  - JDK
+  - Java
+---
+# Install Portable JDK
+
+1. Download and install portable JDK made specially for portableapps platform from their [website](https://portableapps.com/apps/utilities/OpenJDK64).
+2. Once installed, you will notice a new folder named CommonFiles has been created. 
+   ![portable_jdk_install2.png]({{site.baseurl}}/images/portable_jdk_install2.png)
+3. This CommonFiles folder contains portable JDK and all the portable apps that require jdk to run will automatically find jdk from this CommonFiles folder. Inside CommonFiles folder there is another folder named OpenJDK64. Just rename this OpenJDK64 to java.
+
+# Update Portable JDK
+
+1. Go to the this [site](https://jdk.java.net/), choose desired version, download zip file for windows/x64 and unzip it.
+   ![jdk_15_portable.png]({{site.baseurl}}/images/jdk_15_portable.png)
+
+2. Copy all of these files and folders.
+3. Go to ```CommonFiles -> java```. Paste and replace those files here.
+
+Your JDK is updated now!
