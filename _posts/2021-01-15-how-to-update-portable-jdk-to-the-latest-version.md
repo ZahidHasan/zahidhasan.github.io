@@ -9,7 +9,7 @@ tags:
 ---
 # Install Portable JDK
 
-1. Download and install portable JDK made specially for portableapps platform from their [website](https://portableapps.com/apps/utilities/OpenJDK64).
+1. Download and install portable JDK (version 14) made specially for portableapps platform from their [website](https://portableapps.com/apps/utilities/OpenJDK64).
 2. Once installed, you will notice a new folder named CommonFiles has been created. 
    ![portable_jdk_install2.png]({{site.baseurl}}/images/portable_jdk_install2.png)
 3. This CommonFiles folder contains portable JDK and all the portable apps that require jdk to run will automatically find jdk from this CommonFiles folder. Inside CommonFiles folder there is another folder named OpenJDK64. Just rename this OpenJDK64 to java.
@@ -21,5 +21,11 @@ tags:
 
 2. Copy all of these files and folders.
 3. Go to ```CommonFiles -> java```. Paste and replace those files here.
+4. Now go to ```D:\PortableApps\CommonFiles\Java\bin```. open comand prompt and type:
+   ```ps
+      java --version
+   ```
+  ![jdk_15_portable_version.png]({{site.baseurl}}/images/jdk_15_portable_version.png)
+ 
 
 Your JDK is updated now!
