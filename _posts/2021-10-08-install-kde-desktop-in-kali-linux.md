@@ -11,7 +11,8 @@ tags:
 
 With Plasma, you have a full-featured Linux desktop environment that has everything you could possibly need to use your computer. KDE is one of the largest and most active open-source communities with an ecosystem of applications for every purpose you can imagine.
 
-![]({{site.baseurl}}/https://www.debugpoint.com/blog/wp-content/uploads/2020/06/KDE-Plasma-5.19-Desktop.jpg)
+![KDE-Plasma-5.19-Desktop.jpg]({{site.baseurl}}/images/KDE-Plasma-5.19-Desktop.jpg)
+
 
 While idling, KDE Plasma Desktop is using 580 MB with no other applications running than the terminal application. XFCE (Ubuntu) is only using 490 MB when idle.
 
