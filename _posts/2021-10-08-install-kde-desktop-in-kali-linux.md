@@ -22,3 +22,16 @@ In addition to KDE Plasma Desktop and XFCE, you can also install a desktop envir
 ```ps
    sudo apt update
 ```
+## Install KDE
+```
+sudo apt install kali-desktop-kde
+```
+
+##  Select Display Manager
+
+![18.png]({{site.baseurl}}/images/18.png)
+
+## Change Kali Desktop environment
+```
+sudo update-alternatives --config x-session-manager
+```
