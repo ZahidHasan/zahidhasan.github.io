@@ -8,9 +8,9 @@ tags:
   - Python
   - conda
 ---
-## A New Post
+## conda not found
 
-You download anaconda/miniconda distribution install them following on-screen instructions but at the end what you get is 'conda not found'.
+You download anaconda/miniconda distribution, install them following on-screen instructions but at the end what you get is 'conda not found'.
 
 ### Open .bashrc file and copy 
 
