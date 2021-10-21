@@ -12,7 +12,7 @@ tags:
 
 You download anaconda/miniconda distribution, install them following on-screen instructions but at the end what you get is 'conda not found'.
 
-### Open .bashrc file and copy 
+### Open .bashrc file in your home directory (hidden) and copy 
 
 ```ps
 
@@ -32,6 +32,6 @@ unset __conda_setup
 # <<< conda initialize <<<
 ```
 
-### Now open .zshrc file and paste the coppied code at the end.
+### Now open .zshrc file in home and paste the coppied code at the end.
 
 Thats it! conda now found
