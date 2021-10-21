@@ -1,7 +1,7 @@
 ---
 published: true
 key: '!!str'
-title: conda not found after installing Anaconda or Miniconda in Kali (vmware)
+title: 'conda not found after installing Anaconda or Miniconda in Kali '
 tags:
   - Linux
   - Kali
