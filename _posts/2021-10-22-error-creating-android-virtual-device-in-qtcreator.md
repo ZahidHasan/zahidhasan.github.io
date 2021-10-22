@@ -12,7 +12,7 @@ tags:
 ---
 ![Screenshot_2021-10-22_07-17-29.png]({{site.baseurl}}/images/Screenshot_2021-10-22_07-17-29.png)
 
-## Append the following line in each of 3 environment-variable files located in home folder (hidden):
+## Append the following line in each of 3 environment-variable files located in home folder
 
 ```ps
 unset _JAVA_OPTIONS
@@ -27,13 +27,13 @@ export PATH="/home/kali/Android/Sdk/platforms/android-30:$PATH"
    - .profile files
 
 
-### Unsetting Java Options by adding
+### Unset Java Options by adding
 ```ps
 unset _JAVA_OPTIONS
 ```
 
 
-### Adding Java 17 bin folder 
+### Add Java 17 bin folder in environment
 ```ps
 export PATH="/usr/lib/jvm/jdk-17/bin:$PATH"
 ```
