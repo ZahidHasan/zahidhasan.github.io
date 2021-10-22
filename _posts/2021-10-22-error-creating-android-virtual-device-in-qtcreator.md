@@ -15,7 +15,7 @@ tags:
 ```ps
 unset _JAVA_OPTIONS
 ```
-   -bashrc
-   -zshrc and 
-   -profile files
+   - .bashrc
+   - .zshrc and 
+   - .profile files
 
