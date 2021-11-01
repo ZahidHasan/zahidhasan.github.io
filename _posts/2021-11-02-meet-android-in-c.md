@@ -3,7 +3,7 @@ published: true
 key: '!!str'
 title: Meet Android in C++!
 ---
-## Android in QT
+## Setting Up Android for JAVA
 
 ## If you found no errer in java from previous post then you can go to the net step.
 
@@ -19,10 +19,12 @@ title: Meet Android in C++!
 2. Install JDK 17 https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html and install switible place.
 3. open ![Screenshot 2021-11-02 015902.png]({{site.baseurl}}/images/Screenshot 2021-11-02 015902.png)
 4. Open New Project , select project sdk 17 doesst downloaded.
+5. And create a simple java project.
 
-##. Now you have 2 options for android vdk manager and sdk manager either download from android sdk or qt.
-    Net Installer Complete net Innstaller![q.png]({{site.baseurl}}/images/q.png)
-
+## Setting up Android C++ in QT
+1. You have 2 options for android vdk manager and sdk manager either download from android sdk or qt.
+2. Download qt virtual manager with appropriate API level frm avd [q.png]({{site.baseurl}}/images/q.png)
+3. Download QT SDK manager and create android virtial manager. In this case we created appi 22 whic ic faster a bit.
     
 
 
