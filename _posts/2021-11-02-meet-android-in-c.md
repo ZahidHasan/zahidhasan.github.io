@@ -23,7 +23,7 @@ title: Meet Android in C++!
 
 ## Setting up Android C++ in QT
 1. You have 2 options for android vdk manager and sdk manager either download from android sdk or qt.
-2. Download qt virtual manager with appropriate API level frm avd [q.png]({{site.baseurl}}/images/q.png)
+2. Download qt virtual manager with appropriate API level frm avd [q.png]({{site.baseurl}}/images/22.png)
 3. Download QT SDK manager and create android virtial manager. In this case we created appi 22 whic ic faster a bit.
     
 
