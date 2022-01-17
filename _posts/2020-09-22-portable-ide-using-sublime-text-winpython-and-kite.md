@@ -6,7 +6,7 @@ tags:
   - Sublime Text
   - Windows
   - Python
-key: '!!str'
+key: '3'
 ---
 If the size of the Anaconda gives you a headache then you may use WinPython distribution which requires less space. After installing some of the ml libraries the installation size of Anaconda goes up to 12GB while WinPython takes only around 3GB. WinPython provides a way to the portable installation as well. A portable setup has some advantages. For example, if you reinstall the operating system, you don’t need to set up the environment again from scratch.
 
@@ -150,4 +150,3 @@ To solve this problem we will use ```terminus``` package.
 ```view -> Indentation -> Convert indentation to spaces```
 
 ![sublimetext_warning_tab.png]({{site.baseurl}}/images/sublimetext_warning_tab.png)
-
