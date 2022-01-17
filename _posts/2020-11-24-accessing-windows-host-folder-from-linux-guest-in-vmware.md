@@ -1,8 +1,8 @@
 ---
 published: true
-key: '!!str'
+key: '9'
 title: Accessing Windows (Host) Folder from Linux (Guest) in Vmware
-tags: 
+tags:
   - Vmware
   - Linux
   - Manjaro
