@@ -1,6 +1,6 @@
 ---
 published: true
-key: '!!str'
+key: '14'
 title: Repair EFI Bootloader on a GPT Partition for Windows 10
 tags:
   - Boot
