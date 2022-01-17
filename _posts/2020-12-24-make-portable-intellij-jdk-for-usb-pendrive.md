@@ -1,6 +1,6 @@
 ---
 published: true
-key: '!!str'
+key: '18'
 title: How to Make Portable IntelliJ
 tags:
   - IntelliJ
