@@ -1,9 +1,9 @@
 ---
 published: true
-key: '!!str'
+key: '4'
 title: Build Your Personal Blog / Website at githib.io for Free!
-tags: 
-  - Github 
+tags:
+  - Github
   - Jekyll
   - Blog
 ---
