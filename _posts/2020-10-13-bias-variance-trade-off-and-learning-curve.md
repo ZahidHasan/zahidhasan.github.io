@@ -1,6 +1,6 @@
 ---
 published: true
-key: '!!str'
+key: '6'
 title: Bias Variance Trade-off and Learning Curve
 tags:
   - Bias Variance Tradeoff
@@ -227,4 +227,3 @@ Below are two examples of configuring the bias-variance trade-off for specific a
 
 - The k-nearest neighbors algorithm has low bias and high variance, but the trade-off can be changed by increasing the value of k which increases the number of neighbors that contribute t the prediction and in turn increases the bias of the model.
 - The support vector machine algorithm has low bias and high variance, but the trade-off can be changed by increasing the C parameter that influences the number of violations of the margin allowed in the training data which increases the bias but decreases the variance.
-
