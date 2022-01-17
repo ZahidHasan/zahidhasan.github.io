@@ -2,12 +2,12 @@
 published: true
 title: Configuring SublimeText and Anaconda in Linux
 tags:
-  - Anaconda 
-  - Sublime Text 
-  - Python 
-  - Linux  
+  - Anaconda
+  - Sublime Text
+  - Python
+  - Linux
 subtitle: Configuring SublimeText and Anaconda in Linux
-key: '!!str'
+key: '5'
 ---
 
 # Why SublimeText and Linux?
