@@ -1,6 +1,6 @@
 ---
 published: true
-key: '!!str'
+key: '17'
 title: A Bare-bones Portable Python and Sublime Text
 tags:
   - Python
