@@ -1,6 +1,6 @@
 ---
 published: true
-key: '!!str'
+key: '16'
 title: Making UEFI Boot Time Faster for Linux
 tags:
   - Linux
