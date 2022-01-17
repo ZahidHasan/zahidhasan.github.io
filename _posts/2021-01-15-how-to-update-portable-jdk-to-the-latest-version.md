@@ -1,6 +1,6 @@
 ---
 published: true
-key: '!!str'
+key: '20'
 title: 'How to Update Portable JDK to the Latest Version '
 tags:
   - Portable
