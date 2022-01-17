@@ -1,6 +1,5 @@
 ---
 published: true
-key: '!!str'
 title: Error Creating Android Virtual Device in QtCreator
 tags:
   - AVD
