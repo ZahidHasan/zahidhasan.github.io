@@ -1,6 +1,6 @@
 ---
 published: true
-key: '!!str'
+key: '11'
 title: Installing IntelliJ with JavaFX
 tags:
   - IntelliJ
