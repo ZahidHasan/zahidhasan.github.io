@@ -8,6 +8,7 @@ tags:
   - Java
   - Linux
   - Kali
+key: '1'
 ---
 ![Screenshot_2021-10-22_07-17-29.png]({{site.baseurl}}/images/Screenshot_2021-10-22_07-17-29.png)
 
