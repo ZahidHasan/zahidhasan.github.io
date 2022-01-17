@@ -1,6 +1,6 @@
 ---
 published: true
-key: '!!str'
+key: '15'
 title: A Minimalist Dark Theme for MailSpring
 tags:
   - MailSpring
