@@ -1,6 +1,6 @@
 ---
 published: true
-key: '!!str'
+key: '22'
 title: 'conda not found after installing Anaconda/Miniconda in Kali '
 tags:
   - Linux
