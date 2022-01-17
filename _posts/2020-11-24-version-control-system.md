@@ -1,6 +1,6 @@
 ---
 published: true
-key: '!!str'
+key: '10'
 title: Version Control System
 tags:
   - Git
