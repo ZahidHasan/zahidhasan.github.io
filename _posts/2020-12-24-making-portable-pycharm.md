@@ -1,6 +1,6 @@
 ---
 published: true
-key: '!!str'
+key: '19'
 title: How to Make Portable PyCharm
 tags:
   - PyCharm
