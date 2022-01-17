@@ -1,6 +1,6 @@
 ---
 published: true
-key: '!!str'
+key: '13'
 title: Fix Error “Could not find the recovery environment” in Windows 10
 tags:
   - Windows
