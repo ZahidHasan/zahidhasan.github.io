@@ -1,8 +1,8 @@
 ---
 published: true
-key: '!!str'
+key: '8'
 title: Accessing Windows (Host) Folder from Linux (Guest) in Virtualbox
-tags: 
+tags:
   - VirtualBox
   - Linux
   - Manjaro
