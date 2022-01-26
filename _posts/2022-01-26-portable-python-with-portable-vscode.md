@@ -3,7 +3,9 @@ published: true
 key: 26-01-2022
 title: Portable Python with Portable VSCode
 tags:
-  - Portable - Python - VSCode
+  - Portable
+  - Python
+  - VSCode
 ---
 ## Setup portable python with portable vscode 
 
