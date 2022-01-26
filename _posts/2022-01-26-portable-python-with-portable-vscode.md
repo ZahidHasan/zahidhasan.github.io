@@ -10,7 +10,7 @@ tags:
 ## Setup portable python with portable vscode 
 
 Download Winpython from [here](https://sourceforge.net/projects/winpython/files/).
-Download VS Code from[here](https://code.visualstudio.com/)
+Download VS Code from [here](https://code.visualstudio.com/)
 
 Dwnload python plugins from vscode. Go to extention setting and add path of the portable python.
 
