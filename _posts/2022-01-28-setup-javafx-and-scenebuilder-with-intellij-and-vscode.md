@@ -7,6 +7,11 @@ Tags:
   - Intellij
   - VSCode
   - Java
+tags:
+  - JavaFX
+  - Intellij
+  - VSCode
+  - Java
 ---
 
 1. Download Java FX and Scene builder from [here](https://openjfx.io/).
