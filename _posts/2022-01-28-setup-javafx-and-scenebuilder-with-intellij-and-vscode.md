@@ -22,6 +22,9 @@ Tags:
 ![intellij_scenebuilder.png]({{site.baseurl}}/images/intellij_scenebuilder.png)
 8. In scene builder, delete existing nodes in hierarchy library and add anchorpane. From control choose textfield. Give it a id 'txt'.
 ![intellij_scenebuilder_text.png]({{site.baseurl}}/images/intellij_scenebuilder_text.png)
-
+9. Add a button, set id 'btn'. set 'btnClicked' in 'on action' field.
+![intellij_scenebuilder_btn.png]({{site.baseurl}}/images/intellij_scenebuilder_btn.png)
+10. In scenebuilder go to view->'show sample Controller Skeleton' and compy the code. Paste this code in controller class in intellij.
+![intellij_scenebuilder_controller.png]({{site.baseurl}}/images/intellij_scenebuilder_controller.png)
 
 
