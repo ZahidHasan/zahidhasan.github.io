@@ -97,3 +97,5 @@ plt.plot(errors)
 
 ## Error
 ![error.png]({{site.baseurl}}/images/error.png)
+
+[Github Link](https://github.com/ZahidHasan/Perceptron)
