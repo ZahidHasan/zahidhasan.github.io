@@ -41,3 +41,5 @@ tags:
         lbl.setText(tittle);
     }
 ```
+12. Run the program by clicking the play button beside 'HelloApplication()' function.
+![intellij_fx_executable.png]({{site.baseurl}}/images/intellij_fx_executable.png)
