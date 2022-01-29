@@ -29,5 +29,11 @@ tags:
 ![intellij_scenebuilder_text.png]({{site.baseurl}}/images/intellij_scenebuilder_text.png)
 9. Add a button, set id 'btn'. set 'btnClicked' in 'on action' field.
 ![intellij_scenebuilder_btn.png]({{site.baseurl}}/images/intellij_scenebuilder_btn.png)
-10. In scenebuilder go to view->'show sample Controller Skeleton' and compy the code. Paste this code in controller class in intellij.
+10. In scenebuilder go to view->'show sample Controller Skeleton' and copy the code. Paste this code in controller class in intellij.
 ![intellij_scenebuilder_controller.png]({{site.baseurl}}/images/intellij_scenebuilder_controller.png)
+11. In controller class, paste the following line in 'tncCicked()' method.
+
+'''ps
+   String tittle = txt.getText();
+   lbl.setText(tittle);
+'''
