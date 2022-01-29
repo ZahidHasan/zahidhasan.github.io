@@ -34,6 +34,10 @@ tags:
 11. In controller class, paste the following line in 'tncCicked()' method.
 
 ```ps
-   String tittle = txt.getText();
-   lbl.setText(tittle);
+   @FXML
+    void btncCicked(ActionEvent event) {
+
+        String tittle = txt.getText();
+        lbl.setText(tittle);
+    }
 ```
