@@ -33,7 +33,7 @@ tags:
 ![intellij_scenebuilder_controller.png]({{site.baseurl}}/images/intellij_scenebuilder_controller.png)
 11. In controller class, paste the following line in 'tncCicked()' method.
 
-'''ps
+```ps
    String tittle = txt.getText();
    lbl.setText(tittle);
-'''
+```
