@@ -1,7 +1,7 @@
 ---
 published: true
 key: 28-01-2022
-title: Setup JavaFX and SceneBuilder with Intellij and VSCode
+title: Setup JavaFX and SceneBuilder with Intellij
 Tags:
   - JavaFX
   - Intellij
@@ -31,5 +31,3 @@ tags:
 ![intellij_scenebuilder_btn.png]({{site.baseurl}}/images/intellij_scenebuilder_btn.png)
 10. In scenebuilder go to view->'show sample Controller Skeleton' and compy the code. Paste this code in controller class in intellij.
 ![intellij_scenebuilder_controller.png]({{site.baseurl}}/images/intellij_scenebuilder_controller.png)
-
-
