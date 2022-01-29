@@ -9,8 +9,7 @@ Tags:
   - Java
 tags:
   - JavaFX
-  - Intellij
-  - VSCode
+  - IntelliJ
   - Java
 ---
 
