@@ -41,6 +41,10 @@ He proposed a neuron assembly theory, suggesting that as learning takes place by
 Rosenblatt proposed the ﬁrst neural model, called perceptron, which was capable of learning to classify certain pattern sets as similar or dissimilar by modifying its connections. Essentially, he made threshold neurons learn using Hebbian learning.
 The neurons in perceptron are threshold neurons working together. However, the difference is that a perceptron network learns from example data and the weights change during learning.
 ![perceptron.png]({{site.baseurl}}/images/perceptron.png)
+![perceptron_decision_boundary.png]({{site.baseurl}}/images/perceptron_decision_boundary.png)
+
+Functions like AND and OR are linearly separable and are solvable using the perceptron.
+![perceptron_or.png]({{site.baseurl}}/images/perceptron_or.png)
 
 
 ## The Perceptron Algorithm
