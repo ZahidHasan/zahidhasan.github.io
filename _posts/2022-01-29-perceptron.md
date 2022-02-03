@@ -10,6 +10,7 @@ tags:
 ## Perceptron
 
 Invented in 1957 by Frank Rosenblatt at the Cornell Aeronautical Laboratory, a perceptron is the simplest neural network possible: a computational model of a single neuron. A perceptron consists of one or more inputs, a processor, and a single output.
+
 ![perceptron_neuron.png]({{site.baseurl}}/images/perceptron_neuron.png)
 ![]({{site.baseurl}}/images/perceptron.png)
 
@@ -21,14 +22,21 @@ To illustrate the operation of this neuron, a simple classiﬁcation problem, gi
 ![perceptron_xlassification data1.png]({{site.baseurl}}/images/perceptron_xlassification data1.png)
 
 The value of u decides the activation threshold. Because the sum of the two inputs for one category is 2 and for the other category is 0, 1, and 1, respectively, for the inputs in Table 2.1, the threshold should be placed anywhere between 1.0 and 2.0. A threshold of 1.3 will be arbitrarily chosen for this case. Then the threshold function computes the activation or output (y) of the neuron as a function of u, such that
+
 ![perceptron_threshold.png]({{site.baseurl}}/images/perceptron_threshold.png)
+
 Using this simple classiﬁer, it is now possible to check its performance. For the four inputs, the neuron output is computed following the same procedure described above; the results are presented in Table 2.2.
+
 ![perceptron_threshold1.png]({{site.baseurl}}/images/perceptron_threshold1.png)
+
 The neuron correctly classiﬁes the data immediately due to the prior decision to set the threshold function at u=1.3. As stated earlier, for this case u can be ﬁxed anywhere between 1.0 and 2.0 to obtain a correct classiﬁer for the data. Because the location of the threshold function deﬁnes the two categories, u =1.3 decides a classiﬁcation boundary that can be formulated as 
+
 ![perceptron_threshold_equation.png]({{site.baseurl}}/images/perceptron_threshold_equation.png)
+
 This boundary line is superimposed on the data in Figure 2.7. The data on one side of the classiﬁcation boundary belong to one category, and those on the other side of the boundary are classiﬁed into the other category. This is a simple classiﬁer neuron that accumulates inputs and produces a bounded output (0 or 1) using a threshold function.
  
 ![perceptron_decision_boundary.png]({{site.baseurl}}/images/perceptron_decision_boundary.png)
+
 Key aspects of the above threshold neuron classiﬁer can be summarized as follows: 
 It does not learn from the environment (weights are equal to 1), but it can be designed to perform a classiﬁcation task if the designer carefully positions the threshold function at a particular location (ideally, the neuron would decide this position by itself). The threshold neuron also classiﬁes the data regions that are linearly separable. This means that a straight line can separate the two classes, and the threshold ﬁxes this line as the classiﬁcation boundary. Any input to the left of the boundary produces an output of 0, and those to the right of and on the boundary line yield an output of 1.
 
@@ -40,10 +48,12 @@ He postulated that the weight change between two neurons is proportional to the 
 He proposed a neuron assembly theory, suggesting that as learning takes place by repeatedly and simultaneously activating a group of weakly connected neurons, the strength and patterns of the weights between them undergo incremental changes, leading to the formation of assemblies of strongly connected neurons.
 Rosenblatt proposed the ﬁrst neural model, called perceptron, which was capable of learning to classify certain pattern sets as similar or dissimilar by modifying its connections. Essentially, he made threshold neurons learn using Hebbian learning.
 The neurons in perceptron are threshold neurons working together. However, the difference is that a perceptron network learns from example data and the weights change during learning.
+
 ![perceptron.png]({{site.baseurl}}/images/perceptron.png)
 ![perceptron_decision_boundary.png]({{site.baseurl}}/images/perceptron_decision_boundary.png)
 
 Functions like AND and OR are linearly separable and are solvable using the perceptron.
+
 ![perceptron_or.png]({{site.baseurl}}/images/perceptron_or.png)
 
 
