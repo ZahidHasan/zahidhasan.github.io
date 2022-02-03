@@ -1,7 +1,7 @@
 ---
 published: true
 key: 03-02-2022
-title: Linear Rehression
+title: Linear Regression
 tags:
   - Linear Regression
   - Machine Learning
@@ -9,8 +9,3 @@ tags:
 ## Linear Regression from scratch
 
 ![output.png]({{site.baseurl}}/images/output.png)
-
-
-
-
-
