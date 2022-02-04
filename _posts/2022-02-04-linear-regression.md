@@ -93,5 +93,8 @@ total error = 20.0
 m = 1.0
 ![regression_plot2.png]({{site.baseurl}}/images/regression_plot2.png)
 
+total error = -85.0
+m = 1.5
+![regression_plot3.png]({{site.baseurl}}/images/regression_plot3.png)
 
 
