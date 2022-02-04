@@ -51,7 +51,7 @@ For a single training example, this gives the update rule:
 
 ![]({{site.baseurl}}/images/regression_gradient_descent2.png)
 
-### Code
+### Sample code to understand Regression
 ```ps
 import matplotlib.pyplot as plt
 import numpy as np
@@ -97,4 +97,5 @@ total error = -85.0
 m = 1.5
 ![regression_plot3.png]({{site.baseurl}}/images/regression_plot3.png)
 
-
+As you can see total error is minimized when m = 1.
+Gradient descent algorithm automatically finds the right parameters for minimum errors.
