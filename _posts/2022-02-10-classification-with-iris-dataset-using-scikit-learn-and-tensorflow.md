@@ -48,7 +48,7 @@ from sklearn.metrics import classification_report
 df = sns.load_dataset('iris')
 df.head()
 x = df.iloc[:,0:4]
-y = df.iloc[:,4:5].values.ravel()
+y = df.iloc[:,4:5].values.ravel() # flatten the numpy array
 ```
 ### Building model
 ```ps
