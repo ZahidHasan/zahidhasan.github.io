@@ -82,3 +82,47 @@ for name, model in models:
 ![score.png]({{site.baseurl}}/images/score.png)
 
 ## Classification with Tensorflow
+### Loading required library
+```python
+import seaborn as sns
+import pandas as pd
+import numpy as np
+from sklearn.preprocessing import OneHotEncoder
+import matplotlib.pyplot as plt
+import seaborn as sns
+import tensorflow as tf
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.models import Sequential
+from sklearn.model_selection import cross_val_score
+from keras.wrappers.scikit_learn import KerasClassifier
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2' 
+```
+### Loading iris data and apply one hot encoding
+```python
+df = sns.load_dataset('iris')
+x = df.iloc[:,0:4].values
+y = df[['species']]
+encoder = OneHotEncoder()
+y = encoder.fit_transform(y).toarray()
+```
+### Define DNN model
+```python
+def model():
+    model = Sequential()
+    model.add(Dense(8,input_dim=4, activation='tanh'))
+    model.add(Dense(10, activation='tanh'))
+    model.add(Dense(10, activation='tanh'))
+    model.add(Dense(3, activation='softmax'))
+
+    model.compile(loss="categorical_crossentropy",optimizer="adam",metrics=['accuracy'])
+    return model
+
+estimator = KerasClassifier(
+        build_fn=model,
+        epochs=200, batch_size=20,
+        verbose=0)
+results = cross_val_score(estimator, x, y, cv=10)
+print("Model Performance: mean: %.2f%% std: (%.2f%%)" % (results.mean()*100, results.std()*100))\
+```
+![score1.png]({{site.baseurl}}/images/score1.png)
