@@ -83,5 +83,3 @@ plt.ylim(400000)
 plt.plot(X1,y1,'r')
 ```
 ![lr_line1.png]({{site.baseurl}}/images/lr_line1.png)
-
-
