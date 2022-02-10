@@ -28,6 +28,7 @@ Following are the steps involved in creating a well-defined ML project:
 5. Reduce the errors
 6. Predict the result
 
+## Classification with Scikit-Learn
 ### Loading Required Library
 ```python
 from sklearn.linear_model import LogisticRegression
@@ -79,3 +80,5 @@ for name, model in models:
 ```
 
 ![score.png]({{site.baseurl}}/images/score.png)
+
+## Classification with Tensorflow
