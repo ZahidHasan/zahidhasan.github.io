@@ -17,7 +17,9 @@ import seaborn as sns
 from sklearn.linear_model import LinearRegression
 ```
 
-### Loading our simple dataset house price. It has two column area and price and we fit a line to this model.
+### Loading Data
+our simple dataset house price. It has two column area and price and we fit a line to this model.
+
 ```python
 df = pd.read_csv('homeprices.csv')
 X = df[['area']].values # convert dataframe to numpy representation. without conversion works but gives warning
