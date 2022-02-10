@@ -41,6 +41,9 @@ We want to choose θ so as to minimize J(θ). To do so, let’s use a search alg
 ![regression.png]({{site.baseurl}}/images/regression.png)
 
 ### Gradient Descent Algorithm
+![gradient.jpg]({{site.baseurl}}/images/gradient.jpg)
+
+
 Speciﬁcally, let’s consider the gradient descent algorithm, which starts with some initial θ, and repeatedly performs the update:
 
 ![regression_gradient_descent.png]({{site.baseurl}}/images/regression_gradient_descent.png)
