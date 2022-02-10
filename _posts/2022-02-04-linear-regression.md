@@ -44,7 +44,10 @@ We want to choose θ so as to minimize J(θ). To do so, let’s use a search alg
 ![gradient.jpg]({{site.baseurl}}/images/gradient.jpg)
 
 ![gragient1.png]({{site.baseurl}}/images/gragient1.png)
+
 ![derivative.png]({{site.baseurl}}/images/derivative.png)
+
+![gragient2.png]({{site.baseurl}}/images/gragient2.png)
 
 
 Speciﬁcally, let’s consider the gradient descent algorithm, which starts with some initial θ, and repeatedly performs the update:
