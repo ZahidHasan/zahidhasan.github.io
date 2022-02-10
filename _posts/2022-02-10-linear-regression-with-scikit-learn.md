@@ -18,7 +18,7 @@ from sklearn.linear_model import LinearRegression
 ```
 
 ### Loading our simple dataset house price. It has two column area and price and we fit a line to this model.
-```ps
+```python
 df = pd.read_csv('homeprices.csv')
 X = df[['area']].values # convert dataframe to numpy representation. without conversion works but gives warning
 #X = pd.DataFrame(df.area) # alternative way to get X
@@ -39,38 +39,38 @@ Scatter plot will look like
 ![lr_scatter.png]({{site.baseurl}}/images/lr_scatter.png)
 
 ### Creating mode and fit
-```ps
+```python
 model = LinearRegression()
 model.fit(X,y)
 ```
 Our model is created as a line which is best fit for the data points (min error). Now lets predict some price given house area.
 
-```ps
+```python
 model.predict([[5500]]) # need double index for 2D numpy array 
 ```
 array([927448.63013699])
 
 ### Model Weight
 Now lets see the tangent 'm' and intercept 'c' for model y = m*x + c
-```ps
+```python
 model.coef_
 ```
 array([135.78767123])
 
-```ps
+```python
 model.intercept_
 ```
 180616.43835616432
 
 ### Ploting model line
 There are two ways to plot the model line.
-```ps
+```python
 plt.scatter(X,y)
 plt.plot(X, model.predict(X),'r')
 ```
 ![lr_line.png]({{site.baseurl}}/images/lr_line.png)
 
-```ps
+```python
 plt.figure()
 plt.scatter(X,y)
 X1 = list(range(4000))
