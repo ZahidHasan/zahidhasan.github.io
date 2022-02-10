@@ -7,7 +7,7 @@ tag:
   - Machine Learning
   - Scikit Learn
 ---
-## In previous tutorial we code linear regrassion manually, in this tutorial we will use LinearRegression() function from Scikit-Learn library.
+In previous tutorial we code linear regrassion manually, in this tutorial we will use LinearRegression() function from Scikit-Learn library.
 
 ### Importing equired library
 ```ps
@@ -17,7 +17,7 @@ import seaborn as sns
 from sklearn.linear_model import LinearRegression
 ```
 
-### Load our simple dataset house price. It has two column area and price and we fit a line to this model.
+### Loading our simple dataset house price. It has two column area and price and we fit a line to this model.
 ```ps
 df = pd.read_csv('homeprices.csv')
 X = df[['area']].values # convert dataframe to numpy representation. without conversion works but gives warning
@@ -38,7 +38,7 @@ Scatter plot will look like
 
 ![lr_scatter.png]({{site.baseurl}}/images/lr_scatter.png)
 
-### Ceate mode and fit
+### Creating mode and fit
 ```ps
 model = LinearRegression()
 model.fit(X,y)
