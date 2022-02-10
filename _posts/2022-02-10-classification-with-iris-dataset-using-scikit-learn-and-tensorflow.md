@@ -107,6 +107,10 @@ encoder = OneHotEncoder()
 y = encoder.fit_transform(y).toarray()
 ```
 ### Define DNN model
+We need to encode species categoriy value using one hot encoding for feeeding Artificial Neural Network.
+One Hot Encoding is a common way of preprocessing categorical features for machine learning models. This type of encoding creates a new binary feature for each possible category and assigns a value of 1 to the feature of each sample that corresponds to its original category
+
+
 ```python
 def model():
     model = Sequential()
