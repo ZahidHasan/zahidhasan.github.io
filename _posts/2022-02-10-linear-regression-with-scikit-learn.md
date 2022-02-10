@@ -92,3 +92,4 @@ sns.regplot(data=df,x=X,y=y)
 ```
 ![lr_line_seaborn.png]({{site.baseurl}}/images/lr_line_seaborn.png)
 
+[github code](https://github.com/ZahidHasan/Linear-Regression-With-Scikit-Learn/blob/main/Linear_Regression_with_ScikitLearn.ipynb)
