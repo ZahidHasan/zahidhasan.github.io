@@ -10,7 +10,7 @@ tag:
 In previous tutorial we code linear regrassion manually, in this tutorial we will use LinearRegression() function from Scikit-Learn library.
 
 ### Importing equired library
-```ps
+```python:
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
