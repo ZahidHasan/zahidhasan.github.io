@@ -83,3 +83,10 @@ plt.ylim(400000)
 plt.plot(X1,y1,'r')
 ```
 ![lr_line1.png]({{site.baseurl}}/images/lr_line1.png)
+
+We can plot using regplot function from seaborn library
+```python
+sns.regplot(data=df,x=X,y=y)
+```
+![lr_line_seaborn.png]({{site.baseurl}}/images/lr_line_seaborn.png)
+
