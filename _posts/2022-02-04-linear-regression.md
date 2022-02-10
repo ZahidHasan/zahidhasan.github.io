@@ -47,7 +47,6 @@ We want to choose θ so as to minimize J(θ). To do so, let’s use a search alg
 
 ![derivative.png]({{site.baseurl}}/images/derivative.png)
 
-![gragient2.png]({{site.baseurl}}/images/gragient2.png)
 
 ![partial_derivative_lr.png]({{site.baseurl}}/images/partial_derivative_lr.png)
 
