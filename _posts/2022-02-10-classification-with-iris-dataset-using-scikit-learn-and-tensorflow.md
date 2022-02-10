@@ -42,11 +42,7 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics import classification_report
 ```
-### Exploratory Analysis
-```python
-sns.pairplot(data=df, hue='species')
-```
-![pairplot.png]({{site.baseurl}}/images/pairplot.png)
+
 
 
 ### Loading Iris data
@@ -56,6 +52,14 @@ df.head()
 x = df.iloc[:,0:4]
 y = df.iloc[:,4:5].values.ravel() # flatten the numpy array
 ```
+
+### Exploratory Analysis
+```python
+sns.pairplot(data=df, hue='species')
+```
+![pairplot.png]({{site.baseurl}}/images/pairplot.png)
+
+
 ### Building model
 ```python
 models = []
