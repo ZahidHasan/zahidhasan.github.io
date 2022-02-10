@@ -50,3 +50,22 @@ df.head()
 x = df.iloc[:,0:4]
 y = df.iloc[:,4:5].values.ravel()
 ```
+### Building model
+```ps
+models = []
+
+
+models.append(('Logistic Regression',LogisticRegression(solver='lbfgs', max_iter=1000)))
+models.append(('Naive Bayes',GaussianNB()))
+models.append(('Decision Tree',DecisionTreeClassifier()))
+models.append(('KNN',KNeighborsClassifier()))
+models.append(('SVM',SVC()))
+
+
+for name, model in models:
+    result = cross_val_score(model,x,y,cv=10,verbose=0)
+    
+    print(f'{name}: {result.mean()}')
+```
+
+![score.png]({{site.baseurl}}/images/score.png)
