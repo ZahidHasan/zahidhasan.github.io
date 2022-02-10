@@ -64,7 +64,7 @@ For a single training example, this gives the update rule:
 
 ![]({{site.baseurl}}/images/regression_gradient_descent2.png)
 
-### Sample code to understand Regression
+### Trivial code to understand how Regression works (without gradient descent algorithm)
 ```ps
 import matplotlib.pyplot as plt
 import numpy as np
