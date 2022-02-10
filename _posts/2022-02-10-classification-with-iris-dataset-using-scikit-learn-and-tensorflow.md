@@ -44,14 +44,14 @@ from sklearn.metrics import classification_report
 ```
 
 ### Loading Iris data
-```ps
+```python
 df = sns.load_dataset('iris')
 df.head()
 x = df.iloc[:,0:4]
 y = df.iloc[:,4:5].values.ravel() # flatten the numpy array
 ```
 ### Building model
-```ps
+```python
 models = []
 
 
