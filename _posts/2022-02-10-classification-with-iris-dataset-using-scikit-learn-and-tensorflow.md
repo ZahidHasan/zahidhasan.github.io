@@ -21,12 +21,12 @@ The iris data set consists of the physical parameters of three species of flower
 Every machine learning project begins by understanding what the data and drawing the objectives. While applying machine learning algorithms to your data set, you are understanding, building and analyzing the data as to get the end result.
 Following are the steps involved in creating a well-defined ML project:
 
-1.Understand and define the problem
-2.Prepare the data
-3.Explore and Analyse the data
-4.Apply the algorithms
-5.Reduce the errors
-6.Predict the result
+1. Understand and define the problem
+2. Prepare the data
+3. Explore and Analyse the data
+4. Apply the algorithms
+5. Reduce the errors
+6. Predict the result
 
 ### Loading Required Library
 ```python
