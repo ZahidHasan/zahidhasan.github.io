@@ -3,11 +3,13 @@ published: true
 key: '!!str'
 title: Awsome Insider Journey of Android-01
 ---
-![]({{site.baseurl}}/images/Setup-ADB-and-Fastboot-on-Mac-OS-Linux-and-Chrome-OS-and-Windows-topaz-enhance-sharpen.png)![Setup-ADB-and-Fastboot-on-Mac-OS-Linux-and-Chrome-OS-and-Windows-topaz-enhance-sharpen.png]({{site.baseurl}}/images/Setup-ADB-and-Fastboot-on-Mac-OS-Linux-and-Chrome-OS-and-Windows-topaz-enhance-sharpen.png)
+![Setup-ADB-and-Fastboot-on-Mac-OS-Linux-and-Chrome-OS-and-Windows-topaz-enhance-sharpen.png]({{site.baseurl}}/images/Setup-ADB-and-Fastboot-on-Mac-OS-Linux-and-Chrome-OS-and-Windows-topaz-enhance-sharpen.png)
 
 
 ## USB Driver
-The USB (Universal Serial Bus) is a standardized interface for connecting devices to a computer. To allow communication between the computer and the device, two types of drivers are typically used: - the USB host-side driver and - the device-side driver.
+The USB (Universal Serial Bus) is a standardized interface for connecting devices to a computer. To allow communication between the computer and the device, two types of drivers are typically used: 
+1.the USB host-side driver and 
+1.the device-side driver.
 
 The USB host-side driver is installed on the computer and is responsible for communicating with the USB controller. It provides a standard interface for accessing the USB devices and makes it possible for the operating system to recognize and interact with the connected device.
 
