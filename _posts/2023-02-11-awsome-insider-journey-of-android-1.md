@@ -8,6 +8,11 @@ tags:
   - Fastboot
   - Recovery ROM
   - ROM
+tag:
+  - Android
+  - ADB
+  - FastBoot
+  - ROM
 ---
 ![Setup-ADB-and-Fastboot-on-Mac-OS-Linux-and-Chrome-OS-and-Windows-topaz-enhance-sharpen.png]({{site.baseurl}}/images/Setup-ADB-and-Fastboot-on-Mac-OS-Linux-and-Chrome-OS-and-Windows-topaz-enhance-sharpen.png)
 
