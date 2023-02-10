@@ -1,7 +1,7 @@
 ---
 published: true
 key: '!!str'
-title: Awsome Insider Journey of Android-01
+title: Android Insider-01
 ---
 ![Setup-ADB-and-Fastboot-on-Mac-OS-Linux-and-Chrome-OS-and-Windows-topaz-enhance-sharpen.png]({{site.baseurl}}/images/Setup-ADB-and-Fastboot-on-Mac-OS-Linux-and-Chrome-OS-and-Windows-topaz-enhance-sharpen.png)
 
@@ -12,6 +12,8 @@ The USB (Universal Serial Bus) is a standardized interface for connecting device
 1. the device-side driver.
 
 The USB host-side driver is installed on the computer and is responsible for communicating with the USB controller. It provides a standard interface for accessing the USB devices and makes it possible for the operating system to recognize and interact with the connected device.
+![at_is_Android_Debug_Bridge_ADB_2-min.webp]({{site.baseurl}}/images/at_is_Android_Debug_Bridge_ADB_2-min.webp)
+
 
 The device-side driver, also known as a client driver, is installed on the device itself and is responsible for communicating with the USB host-side driver. The client driver implements the specific protocols required by the device and acts as a bridge between the USB host-side driver and the device's firmware.
 
@@ -37,6 +39,9 @@ In conclusion, the role of the USB driver in Android is to provide the operating
 ADB (Android Debug Bridge) is a command-line tool that allows you to communicate with an Android device. It is used to run various commands on the device, such as installing and debugging applications, copying files to and from the device, and more. The ADB driver is necessary for the ADB tool to work properly and allow communication between the computer and the Android device.
 
 When you connect an Android device to a computer, the computer needs to recognize the device and install the necessary drivers. The ADB driver is the driver that allows the computer to recognize and communicate with the Android device. It provides a bridge between the computer and the device, allowing the ADB tool to run commands on the device.
+![Setup-ADB-and-Fastboot-on-Mac-OS-Linux-and-Chrome-OS-and-Windows-topaz-enhance-sharpen.png]({{site.baseurl}}/images/Setup-ADB-and-Fastboot-on-Mac-OS-Linux-and-Chrome-OS-and-Windows-topaz-enhance-sharpen.png)
+
+
 
 The ADB driver is typically included in the Android SDK (Software Development Kit), which can be downloaded from the Android developer website. Once you have installed the Android SDK on your computer, you can install the ADB driver and use the ADB tool to communicate with your Android device.
 
