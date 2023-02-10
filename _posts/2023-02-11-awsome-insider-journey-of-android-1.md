@@ -8,8 +8,8 @@ title: Awsome Insider Journey of Android-01
 
 ## USB Driver
 The USB (Universal Serial Bus) is a standardized interface for connecting devices to a computer. To allow communication between the computer and the device, two types of drivers are typically used: 
-1.the USB host-side driver and 
-1.the device-side driver.
+1. the USB host-side driver and 
+1. the device-side driver.
 
 The USB host-side driver is installed on the computer and is responsible for communicating with the USB controller. It provides a standard interface for accessing the USB devices and makes it possible for the operating system to recognize and interact with the connected device.
 
@@ -26,9 +26,9 @@ The driver enables the operating system to recognize the device and interact wit
 
 There are two types of USB drivers in Android:
 
-- System-level drivers: These are built into the Android operating system and are responsible for handling common functions such as charging and file transfers.
+1. System-level drivers: These are built into the Android operating system and are responsible for handling common functions such as charging and file transfers.
 
-- Vendor-specific drivers: These are provided by device manufacturers and are specific to a particular device or product line. They enable the operating system to interact with specific hardware features that are not supported by system-level drivers.
+1. Vendor-specific drivers: These are provided by device manufacturers and are specific to a particular device or product line. They enable the operating system to interact with specific hardware features that are not supported by system-level drivers.
 
 To ensure that a USB device works correctly with an Android device, it's important to have the correct driver installed. Some devices come with their own drivers, while others may require you to download the driver from the manufacturer's website.
 
