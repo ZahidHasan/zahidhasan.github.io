@@ -1,12 +1,13 @@
 ---
 published: true
 key: '!!str'
-title: Awsome Insider Journey of Android-1
+title: Awsome Insider Journey of Android-01
 ---
-# Some Common Terms you should know
-[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAtyfXYrsiiHwHFZQcDmp-CwC-t85O55-NcA&usqp=CAU](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAtyfXYrsiiHwHFZQcDmp-CwC-t85O55-NcA&usqp=CAU)
+![]({{site.baseurl}}/images/Setup-ADB-and-Fastboot-on-Mac-OS-Linux-and-Chrome-OS-and-Windows-topaz-enhance-sharpen.png)![Setup-ADB-and-Fastboot-on-Mac-OS-Linux-and-Chrome-OS-and-Windows-topaz-enhance-sharpen.png]({{site.baseurl}}/images/Setup-ADB-and-Fastboot-on-Mac-OS-Linux-and-Chrome-OS-and-Windows-topaz-enhance-sharpen.png)
+
+
 ## USB Driver
-The USB (Universal Serial Bus) is a standardized interface for connecting devices to a computer. To allow communication between the computer and the device, two types of drivers are typically used: -the USB host-side driver and -the device-side driver.
+The USB (Universal Serial Bus) is a standardized interface for connecting devices to a computer. To allow communication between the computer and the device, two types of drivers are typically used: - the USB host-side driver and - the device-side driver.
 
 The USB host-side driver is installed on the computer and is responsible for communicating with the USB controller. It provides a standard interface for accessing the USB devices and makes it possible for the operating system to recognize and interact with the connected device.
 
@@ -23,9 +24,9 @@ The driver enables the operating system to recognize the device and interact wit
 
 There are two types of USB drivers in Android:
 
--System-level drivers: These are built into the Android operating system and are responsible for handling common functions such as charging and file transfers.
+- System-level drivers: These are built into the Android operating system and are responsible for handling common functions such as charging and file transfers.
 
--Vendor-specific drivers: These are provided by device manufacturers and are specific to a particular device or product line. They enable the operating system to interact with specific hardware features that are not supported by system-level drivers.
+- Vendor-specific drivers: These are provided by device manufacturers and are specific to a particular device or product line. They enable the operating system to interact with specific hardware features that are not supported by system-level drivers.
 
 To ensure that a USB device works correctly with an Android device, it's important to have the correct driver installed. Some devices come with their own drivers, while others may require you to download the driver from the manufacturer's website.
 
@@ -78,15 +79,15 @@ ADB (Android Debug Bridge) and Fastboot are two essential tools for developers a
 
 Here's a comparison between ADB and Fastboot:
 
--ADB is a versatile tool that allows you to send commands to your Android device over a USB connection or over the network.
--It is primarily used for debugging purposes, but can also be used to install apps, copy files to and from the device, and perform various other tasks.
--ADB requires the device to be in an unlocked state and have developer options enabled.
+- ADB is a versatile tool that allows you to send commands to your Android device over a USB connection or over the network.
+- It is primarily used for debugging purposes, but can also be used to install apps, copy files to and from the device, and perform various other tasks.
+- ADB requires the device to be in an unlocked state and have developer options enabled.
 
 
--Fastboot is a protocol used to flash firmware images to Android devices.
--It is used to flash partitions on the device, such as the bootloader, recovery, system, or vendor images.
--Unlike ADB, Fastboot requires the device to be in a bootloader or fastboot mode. This means the device must be turned off and restarted in a specific way to enter fastboot mode.
--Fastboot is often used to install custom ROMs or recover bricked devices.
+- Fastboot is a protocol used to flash firmware images to Android devices.
+- It is used to flash partitions on the device, such as the bootloader, recovery, system, or vendor images.
+- Unlike ADB, Fastboot requires the device to be in a bootloader or fastboot mode. This means the device must be turned off and restarted in a specific way to enter fastboot mode.
+- Fastboot is often used to install custom ROMs or recover bricked devices.
 
 In conclusion, ADB and Fastboot are two different tools used for different purposes, but they are both essential for developers and advanced users who want to customize their Android devices.
 
