@@ -27,7 +27,6 @@ The driver enables the operating system to recognize the device and interact wit
 There are two types of USB drivers in Android:
 
 1. System-level drivers: These are built into the Android operating system and are responsible for handling common functions such as charging and file transfers.
-
 1. Vendor-specific drivers: These are provided by device manufacturers and are specific to a particular device or product line. They enable the operating system to interact with specific hardware features that are not supported by system-level drivers.
 
 To ensure that a USB device works correctly with an Android device, it's important to have the correct driver installed. Some devices come with their own drivers, while others may require you to download the driver from the manufacturer's website.
@@ -49,8 +48,8 @@ A USB driver is used when you want to connect your phone to your PC so that you 
 An ADB driver is used for development purposes. If you're a developer and you want to be able to use ADB commands to do things like pull files from your phone or push files to it, you'll need to install an ADB driver on your computer.
 The main difference between USB driver and an ADB driver is that the USB driver is for connecting a physical Android device to your computer via USB cable while the ADB driver is for connecting to a virtual Android device.
 
-# Useful Command
-## Fastboot
+
+## Fastboot Command
 Fastboot is a protocol used to update the flash file system in Android devices over a USB connection. It is used to perform various tasks such as unlocking the bootloader, installing custom recovery, and updating the firmware.
 
 Fastboot works by booting the device into a special boot mode called "Fastboot mode". In this mode, the device is able to communicate with the host computer over a USB connection using the fastboot protocol. The host computer then sends commands to the device, which are executed in the fastboot environment.
@@ -59,7 +58,7 @@ For example, if you want to flash a new firmware on your Android device, you wou
 
 Fastboot is a useful tool for developers and advanced users who want to modify their Android devices. However, it is important to use fastboot with caution, as improper use can result in bricking your device or making it unbootable.
 
-## ADB
+## ADB Command
 Android Debug Bridge (ADB) is a command-line tool that allows you to communicate with Android devices. It provides a bridge between the device and your development machine and enables you to transfer files, run shell commands, install and uninstall apps, and perform other actions on the device.
 
 Here's how ADB works in a nutshell:
@@ -70,9 +69,9 @@ Connecting the device: You need to connect your Android device to your developme
 
 Starting ADB: Once the device is connected, you can start ADB by running the adb executable from the command line.
 
-Issuing commands: You can issue ADB commands to perform various actions on the device. For example, you can use the "adb shell" command to start a shell on the device and run shell commands. You can use the "adb push" and "adb pull" commands to transfer files to and from the device.
+Issuing commands: You can issue ADB commands to perform various actions on the device. For example, you can use the ```adb shell``` command to start a shell on the device and run shell commands. You can use the ```adb push``` and ```adb pull``` commands to transfer files to and from the device.
 
-Debugging apps: ADB can also be used for debugging Android apps. You can use the "adb logcat" command to retrieve the logcat output from the device, which can help you identify issues in your app.
+Debugging apps: ADB can also be used for debugging Android apps. You can use the ```adb logcat``` command to retrieve the logcat output from the device, which can help you identify issues in your app.
 
 Overall, ADB is an essential tool for any Android developer, as it provides a convenient way to interact with Android devices for testing and debugging purposes
 
@@ -84,8 +83,6 @@ Here's a comparison between ADB and Fastboot:
 - ADB is a versatile tool that allows you to send commands to your Android device over a USB connection or over the network.
 - It is primarily used for debugging purposes, but can also be used to install apps, copy files to and from the device, and perform various other tasks.
 - ADB requires the device to be in an unlocked state and have developer options enabled.
-
-
 - Fastboot is a protocol used to flash firmware images to Android devices.
 - It is used to flash partitions on the device, such as the bootloader, recovery, system, or vendor images.
 - Unlike ADB, Fastboot requires the device to be in a bootloader or fastboot mode. This means the device must be turned off and restarted in a specific way to enter fastboot mode.
@@ -93,7 +90,12 @@ Here's a comparison between ADB and Fastboot:
 
 In conclusion, ADB and Fastboot are two different tools used for different purposes, but they are both essential for developers and advanced users who want to customize their Android devices.
 
-## TWRP
+
 # ROM
 ## Stock ROM
 ## Custom ROM
+# Recovery
+## Stock Recovery
+## Custom Recovery
+### TWRP
+### MAGISK
