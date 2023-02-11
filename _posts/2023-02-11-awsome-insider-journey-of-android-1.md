@@ -79,17 +79,18 @@ Fastboot is a useful tool for developers and advanced users who want to modify t
 ## ADB Command
 Android Debug Bridge (ADB) is a command-line tool that allows you to communicate with Android devices. It provides a bridge between the device and your development machine and enables you to transfer files, run shell commands, install and uninstall apps, and perform other actions on the device.
 
-Here's how ADB works in a nutshell:
+**Here's how ADB works in a nutshell:**
 
-Installation: To use ADB, you first need to install the Android SDK on your development machine. The SDK contains the ADB executable and the required drivers.
+1. Installation: To use ADB, you first need to install the Android SDK on your development machine. The SDK contains the ADB executable and the required drivers.
 
-Connecting the device: You need to connect your Android device to your development machine using a USB cable. You also need to enable USB debugging on the device from the Developer options in the device settings.
+1. Connecting the device: You need to connect your Android device to your development machine using a USB cable. You also need to enable USB debugging on the device from the Developer options in the device settings.
 
-Starting ADB: Once the device is connected, you can start ADB by running the adb executable from the command line.
+1. Starting ADB: Once the device is connected, you can start ADB by running the adb executable from the command line.
 
-Issuing commands: You can issue ADB commands to perform various actions on the device. For example, you can use the ```adb shell``` command to start a shell on the device and run shell commands. You can use the ```adb push``` and ```adb pull``` commands to transfer files to and from the device.
+1. Issuing commands: You can issue ADB commands to perform various actions on the device. For example, you can use the ```ps 
+adb shell``` command to start a shell on the device and run shell commands. You can use the ```adb push``` and ```ps adb pull``` commands to transfer files to and from the device.
 
-Debugging apps: ADB can also be used for debugging Android apps. You can use the ```adb logcat``` command to retrieve the logcat output from the device, which can help you identify issues in your app.
+1. Debugging apps: ADB can also be used for debugging Android apps. You can use the ```ps adb logcat``` command to retrieve the logcat output from the device, which can help you identify issues in your app.
 
 Overall, ADB is an essential tool for any Android developer, as it provides a convenient way to interact with Android devices for testing and debugging purposes
 
