@@ -8,6 +8,7 @@ tags:
   - Portable
   - JDK
   - Java
+comments: false
 ---
 Since Pycharm require java to run first we need to make portable java
 
