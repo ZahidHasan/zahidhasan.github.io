@@ -1,15 +1,7 @@
 ---
-layout: default
-comments: true
 published: true
-layout: default
-comments: true
-
-key: '99'
-title: 'Messing with Windows Recovery ? '
-tags:
-  - Recovery
-  - Windows
-  - WinRE
+key: '!!str'
+title: An Awesome Headline!
+comments_id: 5
 ---
 ## A New Post
