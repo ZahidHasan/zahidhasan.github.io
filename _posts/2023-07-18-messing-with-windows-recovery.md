@@ -1,5 +1,10 @@
 ---
+layout: default
+comments: true
 published: true
+layout: default
+comments: true
+
 key: '99'
 title: 'Messing with Windows Recovery ? '
 tags:
@@ -8,5 +13,3 @@ tags:
   - WinRE
 ---
 ## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
