@@ -38,6 +38,7 @@ winget install Microsoft.WindowsTerminal
 
 ## Installing oh-my-posh
 ### Using winget
+
 ```ps
 winget install JanDeDobbeleer.OhMyPosh
 ```
