@@ -11,10 +11,11 @@ tag:
   - oh-my-posh
 ---
 Do you ever wonder why does your terminal, cmd or powershell is so dull? Why doesnt it look like these:
-<img src="https://raw.githubusercontent.com/ZahidHasan/zahidhasan.github.io/master/images/terminal-colorful-1.jpg" width="600" height="400" />
 
-![terminal-colorful-1.jpg]({{site.baseurl}}/images/terminal-colorful-1.jpg)
-![terminal-colorful-2.jpg]({{site.baseurl}}/images/terminal-colorful-2.jpg)
+<img src="https://raw.githubusercontent.com/ZahidHasan/zahidhasan.github.io/master/images/terminal-colorful-1.jpg" width="600" height="300" />
+
+<img src="https://raw.githubusercontent.com/ZahidHasan/zahidhasan.github.io/master/images/terminal-colorful-2.jpg" width="600" height="300" />
+
 
 Lets give it a life!
 
