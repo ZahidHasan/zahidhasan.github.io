@@ -39,8 +39,7 @@ winget install Microsoft.WindowsTerminal
 ## Installing oh-my-posh
 ### Using winget
 ```ps
-winget install JanDeDobbeleer.OhMyPosh
-```
+winget install JanDeDobbeleer.OhMyPosh```
 
 ![oh-my-posh-winget-install.png]({{site.baseurl}}/images/oh-my-posh-winget-install.png)
 
