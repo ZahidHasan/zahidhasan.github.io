@@ -31,17 +31,21 @@ By customizing its appearance, you can make your terminal sessions more enjoyabl
 Before we dive into themes, make sure you have Windows Terminal installed.
 Download canary version from [github](https://aka.ms/terminal-canary-installer)
 Or using winget
+
 ```ps
 winget install Microsoft.WindowsTerminal 
 ```
 
 ## Installing oh-my-posh
-**Using winget**
+### Using winget
 ```ps
-winget install JanDeDobbeleer.OhMyPosh```
+winget install JanDeDobbeleer.OhMyPosh
+```
 
 ![oh-my-posh-winget-install.png]({{site.baseurl}}/images/oh-my-posh-winget-install.png)
+
 You can see the available themes [here](https://ohmyposh.dev/docs/themes)
+
 ![oh-my-posh-themes.png]({{site.baseurl}}/images/oh-my-posh-themes.png)
 
 
@@ -49,10 +53,12 @@ You can see the available themes [here](https://ohmyposh.dev/docs/themes)
 
 1. use the following PowerShell command to create a profile
 ```ps
-	new-item -type file -path $profile -force```
+	new-item -type file -path $profile -force
+```
 2. Add the following to the end of your PowerShell profile file to set the paradox theme. (Replace paradox with the theme of your choice.)
 ```ps
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\paradox.omp.json" | Invoke-Expression ```
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\paradox.omp.json" | Invoke-Expression 
+```
 3. Then add the following line.
 ```ps
 oh-my-posh init pwsh | Invoke-Expression
