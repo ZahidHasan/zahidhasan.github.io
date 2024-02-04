@@ -42,3 +42,8 @@ You can see the available themes [here](https://ohmyposh.dev/docs/themes)
 1. use the following PowerShell command to create a profile
 ```powershell
 	new-item -type file -path $profile -force```
+2. Add the following to the end of your PowerShell profile file to set the paradox theme. (Replace paradox with the theme of your choice.)
+```powershell
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\paradox.omp.json" | Invoke-Expression ```
+
+Now, each new PowerShell instance will start by importing Oh My Posh and setting your command line theme.
