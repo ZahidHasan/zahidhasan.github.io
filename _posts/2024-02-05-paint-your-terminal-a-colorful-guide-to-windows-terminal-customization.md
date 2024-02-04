@@ -48,8 +48,7 @@ or see them inside Terminal:
 ```ps
 Get-PoshThemes
 ```
-
-![oh-my-posh-themes.png]({{site.baseurl}}/images/oh-my-posh-themes.png)
+<img src="https://raw.githubusercontent.com/ZahidHasan/zahidhasan.github.io/master/images/get-posh-themes.jpg" width="600" height="300" />
 
 
 ## Configuring Terminal with oh-my-posh
