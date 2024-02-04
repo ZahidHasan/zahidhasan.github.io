@@ -80,5 +80,4 @@ $PROFILE
 
 ```ps
 Set-PoshPrompt -Theme jandedobbeleer
-Import-Module -Name Terminal-Icons
 ```
