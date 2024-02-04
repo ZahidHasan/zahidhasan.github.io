@@ -41,6 +41,4 @@ You can see the available themes [here](https://ohmyposh.dev/docs/themes)
 
 1. use the following PowerShell command to create a profile
 ```powershell
-{
-	new-item -type file -path $profile -force
-}```
+	new-item -type file -path $profile -force```
