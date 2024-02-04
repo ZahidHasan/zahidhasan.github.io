@@ -68,3 +68,17 @@ oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\paradox.omp.json" | Invoke-
 oh-my-posh init pwsh | Invoke-Expression
 ```
 Now, each new PowerShell instance will start by importing Oh My Posh and setting your command line theme.
+So far, everything is running fine, but you need to make Oh My Posh your default custom prompt. To do that, run the below command. It will give you a path, which you need to note down or copy-paste in Notepad.
+4. Run 
+```ps
+$PROFILE
+```
+
+<img src="https://raw.githubusercontent.com/ZahidHasan/zahidhasan.github.io/master/images/profile.jpg" width="600" height="300" />
+
+7. Next, navigate to that path, and you will find a “Microsoft.PowerShell_profile.ps1” file. Open it with Notepad, add the below lines, and save the file. Now, you can close the Notepad file.
+
+```ps
+Set-PoshPrompt -Theme jandedobbeleer
+Import-Module -Name Terminal-Icons
+```
