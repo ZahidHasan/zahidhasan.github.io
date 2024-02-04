@@ -20,9 +20,8 @@ Do you ever wonder why does your terminal, cmd or powershell is so dull? Why doe
 Lets give it a life!
 
 You need the following:
->1. Windows Terminal Canary
->2. Powershell7
->3. oh-my-posh
+>1. Windows Terminal
+>2. oh-my-posh
 
 ## What is Wndows Terminal and oh-my-posh?
 Windows Terminal is a powerful tool for developers who frequently work with command-line interfaces. Any application that has a command line interface can be run inside Windows Terminal. This includes everything from PowerShell and Command Prompt to Azure Cloud Shell and any WSL distribution such as Ubuntu or Oh-My-Zsh. 
@@ -31,6 +30,10 @@ By customizing its appearance, you can make your terminal sessions more enjoyabl
 ## Installing Windows Terminal
 Before we dive into themes, make sure you have Windows Terminal installed.
 Download canary version from [github](https://aka.ms/terminal-canary-installer)
+Or using winget
+```powershell
+winget install Microsoft.WindowsTerminal 
+```
 
 ## Installing oh-my-posh
 **Using winget**
@@ -48,5 +51,8 @@ You can see the available themes [here](https://ohmyposh.dev/docs/themes)
 2. Add the following to the end of your PowerShell profile file to set the paradox theme. (Replace paradox with the theme of your choice.)
 ```powershell
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\paradox.omp.json" | Invoke-Expression ```
-
+3. Then add the following line.
+```powershell
+oh-my-posh init pwsh | Invoke-Expression
+```
 Now, each new PowerShell instance will start by importing Oh My Posh and setting your command line theme.
