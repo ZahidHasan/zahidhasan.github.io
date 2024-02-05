@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 key: '!!str'
 title: Scratching Your Head Installing Portable Latex
 tag:
