@@ -22,5 +22,10 @@ Open Terminal and run :
 ```ps
 C:\miktexsetup_standalone.exe --verbose --local-package-repository=D:\MikTex\packages\basic --package-set=basic download
 ```
+
 ![miketex-commandline-installer-2.png]({{site.baseurl}}/images/miketex-commandline-installer-2.png)
 
+Now run:
+```ps
+ C:\miktexsetup_standalone.exe --verbose --local-package-repository=D:\MikTex\packages\basic --package-set=basic --portable=D:\MikTex-Portable\basic --use-registry=no --modify-path=no install
+ ```
