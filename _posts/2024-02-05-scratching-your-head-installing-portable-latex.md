@@ -1,6 +1,6 @@
 ---
 published: true
-key: '!!str'
+key: 05-02-2024
 title: Scratching Your Head Installing Portable Latex
 tag:
   - Latex
