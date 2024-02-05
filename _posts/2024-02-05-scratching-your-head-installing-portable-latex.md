@@ -30,3 +30,7 @@ Now run:
  C:\miktexsetup_standalone.exe --verbose --local-package-repository=D:\MikTex\packages\basic --package-set=basic --portable=D:\MikTex-Portable\basic --use-registry=no --modify-path=no install
  ```
  ![miketex-commandline-installer-3.png]({{site.baseurl}}/images/miketex-commandline-installer-3.png)
+
+and you are done!
+
+![miketex-commandline-installer-done.png]({{site.baseurl}}/images/miketex-commandline-installer-done.png)
