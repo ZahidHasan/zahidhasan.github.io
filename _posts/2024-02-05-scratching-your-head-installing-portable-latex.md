@@ -8,6 +8,17 @@ tag:
   - Portable Latex
   - Windows
 ---
-## A New Post
+## The Error!
+Acccording to Miketex website you have to Just download the standard installer and rename it to miktex-portable.exe. You start installaton and after few minutes encounter this error:
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+![portable-latex-installation-error.png]({{site.baseurl}}/images/portable-latex-installation-error.png)
+
+## Solution-1: Command Line Installer
+Download Command Line Installer from miketex site.
+![miketex-commandline-installer.png]({{site.baseurl}}/images/miketex-commandline-installer.png)
+
+Unzip and copy the "miktexsetup_standalone.exe" file into the root directory of C:\
+Open Terminal and run :
+```ps
+C:\miktexsetup_standalone.exe --verbose --local-package-repository=D:\MikTex\packages\basic --package-set=basic download
+```
