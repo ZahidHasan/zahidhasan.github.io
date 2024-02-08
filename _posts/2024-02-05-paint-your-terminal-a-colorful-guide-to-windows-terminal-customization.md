@@ -58,8 +58,6 @@ If you get error like this:
 
 then create a powershell profile as follows:
 
-### Configuring Terminal with oh-my-posh
-
 1. use the following PowerShell command to create a profile
 ```ps
 	new-item -type file -path $profile -force
@@ -79,7 +77,7 @@ Now Run the code in Powershell
 ```ps
 Install-Module Terminal-Icons -Scope CurrentUser
 ```
-7. Next, navigate to that path, and you will find a “Microsoft.PowerShell_profile.ps1” file. Open it with Notepad, add the below lines, and save the file. Now, you can close the Notepad file.
+Next, navigate to that path, and you will find a “Microsoft.PowerShell_profile.ps1” file. Open it with Notepad, add the below lines, and save the file. Now, you can close the Notepad file.
 
 ```ps
 Import-Module Terminal-Icons
