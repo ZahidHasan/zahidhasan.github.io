@@ -67,20 +67,22 @@ If you get error like this:
 ```ps
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\paradox.omp.json" | Invoke-Expression 
 ```
-3. Then add the following line.
-```ps
-oh-my-posh init pwsh | Invoke-Expression
-```
 Now, each new PowerShell instance will start by importing Oh My Posh and setting your command line theme.
 
 ## Adding Font and Icons
 Download the fonts from [here](https://github.com/haasosaurus/nerd-fonts/blob/regen-mono-font-fix/patched-fonts/LiberationMono/complete/Literation%20Mono%20Nerd%20Font%20Complete%20Mono%20Windows%20Compatible.ttf)
 
+Open PowerShell and select your new font 'LiberationMono NF' from the list.
+
+Run the code in Powershell
+```ps
+Install-Module Terminal-Icons -Scope CurrentUser
+```
 
 <img src="https://raw.githubusercontent.com/ZahidHasan/zahidhasan.github.io/master/images/profile.jpg" width="600" height="300" />
 
 7. Next, navigate to that path, and you will find a “Microsoft.PowerShell_profile.ps1” file. Open it with Notepad, add the below lines, and save the file. Now, you can close the Notepad file.
 
 ```ps
-Set-PoshPrompt -Theme jandedobbeleer
+Import-Module Terminal-Icons
 ```
