@@ -69,12 +69,12 @@ oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\paradox.omp.json" | Invoke-
 ```
 Now, each new PowerShell instance will start by importing Oh My Posh and setting your command line theme.
 
-## Adding Font and Icons
+## Adding Fonts and Icons
 Download the fonts from [here](https://github.com/haasosaurus/nerd-fonts/blob/regen-mono-font-fix/patched-fonts/LiberationMono/complete/Literation%20Mono%20Nerd%20Font%20Complete%20Mono%20Windows%20Compatible.ttf)
 
 Open PowerShell and select your new font 'LiberationMono NF' from the list.
-
-Run the code in Powershell
+You can also download and install  [Meslo LGM NF](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Meslo.zip) fonts.
+Now Run the code in Powershell
 ```ps
 Install-Module Terminal-Icons -Scope CurrentUser
 ```
