@@ -52,7 +52,10 @@ Get-PoshThemes
 ```
 <img src="https://raw.githubusercontent.com/ZahidHasan/zahidhasan.github.io/master/images/get-posh-themes.jpg" width="600" height="300" />
 
-If you get error, then create a powershell profile as follows:
+If you get error like this:
+
+
+, then create a powershell profile as follows:
 
 ### Configuring Terminal with oh-my-posh
 
@@ -60,7 +63,7 @@ If you get error, then create a powershell profile as follows:
 ```ps
 	new-item -type file -path $profile -force
 ```
-2. Add the following to the end of your PowerShell profile file to set the paradox theme. (Replace paradox with the theme of your choice.)
+2. Add the following to the end of your PowerShell profile file using notepad to set the paradox theme. (Replace paradox with the theme of your choice.)
 ```ps
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\paradox.omp.json" | Invoke-Expression 
 ```
@@ -69,11 +72,10 @@ oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\paradox.omp.json" | Invoke-
 oh-my-posh init pwsh | Invoke-Expression
 ```
 Now, each new PowerShell instance will start by importing Oh My Posh and setting your command line theme.
-So far, everything is running fine, but you need to make Oh My Posh your default custom prompt. To do that, run the below command. It will give you a path, which you need to note down or copy-paste in Notepad.
-4. Run 
-```ps
-$PROFILE
-```
+
+## Adding Font and Icons
+Download the fonts from [here](https://github.com/haasosaurus/nerd-fonts/blob/regen-mono-font-fix/patched-fonts/LiberationMono/complete/Literation%20Mono%20Nerd%20Font%20Complete%20Mono%20Windows%20Compatible.ttf)
+
 
 <img src="https://raw.githubusercontent.com/ZahidHasan/zahidhasan.github.io/master/images/profile.jpg" width="600" height="300" />
 
