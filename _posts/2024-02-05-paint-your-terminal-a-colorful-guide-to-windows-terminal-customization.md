@@ -54,8 +54,9 @@ Get-PoshThemes
 
 If you get error like this:
 
+<img src="https://raw.githubusercontent.com/ZahidHasan/zahidhasan.github.io/master/images/get-poshtheme-error.png" width="600" height="300" />
 
-, then create a powershell profile as follows:
+then create a powershell profile as follows:
 
 ### Configuring Terminal with oh-my-posh
 
