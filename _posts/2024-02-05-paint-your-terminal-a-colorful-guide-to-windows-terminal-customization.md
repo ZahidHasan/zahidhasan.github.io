@@ -79,11 +79,9 @@ Now Run the code in Powershell
 ```ps
 Install-Module Terminal-Icons -Scope CurrentUser
 ```
-
-<img src="https://raw.githubusercontent.com/ZahidHasan/zahidhasan.github.io/master/images/profile.jpg" width="600" height="300" />
-
 7. Next, navigate to that path, and you will find a “Microsoft.PowerShell_profile.ps1” file. Open it with Notepad, add the below lines, and save the file. Now, you can close the Notepad file.
 
 ```ps
 Import-Module Terminal-Icons
 ```
+<img src="https://raw.githubusercontent.com/ZahidHasan/zahidhasan.github.io/master/images/profile.jpg" width="600" height="300" />
