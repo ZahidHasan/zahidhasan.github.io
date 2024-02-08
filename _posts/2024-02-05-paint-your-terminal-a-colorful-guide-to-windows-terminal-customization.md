@@ -52,8 +52,9 @@ Get-PoshThemes
 ```
 <img src="https://raw.githubusercontent.com/ZahidHasan/zahidhasan.github.io/master/images/get-posh-themes.jpg" width="600" height="300" />
 
+If you get error, then create a powershell profile as follows:
 
-## Configuring Terminal with oh-my-posh
+### Configuring Terminal with oh-my-posh
 
 1. use the following PowerShell command to create a profile
 ```ps
