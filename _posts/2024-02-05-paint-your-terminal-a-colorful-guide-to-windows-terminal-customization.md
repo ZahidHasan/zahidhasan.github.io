@@ -43,8 +43,6 @@ winget install Microsoft.WindowsTerminal
 winget install JanDeDobbeleer.OhMyPosh
 ```
 
-![oh-my-posh-winget-install.png]({{site.baseurl}}/images/oh-my-posh-winget-install.png)
-
 You can see the available themes [here](https://ohmyposh.dev/docs/themes)
 or see them inside Terminal:
 ```ps
