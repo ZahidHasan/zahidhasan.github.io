@@ -1,7 +1,7 @@
 ---
 published: true
 key: '!!str'
-title: How to Configure RAM in WSL Linux
+title: How to Configure Memory (RAM) in WSL Linux
 tag:
   - Windows
   - Linux
