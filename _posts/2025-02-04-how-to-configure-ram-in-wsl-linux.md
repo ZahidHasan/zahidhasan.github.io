@@ -10,8 +10,11 @@ tag:
   - Memory
 ---
 
+## How to configure memory limits in WSL2
+
 Building machine learning models often requires significant computing power.  My home desktop, used for side projects and experiments, recently got a RAM upgrade to 32GB, as the previous amount was insufficient.  However, after the upgrade, my WSL Linux distribution was still limited to 4GB.  This post explains how to adjust the memory allocated to WSL2 distributions, allowing you to increase or decrease it as needed.
 
+## Memory in WSL2
 Let's back up and define WSL2 before diving into configuration. The Windows Subsystem for Linux lets you run Linux on Windows without full-blown virtualization.  WSL1 used a custom-built Linux kernel, which, while innovative, had limitations.  Users quickly outgrew its capabilities.
 
 WSL2's key improvement is using a real Linux kernel, unlocking all of Linux's features.  This does mean WSL2 is technically a virtual machine.  But don't let that scare you – it's a fast VM. Boot times are incredibly quick, and performance is generally excellent.  The one common issue?  Managing the memory limit.
