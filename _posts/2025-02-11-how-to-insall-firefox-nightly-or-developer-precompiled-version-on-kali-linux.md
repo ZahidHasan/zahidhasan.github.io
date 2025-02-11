@@ -31,12 +31,12 @@ or use terminal
 
 To unzip a "tar.xz" file in Linux, use the command tar -xf [filename.tar.xz] in your terminal, where "[filename.tar.xz]" is the name of the file you want to extract; this will extract the contents of the compressed archive to the current directory. 
 Explanation:
-
+```
  tar: This is the command used to manipulate tar archives. 
 
 -x: This flag tells tar to extract files from the archive. 
 -f: This flag specifies the filename of the archive you want to extract. 
-
+```
 now rename the extracted folder firefox_nightly of firefox_dev to avoid confusion.
 if you open the folder you will see firefox executable file right there. You can double click to open it.
 
@@ -53,9 +53,9 @@ cut and paste the firefox folder into /opt/ directory
 ## To Enable Run Firefox from Terminal
 we need to use the ln command to create a symbolic link. To explain, this link will allow us to launch Firefox Developer Edition from the terminal:
 
-```
-sudo ln -s /opt/firefox_nightly/firefox /usr/local/bin/firefox_nightly
-```
+
+**sudo ln -s /opt/firefox_nightly/firefox /usr/local/bin/firefox_nightly**
+
 
 - ln -s – this command creates links between files, and the -s option instructs ln to create a symbolic link
 - /opt/firefox_nightly/firefox – represents the path to the executable file firefox found inside the extracted firefox_nightly directory 
