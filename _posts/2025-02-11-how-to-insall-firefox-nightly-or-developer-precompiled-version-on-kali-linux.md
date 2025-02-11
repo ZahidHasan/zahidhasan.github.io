@@ -53,7 +53,7 @@ cut and paste the firefox folder into /opt/ directory
 ## To Enable Run Firefox from Terminal
 we need to use the ln command to create a symbolic link. To explain, this link will allow us to launch Firefox Developer Edition from the terminal:
 
-```python
+```
 sudo ln -s /opt/firefox_nightly/firefox /usr/local/bin/firefox_nightly
 ```
 
