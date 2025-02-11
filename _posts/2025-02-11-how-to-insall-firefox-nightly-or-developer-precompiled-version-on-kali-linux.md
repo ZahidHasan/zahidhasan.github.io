@@ -26,7 +26,7 @@ Right click on firefox downloaded file and select extract here.
 ![extract.png]({{site.baseurl}}/images/extract.png)
 
 or use terminal
-```powershell
+```
 sudo tar xjf Firefox-dev.tar.bz2 -C /opt/
 ```
 
