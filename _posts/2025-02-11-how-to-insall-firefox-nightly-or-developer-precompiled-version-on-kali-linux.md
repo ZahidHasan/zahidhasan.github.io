@@ -20,9 +20,13 @@ Download Firefox [Developer Edition](https://www.mozilla.org/en-US/firefox/devel
 
 Save it in Download Folder
 
-## Extracting the tar Archive
+## Extracting the tar Archive and move to /opt folder
 Two ways you can do it. Using GUI or Terminal.
 Right click on firefox downloaded file and select extract here.
 ![extract.png]({{site.baseurl}}/images/extract.png)
 
+or use terminal
+```powershell
+sudo tar xjf Firefox-dev.tar.bz2 -C /opt/
+```
 
