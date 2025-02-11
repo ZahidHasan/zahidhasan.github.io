@@ -26,7 +26,27 @@ Right click on firefox downloaded file and select extract here.
 ![extract.png]({{site.baseurl}}/images/extract.png)
 
 or use terminal
-```
-sudo tar xjf Firefox-dev.tar.bz2 -C /opt/
-```
+![untar.png]({{site.baseurl}}/images/untar.png)
 
+
+To unzip a "tar.xz" file in Linux, use the command tar -xf [filename.tar.xz] in your terminal, where "[filename.tar.xz]" is the name of the file you want to extract; this will extract the contents of the compressed archive to the current directory. 
+Explanation:
+
+ tar: This is the command used to manipulate tar archives. 
+
+-x: This flag tells tar to extract files from the archive. 
+-f: This flag specifies the filename of the archive you want to extract. 
+
+now rename the extracted folder firefox_nightly of firefox_dev to avoid confusion.
+if you open the folder you will see firefox executable file right there. You can double click to open it.
+
+![firefox_extracted.png]({{site.baseurl}}/images/firefox_extracted.png)
+
+
+However, we move the extracted firefox directory to the /opt directory to make it accessible system-wide. To clarify, the /opt directory is a standard location for storing third-party applications in Linux.
+
+open Thunar file manager as root: run in terminal
+```
+sudo thumar
+```
+cut and paste the firefox folder into /opt/ directory 
