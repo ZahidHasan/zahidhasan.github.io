@@ -8,6 +8,12 @@ tag:
   - Linux
   - WSL
 ---
-## A New Post
+## 
+Firefox Developer Edition is a specialized version of the Mozilla Firefox browser tailored for web developers. It comes packed with advanced tools and features to assist developers in building, testing, and debugging web applications.
+In this guide, we’ll walk you through the steps to install and set up Firefox Developer Edition on a Linux system. 
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Download Firefox [Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
+![](https://www.mozilla.org/en-US/firefox/developer/)
+
+
+
