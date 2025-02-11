@@ -13,7 +13,9 @@ Firefox Developer Edition is a specialized version of the Mozilla Firefox browse
 In this guide, we’ll walk you through the steps to install and set up Firefox Developer Edition on a Linux system. 
 
 Download Firefox [Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
-![](https://www.mozilla.org/en-US/firefox/developer/)
+##
+![firefox-web.png]({{site.baseurl}}/images/firefox-web.png)
+
 
 
 
