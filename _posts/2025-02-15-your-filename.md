@@ -51,5 +51,12 @@ The type of GPU you need depends on the model size and optimizations:
 
 For those with lower VRAM, techniques like CPU offloading, quantization (GGUF, GPTQ, AWQ), and tensor parallelism can help run larger models.
 
+## Optimizing for Performance
+
+Since LLMs are memory-intensive, consider these optimizations:
+
+    -Use Quantized Models (GGUF, GPTQ, AWQ, etc.) – Reduce VRAM usage while maintaining good quality.
+    -Use Flash Attention & LoRA Fine-Tuning – Improves inference speed and reduces memory usage.
+    -Enable CUDA Acceleration – Ensures the RTX 4090 is utilized for faster inference (--use-cuda in llama.cpp).
 
 
