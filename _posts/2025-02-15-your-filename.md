@@ -20,3 +20,4 @@ For Android phones and iPhones, it's advisable to have at least 6GB of memory to
 
 ## Run DeepSeek R1 on PC Using LM Studio or Olama
 LM Studio and Ollama are both tools designed to help developers and researchers work with large language models (LLMs) locally on their machines. LM Studio is a desktop application that allows users to discover, download, and run open-source LLMs locally on their computers. Ideal for users who want to explore different LLMs without needing to set up complex environments.
+![LMStudio-Web.png]({{site.baseurl}}/images/LMStudio-Web.png)
