@@ -36,6 +36,8 @@ It will look like this:
 6. Here, under Model Search, you will find the “DeepSeek R1 Distill (Qwen 7B)” model 
 ![lmstudio-portable.png]({{site.baseurl}}/images/lmstudio-portable.png)
 7. Once the DeepSeek R1 model is downloaded, switch to the “Chat” window and load the model.
+![deep.png]({{site.baseurl}}/images/deep.png)
+
 
 
 ## Running Large Models Efficiently
