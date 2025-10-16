@@ -22,9 +22,10 @@ author: Zahid Hasan
 navbar-links:
   About Me: "aboutme"
   Archive: "tags"
-  Resources:
-    - Beautiful Jekyll: "https://github.com/zahidhasan"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+  Github: "https://github.com/zahidhasan"
+ # Resources:
+ #   - Github: "https://github.com/zahidhasan"
+ #   - Learn markdown: "https://www.markdowntutorial.com/"
 
 ################
 # --- Logo --- #
