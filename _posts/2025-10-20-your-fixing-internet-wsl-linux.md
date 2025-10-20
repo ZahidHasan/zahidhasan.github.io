@@ -5,9 +5,9 @@ cover-img: /assets/img/2025-.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
 tags:
-  - books
-  - test
-author: Sharon Smith and Barry Simpson
+  - wsl
+  - kali linux
+  - windows
 ---
 ## A New Post
 
