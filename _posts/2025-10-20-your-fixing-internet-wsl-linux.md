@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fixing Internet Access in Kali Linux on WSL Windows
-cover-img: /assets/img/2025-.jpg
+cover-img: /assets/img/2025-title-image
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
 tags:
