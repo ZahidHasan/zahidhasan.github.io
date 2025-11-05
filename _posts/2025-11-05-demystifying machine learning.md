@@ -1,9 +1,9 @@
 ---
 layout: post
 subtitle: Demystifying Machine Learning
-cover-img: /assets/img/ml.jpg
+#cover-img: /assets/img/ml.jpg
 thumbnail-img: /assets/img/ml.jpg
-share-img: /assets/img/path.jpg
+#share-img: /assets/img/path.jpg
 tags:
   - Machine Learning
   - AI
