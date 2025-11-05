@@ -1,6 +1,6 @@
 ---
 layout: post
-subtitle: Demystifying Machine Learning
+subtitle: Understanding Machine Learning
 #cover-img: /assets/img/ml.jpg
 thumbnail-img: /assets/img/ml.jpg
 #share-img: /assets/img/path.jpg
