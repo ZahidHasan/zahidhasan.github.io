@@ -1,6 +1,6 @@
 ---
 layout: post
-subtitle: Machine Learning Explained at varioud stage
+subtitle: Demystifying Machine Learning
 cover-img: /assets/img/ml.jpg
 thumbnail-img: /assets/img/ml.jpg
 share-img: /assets/img/path.jpg
@@ -10,7 +10,7 @@ tags:
   - Tutorials
 author: Zahid Hasan
 ---
-## A Lokk at Machine Learning
+
 ### ML for Schooler
 
 Imagine you have a robot friend named Smarty. Smarty doesn’t know anything at first, but if you show him lots of pictures of cats and dogs, he starts to learn the difference. That’s called machine learning — teaching computers to learn from examples!
