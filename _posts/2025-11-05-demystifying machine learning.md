@@ -11,7 +11,7 @@ tags:
 author: Zahid Hasan
 ---
 
-### ML for Schooler
+### Basic Concept
 
 Imagine you have a robot friend named Smarty. Smarty doesn’t know anything at first, but if you show him lots of pictures of cats and dogs, he starts to learn the difference. That’s called machine learning — teaching computers to learn from examples!
 Just like you learn by looking, listening, and playing, computers learn by:
