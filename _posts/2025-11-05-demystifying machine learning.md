@@ -25,10 +25,11 @@ Let’s play a game with Smarty the robot:
 2. 	You say, “This is a cat!”
 3. 	Smarty remembers it.
 4. 	Next time, Smarty sees a new picture and guesses: “Is this a cat?”
-If Smarty gets it wrong, you help him fix it. That’s how he learns!
+If  Smarty gets it wrong, you help him fix it. That’s how he learns!
 
 ### What Does “Machine” Mean?
 A machine is just a fancy word for a computer or robot. And learning means getting smarter over time. So machine learning means:
 
 Machine learning is like magic — but instead of wands, we use data and practice. And just like you, computers get smarter when they learn every day.
-![ml](./asets/img/ml/jpg)
+
+![ml-school.png]({{site.baseurl}}/_posts/ml-school.png)
