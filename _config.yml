@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: My blog
+title: 
 
 # Your name to show in the footer
 author: Zahid Hasan
@@ -137,30 +137,18 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-#page-col: "#FFFFFF"
-#text-col: "#404040"
-#link-col: "#008AFF"
-#hover-col: "#0085A1"
-#navbar-col: "#EAEAEA"
-#navbar-text-col: "#404040"
-#navbar-border-col: "#DDDDDD"
-#footer-col: "#EAEAEA"
-#footer-text-col: "#777777"
-#footer-link-col: "#404040"
-#footer-hover-col: "#0085A1"
-
-
-page-col: "#444555"
-text-col: "#ffffff"
+page-col: "#FFFFFF"
+text-col: "#404040"
 link-col: "#008AFF"
 hover-col: "#0085A1"
-navbar-col: "#444555"
-navbar-text-col: "#ffffff"
+navbar-col: "#EAEAEA"
+navbar-text-col: "#404040"
 navbar-border-col: "#DDDDDD"
-footer-col: "#444555"
-footer-text-col: "#ffffff"
+footer-col: "#EAEAEA"
+footer-text-col: "#777777"
 footer-link-col: "#404040"
 footer-hover-col: "#0085A1"
+
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
