@@ -150,15 +150,15 @@ navbar-var-length: false
 #footer-hover-col: "#0085A1"
 
 
-page-col: "#646463"
+page-col: "#444555"
 text-col: "#ffffff"
 link-col: "#008AFF"
 hover-col: "#0085A1"
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
+navbar-col: "#444555"
+navbar-text-col: "#ffffff"
 navbar-border-col: "#DDDDDD"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
+footer-col: "#444555"
+footer-text-col: "#ffffff"
 footer-link-col: "#404040"
 footer-hover-col: "#0085A1"
 
