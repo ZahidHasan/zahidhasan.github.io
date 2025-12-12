@@ -2,7 +2,7 @@
 title: From “WSL 2 Is Stuck on 172.28.x.x” → “My Kali Box Shows Up on the Real LAN”
 tags: [wsl2, linux, kali, internet, windows 11, bridge network]
 author: <author_id> 
-image: /assets/ing/kali.png
+image: /assets/img/kali.png
 ---
 
 
