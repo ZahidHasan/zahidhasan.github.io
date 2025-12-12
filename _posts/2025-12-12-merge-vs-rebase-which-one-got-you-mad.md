@@ -3,10 +3,10 @@ title: Merge vs Rebase-Which One Got You Mad?
 categories: [git, github]
 tags: [git, version-control-system, github]
 author: <author_id>
-image: /assets/img/merge-rebase.png
+
 ---
 
-
+[Merge vs Rebase](/assets/img/merge-rebase1.png)
 ## Merge vs Rebase
 Ever stared at your Git graph wondering why your branch vanished into thin air? Welcome to the eternal feud: merge vs rebase.
 

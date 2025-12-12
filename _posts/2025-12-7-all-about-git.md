@@ -173,12 +173,13 @@ Distributed VCS (Git, Mercurial)
 - **Community**: GitHub and GitLab made collaboration seamless.
 
 ### Git Architecture
-Version control systems typically operate on a two-tier architecture; however, Git distinguishes itself through a three-tier structure, incorporating an additional layer that contributes to its unique functionality and flexibility. This architecture comprises the working directory, the staging area, and the local repository. 
+Version control systems typically operate on a two-tier architecture; however, Git distinguishes itself through a three-tier structure, incorporating an additional layer that contributes to its unique functionality and flexibility. This architecture comprises the `working directory`, `the staging area`, and `the local repository`. 
 
 - The **working directory**, established upon Git repository initialization, serves as the environment where developers can directly modify the source code. Subsequently, 
 - the **staging area** acts as an intermediate layer, allowing users to selectively stage changes made in the working directory using the git add command, providing a preview of the modifications intended for the subsequent commit. This staging mechanism ensures that only the desired changes are included in the next snapshot, and any further modifications in the working directory necessitate a re-staging process to synchronize the snapshots. 
 - Finally, the **local repository** serves as the permanent storage for committed changes, finalized through the git commit command, thereby preserving the project's history and enabling efficient version management.
 
+![Git Architecture](/assets/img/git-arch.png)
 
   
 ### Git Workflows: Different Ways to Collaborate
@@ -345,4 +346,12 @@ git clone https://github.com/ZahidHasan/System-Monitor-Dashboard-Plugin.git
 ```
 
 ### git Pull vs git Fetch
+**git fetch** is a safe command that updates your local copy of the remote branch (e.g., origin/main), but it does not modify your local working files or current branch. This allows you to: 
+Review incoming changes before integrating them into your work.
+Compare the fetched changes with your local branch using git log or git diff to understand what's new.
+Decide the best way to integrate the changes (e.g., using git merge or git rebase manually). 
 
+**git pull** is essentially a shorthand command for git fetch followed by either git merge (by default) or git rebase (if configured). This command: 
+Automatically updates your local working directory to match the remote's state.
+Is convenient for quickly synchronizing your branch when you are confident no conflicts will occur.
+Can lead to immediate merge conflicts if your local changes overlap with the remote changes, potentially disrupting your workflow. 
