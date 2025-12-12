@@ -3,7 +3,7 @@ title: Merge vs Rebase-Which One Got You Mad?
 categories: [git, github]
 tags: [git, version-control-system, github]
 author: <author_id>
-image: /assets/img/merge-rebase1.png
+image: /assets/img/merge-rebase.png
 ---
 > An example showing the `info` type prompt.
 {: .prompt-info }
