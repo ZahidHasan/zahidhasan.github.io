@@ -2,6 +2,7 @@
 title: All about Git
 tags: [git, version-control-system, github]
 author: <author_id> 
+image: /assets/img/git.png
 ---
 
 ## 🤔 The Problem
