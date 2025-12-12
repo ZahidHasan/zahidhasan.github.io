@@ -58,11 +58,8 @@ Note that: Bridging requires enabling the full Hyper‑V role and creating an Ex
 
 ## 4️⃣ Step‑by‑Step: Create an External Switch & Tell WSL to Use It
 
-> [!NOTE]  
-> Run all commands in **Windows PowerShell (Admin)**.
-
->tgrtrr
->{: .prompt-info }
+> Run all commands in **Windows PowerShell (Admin)**
+{: .prompt-info }
 
 ### 4.1 Create/verify external Hyper‑V switch
 

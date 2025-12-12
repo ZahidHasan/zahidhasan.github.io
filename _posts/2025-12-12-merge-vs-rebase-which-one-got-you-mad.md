@@ -5,8 +5,7 @@ tags: [git, version-control-system, github]
 author: <author_id>
 image: /assets/img/merge-rebase.png
 ---
-> An example showing the `info` type prompt.
-{: .prompt-info }
+
 
 ## Merge vs Rebase
 Ever stared at your Git graph wondering why your branch vanished into thin air? Welcome to the eternal feud: merge vs rebase.
