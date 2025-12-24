@@ -170,8 +170,6 @@ collections:
   tabs:
     output: true
     sort_by: order
-  learning-lab: # It needs its own colon and indentation level
-    output: true
 
 defaults:
   - scope:

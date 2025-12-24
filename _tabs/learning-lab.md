@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: tabs
 title: Learning Lab
 icon: fas fa-flask
 order: 2
+permalink: /learning-lab/ # The permanent URL for the page
 ---
 
 
