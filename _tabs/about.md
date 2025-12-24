@@ -38,4 +38,4 @@ Whether as a specialized freelancer or a research collaborator, I bring a unique
 > "I believe that the intersection of biology and computer science holds the key to the next generation of healing. I am here to be a part of that discovery."
 {: .prompt-info }
 
-[GitHub](https://github.com/zahidhasan) | [LinkedIn](Your-Link) | [Contact Me](mailto:your-email)
+[GitHub](https://github.com/zahidhasan) | [LinkedIn](https://www.linkedin.com/in/mzhasan) | [Contact Me](zhid.hasan@msn.com)
