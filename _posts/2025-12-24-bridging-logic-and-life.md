@@ -13,7 +13,7 @@ For years, my world was defined by the abstract logic of **Computer Science**—
 
 ## Why Bioinformatics?
 
-Bioinformatics is the ultimate intersection of my previous research in **Machine Learning** and **Statistics**. It is the art of treating the biological code (DNA) with the same rigor we treat software source code. 
+Bioinformatics is the ultimate intersection of my previous research in **Machine Learning** and **Statistics**. It is the art of treating the biological code (DNA) with the same rigor we treat software source code.
 
 In my transition, I’ve realized that the challenges I face with memory and hippocampal sclerosis actually give me a unique perspective on **Data Redundancy** and **Error Correction**—core concepts in both neurology and genomics.
 

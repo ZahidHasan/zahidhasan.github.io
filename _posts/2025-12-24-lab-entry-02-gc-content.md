@@ -11,7 +11,7 @@ After mastering **Transcription** in my previous entry, the next logical step is
 
 ## The Science
 
-DNA isn't just a string; it's a physical structure. Because **G** and **C** share three hydrogen bonds compared to the two bonds in **A** and **T**, sequences with higher GC-content are more thermally stable. 
+DNA isn't just a string; it's a physical structure. Because **G** and **C** share three hydrogen bonds compared to the two bonds in **A** and **T**, sequences with higher GC-content are more thermally stable.
 
 The formula is a simple percentage:
 $$GC\% = \frac{G + C}{A + T + G + C} \times 100$$
