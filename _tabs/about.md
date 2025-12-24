@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tabs
 title: About
 icon: fas fa-info-circle
 order: 1
@@ -7,7 +7,7 @@ order: 1
 
 ## From Computer Science to Bioinformatics: A Journey of Resilience
 
-I am Zahid Hasan, a former Assistant Professor of Computer Science and a researcher in Human-Computer Interaction (HCI) and Machine Learning. Following a period of profound personal loss and a subsequent neurological journey with hippocampal sclerosis, I have redefined my path. 
+I am Zahid Hasan, a former Assistant Professor of Computer Science and a researcher in Human-Computer Interaction (HCI) and Machine Learning. Following a period of profound personal loss and a subsequent neurological journey with hippocampal sclerosis, I have redefined my path.
 
 **"Where code meets curiosity"** is no longer just a tagline; it is my roadmap for turning life's hardest challenges into a new scientific passion.
 
