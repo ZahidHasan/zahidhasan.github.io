@@ -23,6 +23,14 @@ Despite the hurdles of dementia and recovery, my foundational knowledge in CSE r
 * **Data Science:** Advanced statistics and data visualization (Python/R).
 * **Software Engineering:** Building accessible, high-performance tools for researchers.
 
+### 🔬 Current Focus: Bioinformatics Transition
+
+I am currently applying my background in Machine Learning and Statistics to the field of Computational Biology.
+
+* **Currently Learning:** Molecular Biology fundamentals & Biopython.
+* **Next Milestone:** Sequence Alignment Algorithms & NCBI Data Mining.
+* **Status:** Open to collaborative research and open-source contributions.
+
 ### 🤝 Let’s Collaborate
 
 Whether as a specialized freelancer or a research collaborator, I bring a unique perspective that combines high-level academic experience with the grit of a survivor. 
