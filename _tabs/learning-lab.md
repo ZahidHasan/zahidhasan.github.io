@@ -1,5 +1,5 @@
 ---
-layout: tabs
+layout: page
 title: Learning Lab
 icon: fas fa-flask
 order: 2

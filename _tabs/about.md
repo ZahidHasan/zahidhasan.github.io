@@ -5,37 +5,80 @@ icon: fas fa-info-circle
 order: 1
 ---
 
-## From Computer Science to Bioinformatics: A Journey of Resilience
+## 🔬 Exploring Cutting-Edge Science: Passionate about Bioinformatics, AI, Modern Physics, and —always diving deep into emerging tech!
 
-I am Zahid Hasan, a former Assistant Professor of Computer Science and a researcher in Human-Computer Interaction (HCI) and Machine Learning. Following a period of profound personal loss and a subsequent neurological journey with hippocampal sclerosis, I have redefined my path.
+I am Zahid Hasan — a computer scientist, educator, and researcher whose journey spans **Bioinformatics**, **Human-Computer Interaction (HCI)**, **Machine Learning**, and now the expanding frontier of **computational sciences**. My career began as an Assistant Professor of Computer Science, where I combined teaching with research in usability and intelligent systems. Over time, personal challenges reshaped my perspective, but also deepened my resolve to use technology as a tool for resilience and discovery.
 
-**"Where code meets curiosity"** is no longer just a tagline; it is my roadmap for turning life's hardest challenges into a new scientific passion.
+**"Where code meets curiosity"** reflects my drive to bridge disciplines and turn challenges into innovation.
 
-### 🧬 My New Frontier: Bioinformatics
+## 🧬 My New Frontier: Bioinformatics
 
-My goal is to leverage my background in **Statistics** and **Machine Learning** (honed during my research fellowship at Salzburg University) and my **Masters in HCI from Italy** to contribute to the field of **Bioinformatics**. I am dedicated to using computational tools to decode biological data, seeking answers to the very ailments that change human lives.
+My goal is to leverage my background in **Statistics** and **Machine Learning** (honed during my research fellowship at **Salzburg University,Autria**) and my **Masters in HCI from niversity of Trento, Italy** to contribute to the field of **Bioinformatics**. I am dedicated to using computational tools to decode biological data, seeking answers to the very ailments that change human lives.
 
-### 🛠 Technical Expertise
+## 🔭 Othrs Areas of Interests
 
-Despite the hurdles of dementia and recovery, my foundational knowledge in CSE remains my strongest tool. I am currently focusing on:
+- **Human-Computer Interaction:** Designing systems that prioritize usability, accessibility, and human-centered design.  
+- **Machine Learning & Data Science:** Applying statistical models and algorithms to uncover insights across domains.  
+- **Quantum Computing:** Exploring how superposition and entanglement can reshape algorithms for optimization, simulation, and secure computation.  
+- **Software Engineering:** Building efficient, high-performance tools that empower researchers, educators, and everyday users.  
+- **Emerging Tech & Philosophy:** Using analogies and creative storytelling to make complex scientific ideas intuitive and accessible.  
 
-* **Computational Biology:** Applying ML models to genomic data.
-* **Data Science:** Advanced statistics and data visualization (Python/R).
-* **Software Engineering:** Building accessible, high-performance tools for researchers.
+## 🛠 Technical Expertise
 
-### 🔬 Current Focus: Bioinformatics Transition
+- Programming in Python, Rust, and C++  
+- Data visualization and workflow automation  
+- Usability analysis and system optimization  
+- Cross-platform app prototyping (WinUI, Tauri, Kivy)  
+- Metadata-driven digital library management  
 
-I am currently applying my background in Machine Learning and Statistics to the field of Computational Biology.
+### 🌱 Current Directions
 
-* **Currently Learning:** Molecular Biology fundamentals & Biopython.
-* **Next Milestone:** Sequence Alignment Algorithms & NCBI Data Mining.
-* **Status:** Open to collaborative research and open-source contributions.
+- Expanding from HCI and ML into **quantum computing** and **bioinformatics**, exploring their intersections with real-world challenges.  
+- Documenting routines and guides to help others troubleshoot, automate, and future-proof their workflows.  
+- Open to collaborative research, open-source contributions, and interdisciplinary projects.
 
-### 🤝 Let’s Collaborate
+## Selected Publications
 
-Whether as a specialized freelancer or a research collaborator, I bring a unique perspective that combines high-level academic experience with the grit of a survivor. 
+- **Title:** *Modelling user-centered-trust (UCT) in software systems: interplay of trust, affect and acceptance model*  
+  **Authors:** Z Hasan, A Krischkowsky, M Tscheligi  
+  **Venue:** International Conference on Trust and Trustworthy Computing, pp. 92–109  
+  **Year:** 2012  
+  **Citations:** 21  
+  [Link](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YhrXSpEAAAAJ&authuser=1&citation_for_view=YhrXSpEAAAAJ:u-x6o8ySG0sC)
 
-> "I believe that the intersection of biology and computer science holds the key to the next generation of healing. I am here to be a part of that discovery."
+
+- **Title:** *Dynamics of User Experience (UX)*  
+  **Authors:** Z Hasan, RC Gope  
+  **Venue:** International Journal of Computer Applications 81(16), pp. 18–24  
+  **Year:** 2013  
+  **Citations:** 12  
+  [Link](https://www.academia.edu/download/103287939/558d4823fd2aa6582d317ca6a6fcce069cb8.pdf)
+
+
+- **Title:** *Do aesthetics matter in long-established trust?*  
+  **Authors:** Z Hasan, RC Gope, MN Uddin  
+  **Venue:** International Journal of Computer Applications 77(13)  
+  **Year:** 2013  
+  **Citations:** 7  
+  [Link](https://www.academia.edu/download/93015847/fbfbf636f45c998e9c5f2d92f4da5919a871.pdf)
+
+
+- **Title:** *Event-based content management by spontaneous metadata generation and diffusion*  
+  **Authors:** KT Hasan, MSH Mukta, MT Nayeem, Z Hasan  
+  **Venue:** 2012 IEEE 13th International Symposium on Computational Intelligence and …  
+  **Year:** 2012  
+  **Citations:** 4  
+  [Link](https://ieeexplore.ieee.org/abstract/document/6496740/)
+
+
+  [Goole Scholar Profile](https://scholar.google.com/citations?hl=en&authuser=1&user=YhrXSpEAAAAJ)
+  
+
+### 🤝 Collaboration
+
+I bring a unique perspective that blends academic rigor with lived resilience. Whether in **research**, **freelance projects**, or **community-driven open source**, I aim to contribute tools and ideas that make science and technology more approachable.
+
+> "I believe the intersection of computer science, biology, and quantum innovation holds the key to the next generation of discovery."
 {: .prompt-info }
 
-[GitHub](https://github.com/zahidhasan) | [LinkedIn](https://www.linkedin.com/in/mzhasan) | [Contact Me](mailto:zhid.hasan@msn.com)
+[GitHub](https://github.com/zahidhasan) | [LinkedIn](https://www.linkedin.com/in/mzhasan) | [Contact Me](mailto:zahid.hasan@msn.com)
