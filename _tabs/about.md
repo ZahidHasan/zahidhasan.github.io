@@ -5,9 +5,8 @@ icon: fas fa-info-circle
 order: 1
 ---
 
-## 🔬 Exploring Cutting-Edge Science: Passionate about Bioinformatics, AI, Modern Physics, and —always diving deep into emerging tech!
-
-I am Zahid Hasan — a computer scientist, educator, and researcher whose journey spans **Bioinformatics**, **Human-Computer Interaction (HCI)**, **Machine Learning**, and now the expanding frontier of **computational sciences**. My career began as an Assistant Professor of Computer Science, where I combined teaching with research in usability and intelligent systems. Over time, personal challenges reshaped my perspective, but also deepened my resolve to use technology as a tool for resilience and discovery.
+### 🔬Decoding Life's Algorithms:
+Bridging Biology and Code — How Machine Learning Deciphers Genomic Puzzles, Powers Next-Gen Drug Discovery, and Redefines Tomorrow's Technologies. Dive Into Expert Analyses, Code Walkthroughs, and Frontier Innovations.
 
 **"Where code meets curiosity"** reflects my drive to bridge disciplines and turn challenges into innovation.
 
