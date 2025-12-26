@@ -3,11 +3,12 @@ title: "The Group Policy and The Registry"
 date: 2025-12-25 
 categories: [Tutorial, Tweak]
 tags: [group policy, registry, powershell, .reg file]
-image: /assets/img/2025-12-25/group-policy-registry.jpg
+image: /assets/img/registry/group-policy-vs-registry-editor.jpg
 ---
 
+This image is taken from [Link](https://fossbytes.com/group-policy-editor-install-windows-10-home/)
 
-## 📜 Group Policy vs ⚙️ Registry
+## 📜 Group Policy vs 💻 Registry
 
 whenever we face some problems we search in the internet and probably found solution that involve editing particular group policy or changing registry values. Some times we found easy method .reg file just double clicking on it and problem solved or powershell command that we blindly execute to solve the problem.
 
@@ -27,27 +28,29 @@ If a setting is configured in both tools, Group Policy generally takes precedenc
 
 Most Group Policy settings are set to **"Not Configured state"** by default. In this state, the Group Policy engine ignores that specific Registry key entirely. It does not "hold" an old value; it simply doesn't send any instructions to the Registry, allowing your manual changes persist.
 
-## What goes Where: Architecture of Registry and Group Policy
+## What goes Where: Architecture of Registry
 
-Confused to see the registry entry? here is the explanation.
-🗂 **Windows Registry Architecture**
-Think of the Registry as a hierarchical database (like folders and files, but for settings).
+1. **Database**: A central repository for all system settings, replacing older .ini files.
+2. **Hierarchical Tree**: Data is organized like folders and files, making it navigable.
+3. **Keys & Subkeys**: Think of these as folders within the tree, holding related settings.
+4. **Values**: These are the actual data points (like font size, program location) stored inside keys.
+5. **Hives**: Major sections (e.g., HKEY_LOCAL_MACHINE)
+
+### Registry Hives
 
 - `Root Hives` (top-level containers):
-- `HKEY_LOCAL_MACHINE` (HKLM) → Machine-wide settings (applies to all users).
-- `HKEY_CURRENT_USER` (HKCU) → Settings for the logged-in user.
-- `HKEY_CLASSES_ROOT` (HKCR) → File associations and COM objects.
-- HKEY_USERS (HKU) → Profiles for all users on the system.
-- HKEY_CURRENT_CONFIG (HKCC) → Hardware profile currently in use.
-- Keys and Values:
+- `HKEY_LOCAL_MACHINE` **(HKLM)** → Machine-wide settings (applies to all users).
+- `HKEY_CURRENT_USER` **(HKCU)** → Settings for the logged-in user.
+- `HKEY_CLASSES_ROOT` → Settings for the logged-in user.
+- `HKEY_CLASSES_ROOT` **(HKCR)** → File associations and COM objects.
+- `HKEY_USERS` **(HKU)** → Profiles for all users on the system.
+- `HKEY_CURRENT_CONFIG` **(HKCC)** → Hardware profile currently in use.
+  
+### Registry Keys and Values
+
 - Keys = folders.
 - Values = actual settings (strings, numbers, binary).
 - Example: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer controls Explorer behavior.
-
-
-
-
-
 
 ## Accessing the Registry
 
@@ -56,6 +59,6 @@ To access or modify the Registry, you need to use the **Registry Editor**.
 - Type `win+R` to open run box and type 'regedit' Registry editor will open.
 - ![Run Box](/assets/img/2025-12-25/run-regedit.png)
 ![Registry Editor](/assets/img/2025-12-25/registry-editor.png).
-- Alternatively search in the start menu with reistry ![Regitry Editor](/assets/img/2025-12-25/registry-startmenu.png).
+- Alternatively search in the start menu with registry ![Regitry Editor](/assets/img/2025-12-25/registry-startmenu.png).
 - Even you can use 3d part registry editor [Registry Finder](https://registry-finder.com/) which has some handy features. ![Registry Finder](/assets/img/2025-12-25/registry-finder.png)
 - Command Prompt
