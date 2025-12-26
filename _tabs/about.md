@@ -5,36 +5,22 @@ icon: fas fa-info-circle
 order: 1
 ---
 
-### 🔬Decoding Life's Algorithms:
-Bridging Biology and Code — How Machine Learning Deciphers Genomic Puzzles, Powers Next-Gen Drug Discovery, and Redefines Tomorrow's Technologies. Dive Into Expert Analyses, Code Walkthroughs, and Frontier Innovations.
+## 🔬Decoding Life's Algorithms
 
-**"Where code meets curiosity"** reflects my drive to bridge disciplines and turn challenges into innovation.
+Reconciling Code with Biology — How Machine Learning Deciphers Genomic Puzzles, Powers Next‑Gen Drug Discovery, and Redefines Tomorrow's Technologies.
+My goal is to leverage my background in Statistics and Machine Learning (honed during my research fellowship at Salzburg University, Austria) and my Masters in Software Technology from the University of Trento, Italy to contribute to the evolving field of BioInformatics.
 
-## 🧬 My New Frontier: Bioinformatics
+I combine BioInformatics expertise with software development skills — designing pipelines, building scalable applications, and crafting intuitive tools that transform raw biological data into actionable insights. I am dedicated to using computational innovation to decode life’s complexity, seeking answers to the very ailments that change human lives.
+Dive into expert analyses, code walkthroughs, and frontier innovations where biology meets technology.
 
-My goal is to leverage my background in **Statistics** and **Machine Learning** (honed during my research fellowship at **Salzburg University,Autria**) and my **Masters in HCI from niversity of Trento, Italy** to contribute to the field of **Bioinformatics**. I am dedicated to using computational tools to decode biological data, seeking answers to the very ailments that change human lives.
 
-## 🔭 Othrs Areas of Interests
+## 🔭 Areas of Interests
 
 - **Human-Computer Interaction:** Designing systems that prioritize usability, accessibility, and human-centered design.  
 - **Machine Learning & Data Science:** Applying statistical models and algorithms to uncover insights across domains.  
 - **Quantum Computing:** Exploring how superposition and entanglement can reshape algorithms for optimization, simulation, and secure computation.  
 - **Software Engineering:** Building efficient, high-performance tools that empower researchers, educators, and everyday users.  
-- **Emerging Tech & Philosophy:** Using analogies and creative storytelling to make complex scientific ideas intuitive and accessible.  
-
-## 🛠 Technical Expertise
-
-- Programming in Python, Rust, and C++  
-- Data visualization and workflow automation  
-- Usability analysis and system optimization  
-- Cross-platform app prototyping (WinUI, Tauri, Kivy)  
-- Metadata-driven digital library management  
-
-### 🌱 Current Directions
-
-- Expanding from HCI and ML into **quantum computing** and **bioinformatics**, exploring their intersections with real-world challenges.  
-- Documenting routines and guides to help others troubleshoot, automate, and future-proof their workflows.  
-- Open to collaborative research, open-source contributions, and interdisciplinary projects.
+- **Emerging Tech & Philosophy:** Using analogies and creative storytelling to make complex scientific ideas intuitive and accessible. 
 
 ## Selected Publications
 
@@ -69,10 +55,8 @@ My goal is to leverage my background in **Statistics** and **Machine Learning** 
   **Citations:** 4  
   [Link](https://ieeexplore.ieee.org/abstract/document/6496740/)
 
-
-  [Goole Scholar Profile](https://scholar.google.com/citations?hl=en&authuser=1&user=YhrXSpEAAAAJ)
+  [Google Scholar Profile](https://scholar.google.com/citations?hl=en&authuser=1&user=YhrXSpEAAAAJ)
   
-
 ### 🤝 Collaboration
 
 I bring a unique perspective that blends academic rigor with lived resilience. Whether in **research**, **freelance projects**, or **community-driven open source**, I aim to contribute tools and ideas that make science and technology more approachable.
