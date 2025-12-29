@@ -3,7 +3,7 @@ title: "The Group Policy and The Registry"
 date: 2025-12-25 
 categories: [Tutorial, Tweak]
 tags: [group policy, registry, powershell, reg file]
-image: /assets/img/2025-12-25/group-policy-vs-registry-editor.jpg
+image: /assets/img/2025-12-25/policy-registry.jpg
 ---
 
 
