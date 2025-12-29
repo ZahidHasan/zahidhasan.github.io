@@ -144,7 +144,6 @@ Design principles are the high-level beliefs that guide every decision. They sho
   
 - "Performance is a Feature" ⚡ *Fast loading is non-negotiable. Optimize everything.* *Example: Components should render in under 100ms.*
   
-
 ---
 
 ## Design Language vs. Design System: What's the Difference? 🤷
