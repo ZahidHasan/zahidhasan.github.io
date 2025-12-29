@@ -3,16 +3,14 @@ title: "The Group Policy and The Registry"
 date: 2025-12-25 
 categories: [Tutorial, Tweak]
 tags: [group policy, registry, powershell, .reg file]
-image: /assets/img/registry/group-policy-vs-registry-editor.jpg
+image: /assets/img/2025-12-25/group-policy-vs-registry-editor.jpg
 ---
-
-This image is taken from [Link](https://fossbytes.com/group-policy-editor-install-windows-10-home/)
 
 ## 📜 Group Policy vs 💻 Registry
 
-whenever we face some problems we search in the internet and probably found solution that involve editing particular group policy or changing registry values. Some times we found easy method .reg file just double clicking on it and problem solved or powershell command that we blindly execute to solve the problem.
+Whenever we face some problems we search in the internet and probably found solution that involve editing particular group policy or changing registry values. Some times we found easy method .reg file just double clicking on it and problem solved or powershell command that we blindly execute to solve the problem.
 
-## What they ae actually?
+## What they are actually?
 
 In short, the **Group Policy** and the **Registry Editor** are tools used for tweaking system configuration.Group Policy functions as a user-friendly management layer that ultimately writes its settings to the Windows Registry. Most Group Policy settings are just "Administrative Templates" for specific Registry keys. When we "Enable" a policy in the **Local Group Policy Editor** , Windows creates the corresponding Registry entry automatically.
 
@@ -55,10 +53,6 @@ Most Group Policy settings are set to **"Not Configured state"** by default. I
 ## Accessing the Registry
 
 To access or modify the Registry, you need to use the **Registry Editor**.
+Type `win+R` to open run box and type 
 
-- Type `win+R` to open run box and type 'regedit' Registry editor will open.
-- ![Run Box](/assets/img/2025-12-25/run-regedit.png)
-![Registry Editor](/assets/img/2025-12-25/registry-editor.png).
-- Alternatively search in the start menu with registry ![Regitry Editor](/assets/img/2025-12-25/registry-startmenu.png).
-- Even you can use 3d part registry editor [Registry Finder](https://registry-finder.com/) which has some handy features. ![Registry Finder](/assets/img/2025-12-25/registry-finder.png)
-- Command Prompt
+# To be continued...
