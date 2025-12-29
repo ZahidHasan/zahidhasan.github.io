@@ -84,7 +84,7 @@ Examples:
         - Animation Token
     ```
 
-and so on. 
+and so on.
 *The beauty of tokens is their abstraction: when you need to update your primary brand color across 50 components, you change one token value rather than hunting through hundreds of files.*
 
 ### **Component Library**: Building Blocks
@@ -160,6 +160,7 @@ Example Components:
 ```
 
 ### **Pattern Library**
+
 Patterns are repeatable solutions to common design problems, showing how to combine multiple components into meaningful interfaces.
 Example Patterns:
 
@@ -200,6 +201,7 @@ Example Patterns:
 - Success confirmation
 
 ### **Style Guide**: Visual Identity
+
 The style guide documents your brand's visual language and ensures consistency across all touchpoints.
 
 #### **Logo Usage**
@@ -248,7 +250,7 @@ The style guide documents your brand's visual language and ensures consistency a
 Design principles are the high-level beliefs that inform all design decisions. They should be specific enough to be actionable, not generic platitudes.
 Example Principles:
 
-##### "Clarity Over Cleverness"
+#### "Clarity Over Cleverness"
 
 - Prioritize understanding over aesthetics
 - Use plain language, not jargon

@@ -53,6 +53,6 @@ Most Group Policy settings are set to **"Not Configured state"** by default. I
 ## Accessing the Registry
 
 To access or modify the Registry, you need to use the **Registry Editor**.
-Type `win+R` to open run box and type 
+Type `win+R` to open run box and type `regedit` to open the Registry Editor.
 
-# To be continued...
+## To be continued

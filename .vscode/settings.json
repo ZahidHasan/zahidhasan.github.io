@@ -27,7 +27,15 @@
   "terminal.integrated.profiles.osx": {
     "zsh": { "path": "/bin/zsh", "args": ["-l", "-i"] }
   },
-  "cSpell.words": ["HKCC", "HKCR", "HKCU", "HKLM", "Subkeys", "touchpoints"],
+  "cSpell.words": [
+    "HKCC",
+    "HKCR",
+    "HKCU",
+    "HKLM",
+    "regedit",
+    "Subkeys",
+    "touchpoints"
+  ],
   "emojisense.languages": {
     "*": true,
     "markdown": true,
