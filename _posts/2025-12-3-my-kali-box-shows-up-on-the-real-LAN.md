@@ -41,7 +41,7 @@ Note that: Bridging requires enabling the full Hyper‑V role and creating an Ex
 
 - **Hyper‑V feature installed**:
   
-  ```PowerShell
+  ```batch
   Get-WindowsOptionalFeature –Online –FeatureName Microsoft-Hyper-V-All
   Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All -NoRestart
   ```
@@ -59,7 +59,7 @@ Note that: Bridging requires enabling the full Hyper‑V role and creating an Ex
 
 #### 4.1 Create/verify external Hyper‑V switch
 
-```PowerShell
+```batch
 Get-NetAdapter | Where-Object {$_.Status -eq "Up"} | Format-Table Name, InterfaceDescription, MacAddress
 
 $AdapterName = "Wi‑Fi"
@@ -74,7 +74,7 @@ if (-not (Get-VMSwitch -Name $SwitchName -ErrorAction SilentlyContinue)) {
 
 #### 4.2 Write global `.wslconfig`
 
-```PowerShell
+```batch
 $cfgPath = "$env:USERPROFILE\.wslconfig"
 @"
 [wsl2]
@@ -85,14 +85,14 @@ vmSwitch = $SwitchName
 
 #### 4.3 Shut down WSL
 
-```PowerShell
+```batch
 wsl --shutdown
 Get-Process vmmem -ErrorAction SilentlyContinue | Stop-Process -Force
 ```
 
 #### 4.4 Start distro fresh
 
-```PowerShell
+```batch
 wsl -d kali-linux
 ```
 
@@ -102,7 +102,7 @@ wsl -d kali-linux
 
 Inside Linux:
 
-```bash
+```batch
 ip -br a show eth0   # expect 192.168.x.x
 ping -c 2 192.168.1.1
 ping -c 2 8.8.8.8
