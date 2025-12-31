@@ -8,7 +8,7 @@ image: /assets/img/kali.png
 
 ## 🎯 Finally Linux inside WSL2 sees the Internet
 
-### 1️⃣ Why the Default WSL 2 Network Is so “Stubborn”
+### 1️⃣ Why the Default WSL 2 Network Is “Stubborn”
 
 | Feature     | Default behavior in WSL 2                                     |
 | ----------- | ------------------------------------------------------------- |
