@@ -32,6 +32,7 @@
     "HKCR",
     "HKCU",
     "HKLM",
+    "MSYS",
     "regedit",
     "Subkeys",
     "touchpoints"

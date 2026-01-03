@@ -17,8 +17,13 @@ Before you can run Chirpy, you need to turn your computer into a Jekyll-building
 
 Jekyll is built on Ruby.
 
-- **Windows:** Download the **Ruby+Devkit** from [RubyInstaller](https://rubyinstaller.org/). Choose the "x64" version. During installation, make sure "Add Ruby executables to your PATH" is checked.
+- **Windows:** Download the **Ruby+Devkit** from [RubyInstaller](https://rubyinstaller.org/). Choose the "x64" version. During installation, make sure "Add Ruby executables to your PATH" and MSYS2 development toolchain are checked.
 - **macOS:** Use Homebrew: `brew install ruby`.
+![Ruby Installer](/assets/img/2025-12-16/rubyinstaller1.png)
+![Ruby Installer](/assets/img/2025-12-16/rubyinstaller2.png)
+During the installation choose number 3.
+![Ruby Installer](/assets/img/2025-12-16/rubyinstaller3.png)
+
 
 ### Step B: Install Gems and Bundler
 
@@ -31,13 +36,14 @@ gem install bundler jekyll
 
 ### Step C: Initialize Your Project on Github
 
-- Sign in to GitHub and navigate to the starter.
+- Sign in to GitHub and navigate to the [starter](https://github.com/cotes2020/chirpy-starter) theme of Chirpy.
 - Click the Use this template button and then select Create a new repository.
 - Name the new repository <`user-name`>.github.io, replacing `user-name` with your lowercase GitHub `user-name`.
 
 ### Step D: Initialize Your Project on Local PC
 
 - Clone it to your PC: git clone <https://github.com/user-name/user-name.github.io.git>.
+- Run command `bundle` in the root of your repository to install the dependencies.
 - To run the site locally, use the following command:
 
 ```terminal
