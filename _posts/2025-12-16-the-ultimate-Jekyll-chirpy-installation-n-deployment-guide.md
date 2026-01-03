@@ -36,6 +36,7 @@ gem install bundler jekyll
 
 - Sign in to GitHub and navigate to the [starter](https://github.com/cotes2020/chirpy-starter) theme of Chirpy.
 - Click the Use this template button and then select Create a new repository.
+  ![Chirpy Starter](/assets/img/2025-12-16/chirpy-starter.png)
 - Name the new repository <`user-name`>.github.io, replacing `user-name` with your lowercase GitHub `user-name`.
 
 ### Step D: Initialize Your Project on Local PC
