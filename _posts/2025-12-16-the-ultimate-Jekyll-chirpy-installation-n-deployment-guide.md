@@ -22,8 +22,6 @@ Jekyll is built on Ruby.
 ![Ruby Installer](/assets/img/2025-12-16/rubyinstaller1.png)
 ![Ruby Installer](/assets/img/2025-12-16/rubyinstaller2.png)
 During the installation choose number 3.
-![Ruby Installer](/assets/img/2025-12-16/rubyinstaller3.png)
-
 
 ### Step B: Install Gems and Bundler
 
