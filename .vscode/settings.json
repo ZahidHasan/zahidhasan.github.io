@@ -32,9 +32,15 @@
     "HKCR",
     "HKCU",
     "HKLM",
+    "Introducton",
+    "MSVC",
     "MSYS",
+    "pacman",
+    "pyhon",
     "regedit",
+    "rustup",
     "Subkeys",
+    "Tauri",
     "touchpoints"
   ],
   "emojisense.languages": {
