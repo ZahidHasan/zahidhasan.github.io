@@ -1,10 +1,10 @@
 ---
 title: "Learning Lab #01: Transcription - The Software of Life"
-author: zahid
+author: author_id
 date: 2025-12-25
 categories: [Learning Lab, Lab Entries]
 tags: [python, bioinformatics, biology]
-pin: true
+pin: false
 ---
 
 > "In Computer Science, we move data between buffers. In Biology, we call this Transcription."
