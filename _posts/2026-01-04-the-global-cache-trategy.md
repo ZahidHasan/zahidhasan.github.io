@@ -3,6 +3,7 @@ title: "The Global-Cache Strategy: Stop Wasting Gigabytes with Rust & Tauri"
 date: 2026-01-04
 categories: [Tutorial, Workflow Optimization]
 tags: [rust, tauri, cache, performance, storage]
+comments: true
 ---
 
 ## 🚀 Introduction: Part‑4
