@@ -3,6 +3,7 @@ title: "The Ultimate Jekyll Chirpy Guide: From Installation to Successful Deploy
 date: 2025-12-16 11:00:00 +0600
 categories: [Tutorial, Web Development]
 tags: [jekyll, chirpy, ruby, guide]
+author: <author_id> 
 ---
 chirpy jekyll themeis a popular choice for developers and writers who want a clean, modern,It's built on Jekyll, a static site generator, which means it's fast, secure, and easy to host on platforms like GitHub Pages or Netlify. One of the great things about Chirpy is its focus on simplicity and readability. The design is minimalist, with a strong emphasis on typography and whitespace, making it a pleasure to read and navigate.
 ![Chirpy](/assets/img/chirpy.png)

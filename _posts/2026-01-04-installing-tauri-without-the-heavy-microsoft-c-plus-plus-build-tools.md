@@ -46,11 +46,10 @@ pacman -S mingw-w64-x86_64-crt
 
 Tauri heavily depends on WebView2 to render web content on Windows, therefore you must have WebView2 installed. The easiest way is to download and run the Evergreen Bootstrapper from Microsoft's [website](https://developer.microsoft.com/en-us/microsoft-edge/webview2/?form=MA13LH#download-section).
 
-
 #### 🦀 Step 3:Install Rust with the GNU toolchain
 
 - Install Rust as usual using [rustup-init.exe](https://rust-lang.org/tools/install/).
-- On Windows, rustup defaults to x86_64-pc-windows-msvc. Run 
+- On Windows, rustup defaults to x86_64-pc-windows-msvc. Run
   
 ```batch  
 rustup show

@@ -61,5 +61,4 @@ The **Global‑Core Strategy** is simple but powerful:
 - Keep your projects clean and portable 🌐
 
 Rust and Tauri are already lightweight — this workflow makes them even leaner.
-
 **Part‑5 Coming Soon... ⏳**
