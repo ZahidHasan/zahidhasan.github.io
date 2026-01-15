@@ -52,5 +52,10 @@
     },
     "scminput": true,
     "git-commit": true
-  }
+  },
+  "codesnap.showWindowTitle": false,
+  "codesnap.shutterAction": "copy",
+  "codesnap.transparentBackground": true,
+  "codesnap.target": "container",
+  "codesnap.containerPadding": "1"
 }
