@@ -31,6 +31,8 @@ SnapCore’s palette is carefully chosen to balance trust, energy, and clarity:
 • Energy & Playfulness → Mustard yellow (#edb928) and coral (#ff6f61) for optimism and warmth.
 • Neutral Support → Clean white/light gray (#FFFFFF / #F1F1F2) for clarity and simplicity.
 Together, these colors create a canvas that feels modern, crisp, and emotionally resonant.
+Our Color Palette:
+![color](/assets/img/2026-01-15/color-snapcore.png)
 
 ## 🧠 SnapCore Design Tokens (FeatherGlass)
 
