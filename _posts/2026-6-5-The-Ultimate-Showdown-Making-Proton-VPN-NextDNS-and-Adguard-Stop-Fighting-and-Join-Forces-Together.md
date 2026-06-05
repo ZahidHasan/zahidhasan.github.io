@@ -1,6 +1,6 @@
 
 ---
-title: The Ultimate Showdown Making Proton VPN, NextDNS and Adguard Stop Fighting and Join Forces Together.md
+title: The Ultimate Showdown Making Proton VPN, NextDNS and Adguard Stop Fighting and Join Forces Together
 categories: [VPN, DNS, AdBblocker, Privacy]
 tags: [PROTON VPN, NextDNS, Adguard]
 author: <author_id>
