@@ -5,8 +5,8 @@ date: 2026-06-13
 categories: [Pryvacy, Security]
 tags: [Proton VPN, DNS Net, Adguard]
 Author: <author_id>
-
 ---
+
 ## The Digital Battlefield
 You’ve armed yourself with Proton VPN to cloak your traffic, NextDNS to filter ads with AdGuard’s strongest blocklists, and you expect peace. Instead, your phone becomes a warzone:
 ⦁	Proton VPN complains about “third‑party DNS.”
