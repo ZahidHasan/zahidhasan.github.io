@@ -2,7 +2,7 @@
 title: "Tauri: The Lightweight Rebel of Desktop App Frameworks"
 date: 2025-12-24 
 categories: [Tutorial, Desktop App Framework]
-tags: [tauri, electron, rust, javascript, nodejs, pyhon]
+tags: [tauri, electron, rust, javascript, nodejs, python]
 image: /assets/img/2025-12-24/Tauri-default-screen.png
 ---
 

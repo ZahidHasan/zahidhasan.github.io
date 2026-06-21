@@ -2,7 +2,7 @@
 title: "Rust: The Future of Systems Programming"
 date: 2026-01-04
 categories: [Tutorial, Programming Trends]
-tags: [rust, c, c++, systems, future]
+tags: [rust, c-programming, c++, systems, future]
 image: /assets/img/2026-01-04/rust-logo.png
 ---
 
